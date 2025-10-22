@@ -44,10 +44,15 @@ for token in tokens[:400]:  # limit to first ~400 tokens for speed
     lookup = token.strip('.,;:"!?()[]').lower()
 
     # create a button per token
-    if cols[col_index].button(token):
-        if lookup in vocab_dict and lookup not in st.session_state.saved:
-            st.session_state.saved.append(lookup)
-    col_index = (col_index + 1) % 8
+    cols = st.columns(8)
+    col_index = 0
+    
+    for i, token in enumerate(tokens[:400]):
+        lookup = token.strip('.,;:"!?()[]').lower()
+        if cols[col_index].button(token, key=f"btn_{i}_{token}"):
+            if lookup in vocab_dict and lookup not in st.session_state.saved:
+                st.session_state.saved.append(lookup)
+        col_index = (col_index + 1) % 8
 
 st.divider()
 
