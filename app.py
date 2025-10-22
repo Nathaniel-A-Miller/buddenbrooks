@@ -3,7 +3,7 @@ import json
 import re
 
 # --- Load data ---
-text = open("buddenbrooks_excerpt.txt", encoding="utf-8").read()
+text = open("text/buddenbrooks_ch1.txt", encoding="utf-8").read()
 with open("vocab.json", encoding="utf-8") as f:
     vocab = json.load(f)
 vocab_dict = {v["word"].lower(): v for v in vocab}
