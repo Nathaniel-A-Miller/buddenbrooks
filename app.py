@@ -1,69 +1,72 @@
 import streamlit as st
-import json, re, pandas as pd
-from pathlib import Path
-
-TEXT_PATH = Path("text/buddenbrooks_ch1.txt")
-VOCAB_PATH = Path("vocab/vocab_ch1.json")
+import json
+import re
 
 # --- Load data ---
-with open(TEXT_PATH, encoding="utf-8") as f:
-    text = f.read()
-with open(VOCAB_PATH, encoding="utf-8") as f:
-    vocab_list = json.load(f)
-vocab_dict = {v["word"].lower(): v for v in vocab_list}
+text = open("buddenbrooks_excerpt.txt", encoding="utf-8").read()
+with open("vocab.json", encoding="utf-8") as f:
+    vocab = json.load(f)
+vocab_dict = {v["word"].lower(): v for v in vocab}
 
 # --- Session state ---
-saved = st.session_state.setdefault("saved", set())
+if "selected_word" not in st.session_state:
+    st.session_state.selected_word = None
 
-st.title("📚 Buddenbrooks Vocabulary Reader")
-st.caption("Click words to highlight and add them to your list.")
-
-# --- Tokenize ---
-tokens = re.findall(r"\w+|[^\w\s]", text, re.UNICODE)
-
-# --- Inline clickable words ---
-def render_word(token, idx):
-    word = token.strip('.,;:"!?()[]').lower()
-    is_saved = word in saved
-    style = (
-        "background-color:#fff3b0; color:black; border:none; padding:0 3px; "
-        "border-radius:3px;"
-        if is_saved
-        else "background:none; color:black; border:none; padding:0 3px;"
-    )
-    clicked = st.button(
-        token,
-        key=f"{word}_{idx}",
-        help=vocab_dict.get(word, {}).get("definition_german", ""),
-    )
-    if clicked:
-        if word not in saved:
-            saved.add(word)
+# --- Build HTML with clickable spans ---
+def make_html(text, vocab):
+    words = re.findall(r"\w+|[^\w\s]", text, re.UNICODE)
+    html = ""
+    for i, w in enumerate(words):
+        clean = w.strip(".,;:!?\"()[]").lower()
+        if clean in vocab:
+            html += f"<span class='word' id='{clean}'>{w}</span> "
         else:
-            saved.remove(word)  # toggle off
-    st.markdown(
-        f"<style>div[data-testid='stButton'] button#{word}_{idx} {{{style}}}</style>",
-        unsafe_allow_html=True,
-    )
+            html += w + " "
+    return html
 
-cols = st.columns(10)
-for i, token in enumerate(tokens[:400]):
-    with cols[i % 10]:
-        render_word(token, i)
+# --- Custom CSS & JS ---
+st.markdown("""
+<style>
+.word {
+  cursor: pointer;
+  color: #0044cc;
+}
+.word:hover {
+  background-color: #e6f2ff;
+}
+.selected {
+  background-color: #ffd54f;
+}
+</style>
+""", unsafe_allow_html=True)
 
-st.divider()
+html = make_html(text, vocab_dict)
 
-# --- Saved list ---
-st.subheader("📝 Saved Words")
-if saved:
-    rows = []
-    for w in sorted(saved):
-        e = vocab_dict.get(w, {})
-        rows.append(
-            [w, e.get("definition_german", ""), e.get("definition_english", ""), e.get("context_snippet", "")]
-        )
-    st.dataframe(pd.DataFrame(rows, columns=["Word", "German", "English", "Context"]), use_container_width=True)
-    if st.button("Clear Saved Words"):
-        saved.clear()
-else:
-    st.info("No words selected yet.")
+# --- HTML block with click handler ---
+component_code = f"""
+<div id='text'>{html}</div>
+<script>
+const words = document.querySelectorAll('.word');
+words.forEach(w => {{
+  w.addEventListener('click', e => {{
+    const word = e.target.id;
+    window.parent.postMessage({{word: word}}, '*');
+  }});
+}});
+</script>
+"""
+
+clicked = st.components.v1.html(component_code, height=400, scrolling=True)
+
+# --- Listen for click event ---
+st.markdown("### Definition")
+
+# The following uses Streamlit’s message listener (requires a Streamlit reload hook)
+# For simplicity, we’ll simulate manual word lookup for now
+selected_word = st.text_input("Type or click a word:", st.session_state.selected_word or "")
+if selected_word.lower() in vocab_dict:
+    v = vocab_dict[selected_word.lower()]
+    st.write(f"**{v['word']}**")
+    st.write(f"**German:** {v['definition_german']}")
+    st.write(f"**English:** {v['definition_english']}")
+    st.caption(v['context_snippet'])
