@@ -145,18 +145,6 @@ if clicked_word:
         else:
             st.session_state.saved.add(word)
         st.session_state.selected_word = word
-        # Force a rerun so the sidebar updates immediately
-        st.experimental_rerun()
-
-# if clicked_word:
-#     sign = clicked_word[0]
-#     word = clicked_word[1:].lower() if sign in ['+', '-'] else clicked_word.lower()
-#     if word in vocab_dict:
-#         if sign == '-':
-#             st.session_state.saved.discard(word)
-#         else:
-#             st.session_state.saved.add(word)
-#         st.session_state.selected_word = word
 
 # --- Display selected word info ---
 if st.session_state.selected_word:
