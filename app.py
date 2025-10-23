@@ -8,8 +8,8 @@ from components.pagination import render_pagination
 st.set_page_config(page_title="Buddenbrooks Reader", layout="wide")
 
 # --- Load Data ---
-TEXT_PATH = "data/text/buddenbrooks_ch1.txt"
-VOCAB_PATH = "data/vocab/vocab_ch1.json"
+TEXT_PATH = "text/buddenbrooks_ch1.txt"
+VOCAB_PATH = "vocab/vocab_ch1.json"
 
 text = load_text(TEXT_PATH)
 vocab_dict = load_vocab(VOCAB_PATH)
