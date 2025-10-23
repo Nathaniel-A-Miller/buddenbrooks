@@ -49,33 +49,54 @@ const words = document.querySelectorAll('.word');
 words.forEach(w => {{
     w.addEventListener('click', e => {{
         const word = e.target.dataset.word;
-        Streamlit.setComponentValue(word); // send to Streamlit
+        // Send the clicked word to Streamlit via postMessage
+        window.parent.postMessage({{isStreamlitMessage: true, type: 'clicked_word', word: word}}, "*");
     }});
 }});
 </script>
 """
 
-clicked_word = st.components.v1.html(
-    component_code, height=400, scrolling=True, key="text_component"
+# --- Inject JS listener for postMessages ---
+st.components.v1.html(component_code, height=400, scrolling=True)
+
+# --- Hidden input field to receive clicked words ---
+clicked = st.text_input("Last clicked word", key="clicked_word", label_visibility="collapsed")
+
+# --- JS listener (runs outside iframe to update Streamlit input) ---
+st.markdown(
+    """
+    <script>
+    window.addEventListener("message", (event) => {
+        if (event.data && event.data.type === "clicked_word") {
+            const word = event.data.word;
+            // set Streamlit input value
+            const input = window.parent.document.querySelector('input[data-testid="stTextInput"]');
+            if (input) {{
+                const reactEvent = new Event("input", {{ bubbles: true }});
+                input.value = word;
+                input.dispatchEvent(reactEvent);
+            }}
+        }
+    });
+    </script>
+    """,
+    unsafe_allow_html=True,
 )
 
-# --- Handle click event ---
-if clicked_word:
-    word = clicked_word.lower()
-    if word in vocab_dict:
-        st.session_state.saved.add(word)
-        st.session_state.selected_word = word
+# --- Process click ---
+if clicked.lower() in vocab_dict:
+    word = clicked.lower()
+    st.session_state.saved.add(word)
+    st.session_state.selected_word = word
+    word_data = vocab_dict[word]
 
-# --- Display selected word ---
-if st.session_state.selected_word:
-    data = vocab_dict[st.session_state.selected_word]
-    st.markdown(f"### **{data['word']}**")
-    st.markdown(f"**German:** {data['definition_german']}")
-    st.markdown(f"**English:** {data['definition_english']}")
-    if data.get("context_snippet"):
-        st.caption(f"_{data['context_snippet']}_")
+    st.markdown(f"### **{word_data['word']}**")
+    st.markdown(f"**German:** {word_data['definition_german']}")
+    st.markdown(f"**English:** {word_data['definition_english']}")
+    if word_data.get("context_snippet"):
+        st.caption(f"_{word_data['context_snippet']}_")
 
-# --- Saved list ---
+# --- Saved words ---
 if st.session_state.saved:
     st.markdown("### 🔹 Saved Words")
     st.write(", ".join(sorted(st.session_state.saved)))
