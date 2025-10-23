@@ -170,13 +170,25 @@ if clicked_word:
 
 # --- Pagination buttons ---
 col1, col2 = st.columns(2)
+
 with col1:
-    if st.session_state.page > 0:
-        if st.button("⬅️ Show previous 1000 words"):
+    if st.button("⬅️ Show previous 1000 words"):
+        if st.session_state.page > 0:
             st.session_state.page -= 1
-            st.experimental_rerun()
+
 with col2:
-    if end_idx < len(tokens):
-        if st.button("➡️ Show next 1000 words"):
+    if st.button("➡️ Show next 1000 words"):
+        if end_idx < len(tokens):
             st.session_state.page += 1
-            st.experimental_rerun()
+
+# col1, col2 = st.columns(2)
+# with col1:
+#     if st.session_state.page > 0:
+#         if st.button("⬅️ Show previous 1000 words"):
+#             st.session_state.page -= 1
+#             st.experimental_rerun()
+# with col2:
+#     if end_idx < len(tokens):
+#         if st.button("➡️ Show next 1000 words"):
+#             st.session_state.page += 1
+#             st.experimental_rerun()
