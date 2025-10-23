@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.tokenizer import tokenize, get_visible_tokens
 
-def render_text(text, vocab_dict, saved_words, words_per_page=1000):
+def render_text(text, vocab_dict, saved_words, words_per_page=300):
     tokens = tokenize(text)
     page = st.session_state.get("page", 0)
     visible, start, end = get_visible_tokens(tokens, page, words_per_page)
