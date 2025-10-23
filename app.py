@@ -91,7 +91,7 @@ component_code = f"""
     f"{t}"
     f"<span class='popover'>"
     f"<b>DE:</b> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_german']}<br>"
-    f"<b>EN:</b> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_english']}"
+    f"<i>EN:</i> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_english']}"
     f"</span></span>"
     if t.strip('.,;:\"!?()[]').lower() in vocab_dict
     else t
@@ -115,8 +115,8 @@ words.forEach(w => {{
 # --- Display component ---
 st.components.v1.html(component_code, height=450, scrolling=True)
 
-# --- Hidden receiver input ---
-clicked_word = st.text_input("Clicked word", key="clicked", label_visibility="collapsed")
+# --- HIDDEN INPUT (fully invisible, no label) ---
+clicked_word = st.empty().text_input("", key="clicked", label_visibility="collapsed")
 
 # --- JS listener to sync click events to Streamlit input ---
 st.markdown("""
@@ -155,24 +155,24 @@ if st.session_state.selected_word:
     if v.get("context_snippet"):
         st.caption(f"_{v['context_snippet']}_")
 
-# --- Saved list display ---
+# --- SIDEBAR: Saved words ---
+st.sidebar.header("🔹 Saved Vocabulary")
 if st.session_state.saved:
-    st.markdown("### 🔹 Saved Words")
-    st.write(", ".join(sorted(st.session_state.saved)))
+    for w in sorted(st.session_state.saved):
+        v = vocab_dict[w]
+        st.sidebar.markdown(f"**{v['word']}**  \n_DE:_ {v['definition_german']}  \n_EN:_ {v['definition_english']}")
+else:
+    st.sidebar.caption("No words saved yet. Click words in the text to save them.")
 
 # --- PAGINATION BUTTONS (side by side) ---
 col1, col2 = st.columns(2)
-
 with col1:
     if st.session_state.page > 0:
         if st.button("⬅️ Show previous 1000 words"):
             st.session_state.page -= 1
             st.rerun()
-
 with col2:
     if end_idx < len(tokens):
         if st.button("➡️ Show next 1000 words"):
             st.session_state.page += 1
             st.rerun()
-
-
