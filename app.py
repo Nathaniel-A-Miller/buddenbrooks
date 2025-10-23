@@ -112,11 +112,11 @@ words.forEach(w => {{
 </script>
 """
 
-# --- Display component ---
+# --- Display main text component ---
 st.components.v1.html(component_code, height=450, scrolling=True)
 
-# --- HIDDEN INPUT (fully invisible, no label) ---
-clicked_word = st.empty().text_input("", key="clicked", label_visibility="collapsed")
+# --- HIDDEN INPUT (persistent) ---
+clicked_word = st.text_input("", key="clicked_word_hidden", label_visibility="collapsed")
 
 # --- JS listener to sync click events to Streamlit input ---
 st.markdown("""
@@ -127,7 +127,7 @@ window.addEventListener("message", (event) => {
     const isSaved = event.data.saved;
     const input = window.parent.document.querySelector('input[data-testid="stTextInput"]');
     if (input) {
-      input.value = (isSaved ? "+" : "-") + word;  // prefix + or - for add/remove
+      input.value = (isSaved ? "+" : "-") + word;
       input.dispatchEvent(new Event("input", { bubbles: true }));
     }
   }
