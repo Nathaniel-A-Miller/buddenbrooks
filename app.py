@@ -160,14 +160,19 @@ if st.session_state.saved:
     st.markdown("### 🔹 Saved Words")
     st.write(", ".join(sorted(st.session_state.saved)))
 
-# --- PAGINATION BUTTON ---
-if end_idx < len(tokens):
-    if st.button("➡️ Show next 1000 words"):
-        st.session_state.page += 1
-        st.rerun()  # updated
+# --- PAGINATION BUTTONS (side by side) ---
+col1, col2 = st.columns(2)
 
-if st.session_state.page > 0:
-    if st.button("⬅️ Show previous 1000 words"):
-        st.session_state.page -= 1
-        st.rerun()  # updated
+with col1:
+    if st.session_state.page > 0:
+        if st.button("⬅️ Show previous 1000 words"):
+            st.session_state.page -= 1
+            st.rerun()
+
+with col2:
+    if end_idx < len(tokens):
+        if st.button("➡️ Show next 1000 words"):
+            st.session_state.page += 1
+            st.rerun()
+
 
