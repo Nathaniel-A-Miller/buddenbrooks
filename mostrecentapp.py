@@ -16,6 +16,10 @@ if "saved" not in st.session_state:
     st.session_state.saved = set()
 if "selected_word" not in st.session_state:
     st.session_state.selected_word = None
+if "page" not in st.session_state:  # PAGINATION
+    st.session_state.page = 0
+
+WORDS_PER_PAGE = 1000  # PAGINATION
 
 st.title("📚 Buddenbrooks Vocabulary Reader")
 st.caption("Hover to see definitions (German + English). Click to save or unclick to remove.")
@@ -23,9 +27,14 @@ st.caption("Hover to see definitions (German + English). Click to save or unclic
 # --- Tokenize text ---
 tokens = re.findall(r"\w+|[^\w\s]", text, re.UNICODE)
 
-# --- Build HTML with hover data attributes ---
+# --- PAGINATION LOGIC ---
+start_idx = st.session_state.page * WORDS_PER_PAGE
+end_idx = start_idx + WORDS_PER_PAGE
+visible_tokens = tokens[start_idx:end_idx]
+
+# --- Build HTML for visible portion ---
 html_parts = []
-for token in tokens[:400]:
+for token in visible_tokens:
     key = token.strip('.,;:"!?()[]').lower()
     if key in vocab_dict:
         v = vocab_dict[key]
@@ -86,7 +95,7 @@ component_code = f"""
     f"</span></span>"
     if t.strip('.,;:\"!?()[]').lower() in vocab_dict
     else t
-    for t in tokens[:400]
+    for t in visible_tokens
   ])}
 </div>
 
@@ -150,3 +159,14 @@ if st.session_state.selected_word:
 if st.session_state.saved:
     st.markdown("### 🔹 Saved Words")
     st.write(", ".join(sorted(st.session_state.saved)))
+
+# --- PAGINATION BUTTON ---
+if end_idx < len(tokens):
+    if st.button("➡️ Show next 1000 words"):
+        st.session_state.page += 1
+        st.rerun()  # updated
+
+if st.session_state.page > 0:
+    if st.button("⬅️ Show previous 1000 words"):
+        st.session_state.page -= 1
+        st.rerun()  # updated
