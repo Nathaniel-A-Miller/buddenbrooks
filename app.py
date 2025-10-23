@@ -91,7 +91,7 @@ component_code = f"""
     f"{t}"
     f"<span class='popover'>"
     f"<b>DE:</b> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_german']}<br>"
-    f"<i>EN:</i> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_english']}"
+    f"<b>EN:</b> {vocab_dict[t.strip('.,;:\"!?()[]').lower()]['definition_english']}"
     f"</span></span>"
     if t.strip('.,;:\"!?()[]').lower() in vocab_dict
     else t
