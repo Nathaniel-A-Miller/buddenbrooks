@@ -164,9 +164,10 @@ if st.session_state.saved:
 if end_idx < len(tokens):
     if st.button("➡️ Show next 1000 words"):
         st.session_state.page += 1
-        st.experimental_rerun()
+        st.rerun()  # updated
 
 if st.session_state.page > 0:
     if st.button("⬅️ Show previous 1000 words"):
         st.session_state.page -= 1
-        st.experimental_rerun()
+        st.rerun()  # updated
+
