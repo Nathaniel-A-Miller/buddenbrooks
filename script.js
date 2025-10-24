@@ -131,12 +131,6 @@ async function fetchAndSetVocab(chapterNum) {
     renderInteractiveText();
 }
 
-// Update loadDataAndInitializeApp to call the new function:
-await fetchAndSetVocab(currentChapter); 
-
-// Update handleChapterChange to call the new function:
-await fetchAndSetVocab(currentChapter);
-/**
  * Handles the change event from the dropdown.
  */
 async function handleChapterChange(event) {
