@@ -1,38 +1,52 @@
 import streamlit as st
-from utils.tokenizer import tokenize, get_visible_tokens
+import streamlit.components.v1 as components
+import re
 
-def render_text(text, vocab_dict, saved_words, words_per_page=300):
-    tokens = tokenize(text)
-    page = st.session_state.get("page", 0)
-    visible, start, end = get_visible_tokens(tokens, page, words_per_page)
+def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
+    """
+    Renders text with clickable words in HTML.
+    saved_words: a Python set of currently saved words
+    """
 
-    st.markdown("### 📖 Reading")
-    st.caption(f"Words {start+1:,}–{min(end, len(tokens)):,} of {len(tokens):,}")
+    # --- Session page handling ---
+    if "page" not in st.session_state:
+        st.session_state.page = 0
+    page = st.session_state.page
 
-    clicked_word = st.radio(
-        "Click a word to save or unsave it:",
-        ["(none)"] + [t for t in visible if t.strip(".,!?").lower() in vocab_dict],
-        label_visibility="collapsed",
-        horizontal=True,
-        index=0
-    )
+    # --- Tokenize and paginate ---
+    tokens = re.findall(r"\w+|[^\w\s]", text, re.UNICODE)
+    start = page * words_per_page
+    end = start + words_per_page
+    visible_tokens = tokens[start:end]
 
-    if clicked_word and clicked_word != "(none)":
-        key = clicked_word.strip(".,!?").lower()
-        if key in saved_words:
-            saved_words.remove(key)
-        else:
-            saved_words.add(key)
+    st.markdown(f"### 📖 Reading: words {start+1:,}–{min(end,len(tokens)):,} of {len(tokens):,}")
 
-    html = ""
-    for token in visible:
-        key = token.strip(".,!?").lower()
+    # --- Build HTML ---
+    html = """
+    <style>
+    .word { cursor: pointer; padding:2px 3px; border-radius:3px; position: relative;}
+    .word:hover { background-color: #fff59d; }
+    .saved { background-color: #ffd54f !important; }
+    .pop { visibility:hidden; background:#fff; border:1px solid #ccc; border-radius:4px;
+           padding:4px; position:absolute; z-index:10; font-size:14px; max-width:200px; }
+    .word:hover .pop { visibility: visible; top:1.2em; left:0; }
+    </style>
+    <p style="font-size:18px; line-height:1.6;">
+    """
+
+    for token in visible_tokens:
+        key = token.strip('.,;:"!?()[]').lower()
         if key in vocab_dict:
-            if key in saved_words:
-                html += f"<span style='background-color:#ffe082;padding:1px 3px;border-radius:3px;'>{token}</span> "
-            else:
-                html += f"<span style='color:#1565c0;cursor:pointer;'>{token}</span> "
+            saved_class = "saved" if key in saved_words else ""
+            html += (
+                f"<span class='word {saved_class}' onclick='window.parent.postMessage({{type:\"word_click\", word:\"{key}\"}}, \"*\")'>"
+                f"{token}<span class='pop'>{vocab_dict[key]['definition_english']}</span>"
+                f"</span> "
+            )
         else:
             html += token + " "
 
-    st.markdown(html, unsafe_allow_html=True)
+    html += "</p>"
+
+    # --- Render HTML in Streamlit component ---
+    components.html(html, height=400, scrolling=True)
