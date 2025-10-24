@@ -93,23 +93,26 @@ async function loadDataAndInitializeApp() {
  * Converts the global selectedVocab array into a CSV string.
  * Uses localStorage data structure: { word: '...', definition: '...' }
  */
+// script.js (Inside the convertArrayToCSV function)
+
 function convertArrayToCSV(data) {
     if (data.length === 0) return '';
     
     // 1. Get Headers (Keys of the first object)
-    const headers = ['Wort (DE)', 'Definition (DE)']; // Define friendly headers
-    const keys = ['word', 'definition']; // Use the actual object keys
+    const headers = ['Wort (DE)', 'Definition (DE)']; 
+    const keys = ['word', 'definition'];
     
-    let csv = headers.join(',') + '\n'; // Start CSV string with headers
+    let csv = headers.join(',') + '\n';
 
     // 2. Map Data Rows
     data.forEach(item => {
         const row = keys.map(key => {
-            let val = item[key];
+            // FIX: Ensure 'val' is a string. If it's undefined/null, default to an empty string.
+            let val = String(item[key] || ''); 
             
-            // Handle quotes and commas within the data field
-            if (val.includes(',') || val.includes('"')) {
-                // Escape quotes and wrap in quotes
+            // Check for characters that require quoting
+            if (val.includes(',') || val.includes('"') || val.includes('\n')) {
+                // Escape existing double quotes and wrap the entire string in quotes
                 val = '"' + val.replace(/"/g, '""') + '"';
             }
             return val;
