@@ -14,6 +14,8 @@ const textArea = document.getElementById('german-text-area');
 const vocabList = document.getElementById('selected-vocab-list');
 const vocabCountSpan = document.getElementById('vocab-count');
 const clearButton = document.getElementById('clear-vocab-button');
+// New constant for the definition display area
+const definitionDisplay = document.getElementById('definition-display');
 
 // Global variables to store the data once fetched
 let germanText = '';
@@ -49,7 +51,6 @@ async function loadDataAndInitializeApp() {
     }
 }
 
-
 /**
  * Replaces words in the text with clickable <span> elements.
  */
@@ -57,22 +58,34 @@ function renderInteractiveText() {
     if (!germanText || vocabularyData.length === 0) return;
 
     let newText = germanText;
+    // ... (rest of the text parsing and wrapping logic remains the same) ...
 
-    vocabularyData.forEach(item => {
-        // Create a regular expression to find the whole word, ignoring case.
-        // The \b ensures we match the whole word boundary.
-        const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+    // Display the fully wrapped text in the HTML
+    textArea.innerHTML = `<p>${newText.trim()}</p>`;
 
-        // Replace the word with the clickable span
-        newText = newText.replace(regex, (match) => {
-            // Check if the word is already wrapped (to prevent double-wrapping in edge cases)
-            if (match.startsWith('<span')) {
-                return match; 
-            }
-            // Use a custom data attribute to store the word for easy lookup
-            return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
-        });
+    // Attach new event listeners: mouseover for definition, click for adding
+    document.querySelectorAll('.vocab-word').forEach(span => {
+        span.addEventListener('mouseover', handleWordHover);
+        span.addEventListener('click', handleWordClick); // Now handles ONLY the adding
     });
+}
+
+/**
+ * Handles the MOUSEOVER event on a vocabulary word to display the definition.
+ */
+function handleWordHover(event) {
+    const word = event.target.dataset.word;
+    const vocabObject = vocabularyData.find(item => item.word === word);
+
+    if (vocabObject) {
+        definitionDisplay.innerHTML = `
+            <strong>${vocabObject.word}</strong>
+            <p>DE: ${vocabObject.definition_german}</p>
+            <p>EN: ${vocabObject.definition_english}</p>
+            <div class="definition-action">Klicken, um zum Vokabel-Set hinzuzufügen.</div>
+        `;
+    }
+}
 
     // Display the fully wrapped text in the HTML
     textArea.innerHTML = `<p>${newText.trim()}</p>`;
@@ -85,12 +98,10 @@ function renderInteractiveText() {
 
 
 /**
- * Handles the click event on a vocabulary word.
+ * Handles the CLICK event on a vocabulary word to ADD it to the list.
  */
 function handleWordClick(event) {
     const word = event.target.dataset.word;
-
-    // Find the full vocabulary object for the clicked word
     const vocabObject = vocabularyData.find(item => item.word === word);
 
     if (vocabObject) {
@@ -98,8 +109,13 @@ function handleWordClick(event) {
         if (!selectedVocab.some(item => item.word === word)) {
             selectedVocab.push(vocabObject);
             saveAndRenderVocab();
+            alert(`"${word}" wurde zum Set hinzugefügt!`); // Small confirmation alert
         } else {
-            alert(`"${word}" ist schon im Set! (Already in your set!)`);
+            // If the word is already in the set, perhaps highlight it briefly instead of alerting
+            event.target.style.backgroundColor = '#2ecc71'; // Green highlight
+            setTimeout(() => {
+                event.target.style.backgroundColor = ''; // Reset color
+            }, 500);
         }
     }
 }
