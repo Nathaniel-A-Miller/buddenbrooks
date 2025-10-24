@@ -55,19 +55,33 @@ async function loadDataAndInitializeApp() {
 
 
 /**
- * Replaces words in the text with clickable <span> elements.
+ * Replaces words in the text with clickable <span> elements and preserves paragraphs.
  */
 function renderInteractiveText() {
     if (!germanText || vocabularyData.length === 0) return;
 
     let newText = germanText;
+    
+    // 1. Preserve paragraph breaks:
+    // Replace double line breaks (\n\n) with closing/opening paragraph tags </p><p>
+    // This assumes your .txt file uses a blank line to separate paragraphs.
+    // .trim() removes any leading/trailing whitespace.
+    let textWithParagraphs = newText.trim()
+        .replace(/\n\s*\n/g, '</p><p>'); 
+        // The regex /\n\s*\n/g handles different types of double breaks (including spaces/tabs)
 
+    // 2. Wrap the entire body in initial/final paragraph tags
+    // This creates <p>Paragraph 1</p><p>Paragraph 2</p>...
+    textWithParagraphs = `<p>${textWithParagraphs}</p>`;
+
+
+    // 3. Now, proceed with word wrapping (using the new string)
     vocabularyData.forEach(item => {
         // Create a regular expression to find the whole word, ignoring case.
         const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
 
         // Replace the word with the clickable span
-        newText = newText.replace(regex, (match) => {
+        textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
             // Prevent double-wrapping if the word is part of another match
             if (match.startsWith('<span')) {
                 return match; 
@@ -77,6 +91,16 @@ function renderInteractiveText() {
         });
     });
 
+    // 4. Display the fully wrapped and paragraphed text in the HTML
+    // We use innerHTML directly since we've already added all the necessary <p> tags.
+    textArea.innerHTML = textWithParagraphs;
+
+    // 5. Attach event listeners
+    document.querySelectorAll('.vocab-word').forEach(span => {
+        span.addEventListener('mouseover', handleWordHover);
+        span.addEventListener('click', handleWordClick); 
+    });
+}
     // Display the fully wrapped text in the HTML
     textArea.innerHTML = `<p>${newText.trim()}</p>`;
 
