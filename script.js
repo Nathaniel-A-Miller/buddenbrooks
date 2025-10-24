@@ -42,12 +42,14 @@ const vocabCountSpan = document.getElementById('vocab-count');
 const clearButton = document.getElementById('clear-vocab-button');
 const downloadButton = document.getElementById('download-vocab-button');
 const definitionDisplay = document.getElementById('definition-display'); // New element
+const chapterSelect = document.getElementById('chapter-select'); // <--- ADD THIS LINE
 
 // NEW VARIABLES
 const submissionForm = document.getElementById('submission-form');
 const submitWordInput = document.getElementById('submit-word');
 const submissionMessage = document.getElementById('submission-message');
 const submitDefinitionEnInput = document.getElementById('submit-definition-en');
+
 
 let germanText = '';
 let vocabularyData = [];
@@ -71,7 +73,7 @@ async function loadDataAndInitializeApp() {
         // ... (1. Fetch German Text)
         // You'll need to fetch the text for the currentChapter, not just 'chapter 1'.
         // For now, we'll assume a file path like `chapter_1.txt`, `chapter_2.txt`, etc.
-        const textResponse = await fetch(`chapter_${currentChapter}.txt`); // 👈 IMPORTANT CHANGE
+        const textResponse = await fetch(`chapters/chapter_${currentChapter}.txt`); // 👈 IMPORTANT CHANGE
         if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
         germanText = await textResponse.text();
 
@@ -125,7 +127,7 @@ async function handleChapterChange(event) {
     
     // 1. Fetch the new chapter text
     try {
-        const textResponse = await fetch(`chapter_${currentChapter}.txt`); // 👈 IMPORTANT
+        const textResponse = await fetch(`chapters/chapter_${currentChapter}.txt`); // 👈 IMPORTANT
         if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
         germanText = await textResponse.text();
         
