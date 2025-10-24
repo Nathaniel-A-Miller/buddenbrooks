@@ -41,7 +41,7 @@ header {
 
 /* Styling for the interactive vocabulary words */
 .vocab-word {
-    font-weight: bold;
+    font-weight: 600;
     color: #2980b9; 
     cursor: pointer;
     text-decoration: none;
