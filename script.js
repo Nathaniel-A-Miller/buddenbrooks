@@ -1,4 +1,27 @@
 // ========================================================================
+// 0. FIREBASE CONFIGURATION (PASTE YOUR CONFIG HERE)
+// ========================================================================
+const firebaseConfig = {
+    apiKey: "YOUR_API_KEY", // Replace with your key
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com", // Replace with your domain
+    projectId: "YOUR_PROJECT_ID", // Replace with your ID
+    storageBucket: "...",
+    messagingSenderId: "...",
+    appId: "..."
+};
+
+// Initialize Firebase and Firestore
+if (typeof firebase !== 'undefined' && !firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const submissionsCollection = db.collection('submissions');
+}
+// ========================================================================
+// ... rest of your script.js code starts here
+// ========================================================================
+
+
+// ========================================================================
 // 1. DATA FILE PATHS
 // ========================================================================
 const TEXT_FILE_PATH = 'text.txt';
@@ -14,6 +37,11 @@ const vocabList = document.getElementById('selected-vocab-list');
 const vocabCountSpan = document.getElementById('vocab-count');
 const clearButton = document.getElementById('clear-vocab-button');
 const definitionDisplay = document.getElementById('definition-display'); // New element
+
+// NEW VARIABLES
+const submissionForm = document.getElementById('submission-form');
+const submitWordInput = document.getElementById('submit-word');
+const submissionMessage = document.getElementById('submission-message');
 
 let germanText = '';
 let vocabularyData = [];
