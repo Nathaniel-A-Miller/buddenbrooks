@@ -267,6 +267,30 @@ function handleWordHover(event) {
  * Handles the CLICK event on a vocabulary word to ADD it to the list.
  */
 function handleWordClick(event) {
+    const word = event.target.textContent;
+
+    // Find the full vocabulary entry from your main data source
+    const vocabEntry = vocabularyData.find(v => v.word === word);
+
+    // Check if the word is already selected (for toggling)
+    const existingIndex = selectedVocab.findIndex(item => item.word === word);
+
+    if (vocabEntry) {
+        if (existingIndex === -1) {
+            // Word is NOT selected, ADD it.
+            selectedVocab.push({
+                word: word,
+                definition: vocabEntry.definition,    // <-- German definition (Required for sidebar display)
+                definitionEN: vocabEntry.definitionEN // <-- English definition (Required for CSV download)
+            });
+        } else {
+            // Word IS selected, REMOVE it (toggle off).
+            selectedVocab.splice(existingIndex, 1);
+        }
+
+        // Save and re-render the list after change
+        saveAndRenderVocab(); 
+    }
 }
 
 /**
