@@ -267,8 +267,12 @@ function handleWordHover(event) {
  * Handles the CLICK event on a vocabulary word to ADD it to the list.
  */
 function handleWordClick(event) {
-    const word = event.target.textContent;
+// 1. Get the word from the attribute, which contains the base form from JSON.
+    const wordKey = event.target.dataset.word; 
 
+    // 2. Normalize the word to lowercase to ensure it matches your JSON data.
+    const word = wordKey.toLowerCase(); 
+    
     // Find the full vocabulary entry from your main data source
     const vocabEntry = vocabularyData.find(v => v.word === word);
 
