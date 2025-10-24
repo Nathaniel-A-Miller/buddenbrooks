@@ -75,14 +75,15 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
 
-    // 3. Now, proceed with word wrapping
+    // From renderInteractiveText function:
     vocabularyData.forEach(item => {
-        // Create a regular expression to find the whole word, ignoring case.
-        const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-
+        // Create a regular expression to find the word, ignoring case (gi).
+        // Note: We avoid relying purely on \b here for compound word safety.
+        const regex = new RegExp(`(${item.word})`, 'gi'); 
+    
         // Replace the word with the clickable span
         textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
-            // Prevent double-wrapping 
+            // CRITICAL: Prevent double-wrapping (which is what leads to the broken HTML)
             if (match.startsWith('<span')) {
                 return match; 
             }
