@@ -28,6 +28,43 @@ header {
     font-size: 1.1em;
 }
 
+/* style.css */
+
+#instructions-panel {
+    /* Position it clearly, perhaps fixed or relative to the sidebar */
+    position: relative; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #007bff; /* Primary blue color */
+    background-color: #eaf4ff; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+
+#instructions-panel ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+
+#instructions-panel button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#instructions-panel button:hover {
+    background-color: #0056b3;
+}
+
 /* style.css (Update the .sidebar-column block) */
 .sidebar-column {
     flex: 1; 
