@@ -1,33 +1,29 @@
 // ========================================================================
-// 0. FIREBASE CONFIGURATION (PASTE YOUR CONFIG HERE)
+// 0. FIREBASE CONFIGURATION 
 // ========================================================================
-// Import the functions you need from the SDKs you need
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB_dWt_OFudecBlmyjnl5-b69lNp77OB9w",
-  authDomain: "buddenrbooks.firebaseapp.com",
-  projectId: "buddenrbooks",
-  storageBucket: "buddenrbooks.firebasestorage.app",
-  messagingSenderId: "133066434831",
-  appId: "1:133066434831:web:c7ea4f8ef5a8296181f67a"
+    apiKey: "AIzaSyB_dWt_OFudecBlmyjnl5-b69lNp77OB9w",
+    authDomain: "buddenrbooks.firebaseapp.com",
+    projectId: "buddenrbooks",
+    storageBucket: "buddenrbooks.firebasestorage.app",
+    messagingSenderId: "133066434831",
+    appId: "1:133066434831:web:c7ea4f8ef5a8296181f67a"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+let db; // ADDED: Declare globally with 'let'
+let submissionsCollection; // ADDED: Declare globally with 'let'
 
 // Initialize Firebase and Firestore
 if (typeof firebase !== 'undefined' && !firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    const submissionsCollection = db.collection('submissions');
+    // FIX 1: Use firebase.initializeApp
+    const app = firebase.initializeApp(firebaseConfig); 
+    
+    // FIX 2: Assign to the global 'db' and 'submissionsCollection' variables
+    db = firebase.firestore();
+    submissionsCollection = db.collection('submissions');
 }
-// ========================================================================
-// ... rest of your script.js code starts here
-// ========================================================================
-
 
 // ========================================================================
 // 1. DATA FILE PATHS
