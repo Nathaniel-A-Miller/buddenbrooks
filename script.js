@@ -75,19 +75,18 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
 
+    // 3. Now, proceed with word wrapping
     vocabularyData.forEach(item => {
         // Create a regular expression to find the whole word, ignoring case.
-        // The \b ensures we match the whole word boundary.
         const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
 
         // Replace the word with the clickable span
-        newText = newText.replace(regex, (match) => {
-        // Check if the word is already wrapped (to prevent double-wrapping in edge cases)
-        if (match.startsWith('<span')) {
-            return match; 
-        }
-        // Use a custom data attribute to store the word for easy lookup
-        return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+        textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
+            // Prevent double-wrapping 
+            if (match.startsWith('<span')) {
+                return match; 
+            }
+            return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
         });
     });
 
