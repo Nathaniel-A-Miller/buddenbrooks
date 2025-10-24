@@ -75,19 +75,19 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
 
-    // From renderInteractiveText function:
     vocabularyData.forEach(item => {
-        // Create a regular expression to find the word, ignoring case (gi).
-        // Note: We avoid relying purely on \b here for compound word safety.
-        const regex = new RegExp(`(${item.word})`, 'gi'); 
-    
+        // Create a regular expression to find the whole word, ignoring case.
+        // The \b ensures we match the whole word boundary.
+        const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+
         // Replace the word with the clickable span
-        textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
-            // CRITICAL: Prevent double-wrapping (which is what leads to the broken HTML)
-            if (match.startsWith('<span')) {
-                return match; 
-            }
-            return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+        newText = newText.replace(regex, (match) => {
+        // Check if the word is already wrapped (to prevent double-wrapping in edge cases)
+        if (match.startsWith('<span')) {
+            return match; 
+        }
+        // Use a custom data attribute to store the word for easy lookup
+        return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
         });
     });
 
