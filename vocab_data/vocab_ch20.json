@@ -1,0 +1,2627 @@
+[
+    {
+        "word": "e\u00dfsaal",
+        "definition_german": "Ein Raum, der zum Einnehmen von Mahlzeiten dient.",
+        "definition_english": "Dining room.",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "f\u00fc\u00dfe",
+        "definition_german": "Plural von Fu\u00df; die unteren Gliedma\u00dfen.",
+        "definition_english": "Feet.",
+        "context_snippet": "Das ist ein Wort!\u00ab rief Herr Gr\u00fcnlich und sprang auf die F\u00fc\u00dfe.",
+        "chapter": 20
+    },
+    {
+        "word": "verbl\u00fcffung",
+        "definition_german": "Zustand gro\u00dfer \u00dcberraschung oder Best\u00fcrzung.",
+        "definition_english": "Astonishment, bewilderment.",
+        "context_snippet": "Tony war erstarrt; ihre Tr\u00e4nen traten zur\u00fcck vor Verbl\u00fcffung.",
+        "chapter": 20
+    },
+    {
+        "word": "r\u00fchrung",
+        "definition_german": "Emotionale Bewegung, Gef\u00fchl der Ergriffenheit, oft mit Tr\u00e4nen verbunden.",
+        "definition_english": "Emotion, deep feeling, pathos.",
+        "context_snippet": "Ihre Tr\u00e4nen waren versiegt, R\u00fchrung und Mitleid stiegen in ihr auf.",
+        "chapter": 20
+    },
+    {
+        "word": "pl\u00f6tzliche",
+        "definition_german": "Unerwartet und schnell eintretend.",
+        "definition_english": "Sudden.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "verlassen",
+        "definition_german": "Von einem Ort weggehen; jemanden zur\u00fccklassen.",
+        "definition_english": "To leave, to depart from.",
+        "context_snippet": "Ihr Antrag ehrt mich\u00ab, sagte sie so ruhig sie konnte; \u00bbaber ich kann ihn nicht annehmen ... So, und ich mu\u00df Sie nun ... verlassen, entschuldigen Sie, ich habe keine Zeit mehr.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "z\u00f6gern",
+        "definition_german": "Unschl\u00fcssig sein, eine Handlung hinausz\u00f6gern.",
+        "definition_english": "To hesitate, to delay.",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "nachmittag",
+        "definition_german": "Der Teil des Tages zwischen Mittag und Abend.",
+        "definition_english": "Afternoon.",
+        "context_snippet": "Es war Nachmittag -- ein blauer, warmer Nachmittag; die Konsulin war ausgegangen, und Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "heiraten",
+        "definition_german": "Eine Ehe eingehen.",
+        "definition_english": "To marry.",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "hoffen",
+        "definition_german": "Zuversichtlich sein, dass ein Wunsch in Erf\u00fcllung geht.",
+        "definition_english": "To hope.",
+        "context_snippet": "Ich habe vor einer Woche den Brief Ihres =lieben= Herrn Vaters erhalten, diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "papa",
+        "definition_german": "Umgangssprachlicher Ausdruck f\u00fcr Vater.",
+        "definition_english": "Dad, Papa.",
+        "context_snippet": "Vater!\u00ab -- sonst pflegte Tony \u00bbPapa\u00ab zu sagen -- \u00bbIch werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "lassen",
+        "definition_german": "Erlauben oder bewirken, dass etwas geschieht.",
+        "definition_english": "To let, to allow (oneself to be).",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "f\u00fcgung",
+        "definition_german": "Ein gl\u00fccklicher oder schicksalhafter Umstand, eine g\u00fcnstige Gelegenheit.",
+        "definition_english": "Dispensation (of fate), coincidence, chance.",
+        "context_snippet": "Welch eine F\u00fcgung!\u00ab rief er.",
+        "chapter": 20
+    },
+    {
+        "word": "weinen",
+        "definition_german": "Tr\u00e4nen vergie\u00dfen, oft als Reaktion auf Trauer, Wut oder R\u00fchrung.",
+        "definition_english": "To cry, to weep.",
+        "context_snippet": "Sie f\u00fchlte schon wieder, da\u00df sie weinen werde.",
+        "chapter": 20
+    },
+    {
+        "word": "wirkung",
+        "definition_german": "Ergebnis, die durch etwas hervorgerufene Folge.",
+        "definition_english": "Effect, result.",
+        "context_snippet": "Das also war die Wirkung des vorsichtigen v\u00e4terlichen Briefes, der jede Entscheidung auf unbestimmte Zeit hinausgeschoben hatte!",
+        "chapter": 20
+    },
+    {
+        "word": "darf",
+        "definition_german": "Konjugierte Form von 'd\u00fcrfen'; die Erlaubnis haben.",
+        "definition_english": "May, is allowed to.",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "munde",
+        "definition_german": "Dativ Singular von Mund; \u00d6ffnung des Gesichts f\u00fcr Atmung und Nahrung.",
+        "definition_english": "Mouth.",
+        "context_snippet": "Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "r\u00fccken",
+        "definition_german": "Der hintere Teil des menschlichen oder tierischen Rumpfes.",
+        "definition_english": "Back.",
+        "context_snippet": "Dann blieb er am Fenster stehen und blickte durch die Scheiben in die beginnende D\u00e4mmerung.",
+        "chapter": 20
+    },
+    {
+        "word": "brachte",
+        "definition_german": "Pr\u00e4teritum von 'bringen'; f\u00fchrte oder \u00e4u\u00dferte.",
+        "definition_english": "Brought, managed (to utter).",
+        "context_snippet": "Nein, nein!\u00ab brachte sie rasch und angstvoll hervor.",
+        "chapter": 20
+    },
+    {
+        "word": "gewi\u00dfheit",
+        "definition_german": "Sicherer Zustand des Wissens; Mangel an Zweifel.",
+        "definition_english": "Certainty, assurance.",
+        "context_snippet": "das werden Sie mir nun zur gl\u00fccklichen Gewi\u00dfheit machen ... nicht wahr?! ich darf mit Ihrer Gegenneigung rechnen ... Ihrer Gegenneigung sicher sein!\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "innerlich",
+        "definition_german": "Im Inneren; auf die Gef\u00fchle oder Gedanken bezogen.",
+        "definition_english": "Internally, inwardly.",
+        "context_snippet": "die ihr selbst innerlich ganz fremd und gleichg\u00fcltig war, so weit trieb!",
+        "chapter": 20
+    },
+    {
+        "word": "wichtigkeit",
+        "definition_german": "Bedeutung, Relevanz.",
+        "definition_english": "Importance, significance.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "niemals",
+        "definition_german": "Zu keiner Zeit; nicht ein einziges Mal.",
+        "definition_english": "Never.",
+        "context_snippet": "Ich werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "juli",
+        "definition_german": "Der siebte Monat des Jahres.",
+        "definition_english": "July.",
+        "context_snippet": "man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "nachdruck",
+        "definition_german": "Besondere Betonung oder Eindringlichkeit.",
+        "definition_english": "Emphasis, stress.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "vorsicht",
+        "definition_german": "Umsichtigkeit, Bedachtsamkeit, Vermeidung von Gefahr.",
+        "definition_english": "Caution, precaution.",
+        "context_snippet": "Ja\u00ab, sagte Tony; und aus Vorsicht f\u00fcgte sie hinzu: \u00bbLeider\u00bb\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "zwirnhandschuhe",
+        "definition_german": "Handschuhe aus stark gedrehtem Garn, oft Baumwolle.",
+        "definition_english": "Thread gloves, cotton gloves.",
+        "context_snippet": "Er trug heute keine Zwirnhandschuhe; seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "h\u00f6ren",
+        "definition_german": "Mit dem Geh\u00f6r wahrnehmen; zuh\u00f6ren.",
+        "definition_english": "To hear, to listen.",
+        "context_snippet": "H\u00f6ren Sie mich an ... Sie sehen einen Mann vor sich, der vernichtet, zugrunde gerichtet ist, wenn ...",
+        "chapter": 20
+    },
+    {
+        "word": "zeigefinger",
+        "definition_german": "Der Finger zwischen Daumen und Mittelfinger, zum Zeigen benutzt.",
+        "definition_english": "Index finger, forefinger.",
+        "context_snippet": "beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "ihrerseits",
+        "definition_german": "Von ihrer Seite aus; sie betreffend.",
+        "definition_english": "On her part, for her part.",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "wobei",
+        "definition_german": "In Verbindung mit dieser Sache; w\u00e4hrenddessen.",
+        "definition_english": "Whereby, in which case.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "ward",
+        "definition_german": "Archaische Form des Pr\u00e4teritums von 'werden'.",
+        "definition_english": "Was (became).",
+        "context_snippet": "aber der Fortgang der Dinge ward durch Tonys in den kindischsten Formen ge\u00e4u\u00dferte Hartn\u00e4ckigkeit behindert.",
+        "chapter": 20
+    },
+    {
+        "word": "mannes",
+        "definition_german": "Genitiv von Mann; einen Mann betreffend.",
+        "definition_english": "Man's (of a man).",
+        "context_snippet": "ich verpf\u00e4nde Ihnen mein Manneswort, da\u00df ich Sie auf H\u00e4nden tragen werde, da\u00df Sie als meine Gattin nichts entbehren werden, da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "verzweifelt",
+        "definition_german": "In einem Zustand der Hoffnungslosigkeit.",
+        "definition_english": "Desperate, despairing.",
+        "context_snippet": "Tony sprang auf, sie befreite ihre Hand, und w\u00e4hrend ihre Tr\u00e4nen hervorst\u00fcrzten, rief sie v\u00f6llig verzweifelt:",
+        "chapter": 20
+    },
+    {
+        "word": "vornehme",
+        "definition_german": "Elegant, distinguiert, von gehobenem Stand.",
+        "definition_english": "Distinguished, elegant, aristocratic.",
+        "context_snippet": "als ich Sie zum ersten Male im Kreise der Ihrigen, eine so vornehme, so traumhaft liebliche Erscheinung, erblickte ...",
+        "chapter": 20
+    },
+    {
+        "word": "schritten",
+        "definition_german": "Plural von Schritt; die Bewegung beim Gehen.",
+        "definition_english": "Steps, paces.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "m\u00fctterlich",
+        "definition_german": "Die Art einer Mutter kennzeichnend; f\u00fcrsorglich.",
+        "definition_english": "Maternal, motherly.",
+        "context_snippet": "Sie wollen mich nicht t\u00f6ten?\u00ab fragte er wieder, und sie sagte noch einmal in einem beinahe m\u00fctterlich tr\u00f6stenden Ton:",
+        "chapter": 20
+    },
+    {
+        "word": "seit",
+        "definition_german": "Beginnend ab einem bestimmten Zeitpunkt.",
+        "definition_english": "Since.",
+        "context_snippet": "Seit jenem Tage, Fr\u00e4ulein Antonie, ist es mein einziger, mein hei\u00dfer Wunsch, Ihre sch\u00f6ne Hand f\u00fcrs Leben zu gewinnen, ...",
+        "chapter": 20
+    },
+    {
+        "word": "tony",
+        "definition_german": "Kurzform des weiblichen Vornamens Antonie.",
+        "definition_english": "Tony (nickname for Antonie).",
+        "context_snippet": "sonst pflegte Tony \u00bbPapa\u00ab zu sagen -- \u00bbIch werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "getrennt",
+        "definition_german": "Separiert, nicht zusammenh\u00e4ngend gesprochen.",
+        "definition_english": "Separated.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "liebe",
+        "definition_german": "Starkes Gef\u00fchl der Zuneigung und Verbundenheit.",
+        "definition_english": "Love.",
+        "context_snippet": "wenn Sie seine Liebe verschm\u00e4hen! Hier liege ich ...",
+        "chapter": 20
+    },
+    {
+        "word": "zur\u00fcckkehren",
+        "definition_german": "Zum Ausgangspunkt zur\u00fcckgehen.",
+        "definition_english": "To return, to go back.",
+        "context_snippet": "Konnte ich l\u00e4nger warten ... Mu\u00dfte ich nicht hierher zur\u00fcckkehren?\u00bb fragte er eindringlich.",
+        "chapter": 20
+    },
+    {
+        "word": "pl\u00f6tzlich",
+        "definition_german": "Unerwartet, unversehens.",
+        "definition_english": "Suddenly.",
+        "context_snippet": "Nein, nein!\u00ab sagte Tony pl\u00f6tzlich in tr\u00f6stendem Ton.",
+        "chapter": 20
+    },
+    {
+        "word": "endlich",
+        "definition_german": "Zuletzt; nach l\u00e4ngerer Zeit.",
+        "definition_english": "Finally, at last.",
+        "context_snippet": "Endlich wandte er sich ab und durchma\u00df, die H\u00e4nde auf dem R\u00fccken, zweimal das Zimmer, als sei er hier zu Hause.",
+        "chapter": 20
+    },
+    {
+        "word": "boden",
+        "definition_german": "Die unterste Fl\u00e4che eines Raumes.",
+        "definition_english": "Floor, ground.",
+        "context_snippet": "und er sank ... sank langsam bei ihr zu Boden auf die Knie.",
+        "chapter": 20
+    },
+    {
+        "word": "gewinnen",
+        "definition_german": "Erwerben, erfolgreich erhalten.",
+        "definition_english": "To win, to gain.",
+        "context_snippet": "ist es mein einziger, mein hei\u00dfer Wunsch, Ihre sch\u00f6ne Hand f\u00fcrs Leben zu gewinnen, ...",
+        "chapter": 20
+    },
+    {
+        "word": "weisen",
+        "definition_german": "Ablehnen, zur\u00fcckschicken.",
+        "definition_english": "To refuse, to reject.",
+        "context_snippet": "Sie weisen mich zur\u00fcck?\u00ab fragte er tonlos\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "kopfbewegung",
+        "definition_german": "Das Bewegen des Kopfes.",
+        "definition_english": "Head movement.",
+        "context_snippet": "indem sie bei jedem Worte eine Kopfbewegung von unten nach oben machte und jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "entscheidung",
+        "definition_german": "Festlegung einer Wahl zwischen Alternativen.",
+        "definition_english": "Decision, resolution.",
+        "context_snippet": "der jede Entscheidung auf unbestimmte Zeit hinausgeschoben hatte!",
+        "chapter": 20
+    },
+    {
+        "word": "knien",
+        "definition_german": "Die K\u00f6rperhaltung, bei der man auf den Knien ruht.",
+        "definition_english": "To kneel.",
+        "context_snippet": "und er sank ... sank langsam bei ihr zu Boden auf die Knie.",
+        "chapter": 20
+    },
+    {
+        "word": "sache",
+        "definition_german": "Eine Angelegenheit, ein Thema.",
+        "definition_english": "Matter, affair, thing.",
+        "context_snippet": "Genug f\u00fcr diesmal, ich bitte Sie, von dieser Sache ... Wir reden weiter davon ...",
+        "chapter": 20
+    },
+    {
+        "word": "sicherlich",
+        "definition_german": "Zweifellos, gewiss.",
+        "definition_english": "Certainly, surely.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "gewissen",
+        "definition_german": "Hier: einer bestimmten, nicht n\u00e4her definierten Art.",
+        "definition_english": "A certain (degree of).",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu; aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "anton",
+        "definition_german": "M\u00e4nnlicher Vorname (vermutlich ein Bediensteter).",
+        "definition_english": "Anton (a male name, likely a servant).",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "antonie",
+        "definition_german": "Der volle Vorname der Protagonistin Tony Buddenbrook.",
+        "definition_english": "Antonie (Tony's full name).",
+        "context_snippet": "Ich finde =Sie=, Antonie!\u00ab Er sagte \u00bbAntonie\u00bb.",
+        "chapter": 20
+    },
+    {
+        "word": "betreff",
+        "definition_german": "Bezugnehmend auf, hinsichtlich.",
+        "definition_english": "Concerning, regarding.",
+        "context_snippet": "Die schwebende Frage in betreff Antoniens trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "ihrigen",
+        "definition_german": "Die zur Familie Geh\u00f6renden.",
+        "definition_english": "Her own (family/people).",
+        "context_snippet": "als ich Sie zum ersten Male im Kreise der Ihrigen, eine so vornehme, so traumhaft liebliche Erscheinung, erblickte ...",
+        "chapter": 20
+    },
+    {
+        "word": "viermal",
+        "definition_german": "Vier Gelegenheiten oder Mal.",
+        "definition_english": "Four times.",
+        "context_snippet": "Sie stammelte drei- oder viermal:",
+        "chapter": 20
+    },
+    {
+        "word": "wahr",
+        "definition_german": "Der Wirklichkeit entsprechend, richtig.",
+        "definition_english": "True, real.",
+        "context_snippet": "das werden Sie mir nun zur gl\u00fccklichen Gewi\u00dfheit machen ... nicht wahr?! ich darf mit Ihrer Gegenneigung rechnen ... Ihrer Gegenneigung sicher sein!\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "gegen\u00fcber",
+        "definition_german": "Sich von Angesicht zu Angesicht gegen\u00fcberstehend.",
+        "definition_english": "Opposite, facing.",
+        "context_snippet": "So standen sie sich w\u00e4hrend eines Augenblicks gegen\u00fcber; er in aufrichtig erz\u00fcrnter und gebietender Haltung, Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "womit",
+        "definition_german": "Mit welchem Ding oder welcher Ursache.",
+        "definition_english": "Wherewith, with what.",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\u00bb fragte er mit tief gesenkter und fast vorwurfsvoller Stimme.",
+        "chapter": 20
+    },
+    {
+        "word": "ereignet",
+        "definition_german": "Ist geschehen, ist passiert.",
+        "definition_english": "Happened, occurred.",
+        "context_snippet": "wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "tonys",
+        "definition_german": "Genitiv des Vornamens Tony.",
+        "definition_english": "Tony's.",
+        "context_snippet": "aber der Fortgang der Dinge ward durch Tonys in den kindischsten Formen ge\u00e4u\u00dferte Hartn\u00e4ckigkeit behindert.",
+        "chapter": 20
+    },
+    {
+        "word": "ernst",
+        "definition_german": "Mangel an Humor; Gravit\u00e4t, Wichtigkeit.",
+        "definition_english": "Seriousness, gravity.",
+        "context_snippet": "und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "ja",
+        "definition_german": "Best\u00e4tigung; in diesem Kontext: zur Hervorhebung einer Selbstverst\u00e4ndlichkeit.",
+        "definition_english": "Yes; indeed (for emphasis).",
+        "context_snippet": "Nein ... nein! Ich habe ja =nein= gesagt! Ich gebe Ihnen einen Korb, verstehen Sie das denn nicht, Gott im Himmel?!...\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "hinauf",
+        "definition_german": "In die H\u00f6he, nach oben.",
+        "definition_english": "Upward, up (to).",
+        "context_snippet": "Das Herz pochte ihr bis in den Hals hinauf, und sie war sehr bleich geworden.",
+        "chapter": 20
+    },
+    {
+        "word": "stimme",
+        "definition_german": "Der beim Sprechen oder Singen erzeugte Laut.",
+        "definition_english": "Voice.",
+        "context_snippet": "Aus seiner Stimme und seinem Gesicht sprach eine so ehrliche Angst, eine so aufrichtige und verzweifelte Bitte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "unten",
+        "definition_german": "Auf einer niedrigeren Position.",
+        "definition_english": "Down, below.",
+        "context_snippet": "indem sie bei jedem Worte eine Kopfbewegung von unten nach oben machte und jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "ab",
+        "definition_german": "Weg von; fort.",
+        "definition_english": "Away, off.",
+        "context_snippet": "Endlich wandte er sich ab und durchma\u00df, die H\u00e4nde auf dem R\u00fccken, zweimal das Zimmer, als sei er hier zu Hause.",
+        "chapter": 20
+    },
+    {
+        "word": "vaters",
+        "definition_german": "Genitiv von Vater; des Vaters.",
+        "definition_english": "Father's.",
+        "context_snippet": "Ich habe vor einer Woche den Brief Ihres =lieben= Herrn Vaters erhalten, diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "lesen",
+        "definition_german": "Geschriebene oder gedruckte Zeichen geistig erfassen.",
+        "definition_english": "To read.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer;",
+        "chapter": 20
+    },
+    {
+        "word": "wissen",
+        "definition_german": "Kenntnis von etwas haben.",
+        "definition_english": "To know.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "geschrieben",
+        "definition_german": "Als Text verfasst.",
+        "definition_english": "Written.",
+        "context_snippet": "An Herrn Gr\u00fcnlich war, von der Hand des Konsuls geschrieben, ein \u00fcberaus diplomatischer Brief abgegangen;",
+        "chapter": 20
+    },
+    {
+        "word": "sanft",
+        "definition_german": "Zart, vorsichtig, mit geringer Kraft.",
+        "definition_english": "Gently, softly.",
+        "context_snippet": "Tony!\u00ab sagte er ganz leise, w\u00e4hrend er sanft ihre Hand erfa\u00dfte;",
+        "chapter": 20
+    },
+    {
+        "word": "sorgfalt",
+        "definition_german": "Gr\u00fcndliche und achtsame Beachtung.",
+        "definition_english": "Care, carefulness.",
+        "context_snippet": "Sie sind ein von liebender Sorgfalt beh\u00fctetes und verw\u00f6hntes M\u00e4dchen ...",
+        "chapter": 20
+    },
+    {
+        "word": "himmel",
+        "definition_german": "Der Raum \u00fcber der Erde; (als Ausruf) Gott.",
+        "definition_english": "Heaven, sky.",
+        "context_snippet": "Ich gebe Ihnen einen Korb, verstehen Sie das denn nicht, Gott im Himmel?!...\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "nehmen",
+        "definition_german": "Etwas an sich bringen oder in Besitz bringen.",
+        "definition_english": "To take.",
+        "context_snippet": "Ich habe ein paar Zimmer im Gasthofe Stadt Hamburg genommen ...",
+        "chapter": 20
+    },
+    {
+        "word": "hamburg",
+        "definition_german": "Gro\u00dfstadt in Norddeutschland.",
+        "definition_english": "Hamburg (city in Germany).",
+        "context_snippet": "da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "augenblicks",
+        "definition_german": "Genitiv von Augenblick; eines sehr kurzen Zeitraumes.",
+        "definition_english": "Moment's, instant's.",
+        "context_snippet": "Seit dem ersten Augenblicke, seit jenem Nachmittage ...",
+        "chapter": 20
+    },
+    {
+        "word": "gesch\u00e4ftlich",
+        "definition_german": "Die Arbeit, den Handel oder die Firma betreffend.",
+        "definition_english": "Business-related, commercially.",
+        "context_snippet": "Der Konsul erkl\u00e4rte, gesch\u00e4ftlich zu sehr in Anspruch genommen zu sein,",
+        "chapter": 20
+    },
+    {
+        "word": "unbestimmte",
+        "definition_german": "Nicht genau festgelegt, vage.",
+        "definition_english": "Indefinite, uncertain.",
+        "context_snippet": "der jede Entscheidung auf unbestimmte Zeit hinausgeschoben hatte!",
+        "chapter": 20
+    },
+    {
+        "word": "erscheinung",
+        "definition_german": "\u00c4u\u00dfere Gestalt, sichtbare Form.",
+        "definition_english": "Appearance, figure.",
+        "context_snippet": "eine so vornehme, so traumhaft liebliche Erscheinung, erblickte ...",
+        "chapter": 20
+    },
+    {
+        "word": "oberk\u00f6rper",
+        "definition_german": "Der obere Teil des menschlichen Rumpfes.",
+        "definition_english": "Upper body, torso.",
+        "context_snippet": "beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "favoris",
+        "definition_german": "Koteletten oder Bartwuchs an den Schl\u00e4fen.",
+        "definition_english": "Sideburns, whiskers (French origin).",
+        "context_snippet": "Seine beiden goldgelben Favoris lagen auf ihrer Hand.",
+        "chapter": 20
+    },
+    {
+        "word": "welch",
+        "definition_german": "Ausruf des Erstaunens oder der Frage (Was f\u00fcr ein...).",
+        "definition_english": "What a, such a.",
+        "context_snippet": "Welch eine F\u00fcgung!\u00ab rief er.",
+        "chapter": 20
+    },
+    {
+        "word": "mal",
+        "definition_german": "Gelegenheit, Zeitpunkt.",
+        "definition_english": "Time, instance.",
+        "context_snippet": "Ein anderes Mal ... Ein anderes Mal ... Leben Sie wohl f\u00fcr heute ...",
+        "chapter": 20
+    },
+    {
+        "word": "gegenneigung",
+        "definition_german": "Abneigung, Ablehnung (Gr\u00fcnlich meint hier das Gegenteil: Zuneigung).",
+        "definition_english": "Aversion, counter-inclination.",
+        "context_snippet": "nicht wahr?! ich darf mit Ihrer Gegenneigung rechnen ... Ihrer Gegenneigung sicher sein!\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "mitleid",
+        "definition_german": "Mitgef\u00fchl, Teilnahme am Leid anderer.",
+        "definition_english": "Pity, compassion.",
+        "context_snippet": "Ihre Tr\u00e4nen waren versiegt, R\u00fchrung und Mitleid stiegen in ihr auf.",
+        "chapter": 20
+    },
+    {
+        "word": "schlaff",
+        "definition_german": "Ohne Anspannung, kraftlos.",
+        "definition_english": "Limp, slack.",
+        "context_snippet": "ihre Hand, die schlaff war vor Ratlosigkeit, in der seinen hielt,",
+        "chapter": 20
+    },
+    {
+        "word": "blauen",
+        "definition_german": "Adjektiv, das die Farbe des Himmels beschreibt.",
+        "definition_english": "Blue.",
+        "context_snippet": "Seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "m\u00f6glich",
+        "definition_german": "Machbar, realisierbar.",
+        "definition_english": "Possible.",
+        "context_snippet": "Wie war es m\u00f6glich, noch mit einem Herrn zu sprechen, der um ihre Hand angehalten hatte?",
+        "chapter": 20
+    },
+    {
+        "word": "erinnern",
+        "definition_german": "Etwas im Ged\u00e4chtnis behalten.",
+        "definition_english": "To remember, to recall.",
+        "context_snippet": "Sie erinnern sich jenes Nachmittages?... als ich Sie zum ersten Male im Kreise der Ihrigen, eine so vornehme, so traumhaft liebliche Erscheinung, erblickte ...",
+        "chapter": 20
+    },
+    {
+        "word": "f\u00fcrs",
+        "definition_german": "Kontraktion von 'f\u00fcr das'.",
+        "definition_english": "For the.",
+        "context_snippet": "ist es mein einziger, mein hei\u00dfer Wunsch, Ihre sch\u00f6ne Hand f\u00fcrs Leben zu gewinnen, ...",
+        "chapter": 20
+    },
+    {
+        "word": "verabscheue",
+        "definition_german": "Zutiefst ablehnen, Ekel empfinden.",
+        "definition_english": "To detest, to abhor.",
+        "context_snippet": "Hier liege ich ... bringen Sie es \u00fcber das Herz, mir zu sagen: Ich verabscheue Sie\u00a0--?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "z\u00e4rtlichkeit",
+        "definition_german": "Feinheit und Sanftheit im Umgang, Liebe.",
+        "definition_english": "Tenderness, affection.",
+        "context_snippet": "und auf seinem Gesicht lag ein Ausdruck flehender Z\u00e4rtlichkeit.",
+        "chapter": 20
+    },
+    {
+        "word": "vater",
+        "definition_german": "M\u00e4nnliches Elternteil.",
+        "definition_english": "Father.",
+        "context_snippet": "Vater!\u00ab -- sonst pflegte Tony \u00bbPapa\u00ab zu sagen -- \u00bbIch werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "wege",
+        "definition_german": "Hier im \u00fcbertragenen Sinn: im Weg stehen, blockieren.",
+        "definition_english": "Way, path (in the context 'im Wege' - in the way).",
+        "context_snippet": "Aber Herr Gr\u00fcnlich stand ihr im Wege.",
+        "chapter": 20
+    },
+    {
+        "word": "schritt",
+        "definition_german": "Eine einzelne Bewegung beim Gehen.",
+        "definition_english": "Step, pace.",
+        "context_snippet": "Er trat einen Schritt zur\u00fcck, er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "ausnahmsweise",
+        "definition_german": "Im Gegensatz zur Regel, nur in diesem speziellen Fall.",
+        "definition_english": "As an exception, exceptionally.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "einwurf",
+        "definition_german": "Eine ge\u00e4u\u00dferte Bemerkung oder ein Einwand.",
+        "definition_english": "Objection, comment.",
+        "context_snippet": "Herrn Gr\u00fcnlichs Bewegung war allzu gro\u00df, als da\u00df er diesen Einwurf h\u00e4tte beachten k\u00f6nnen.",
+        "chapter": 20
+    },
+    {
+        "word": "roman",
+        "definition_german": "L\u00e4ngeres fiktives Prosawerk.",
+        "definition_english": "Novel.",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "hals",
+        "definition_german": "Der Teil des K\u00f6rpers, der Kopf und Rumpf verbindet.",
+        "definition_english": "Neck, throat.",
+        "context_snippet": "Das Herz pochte ihr bis in den Hals hinauf, und sie war sehr bleich geworden.",
+        "chapter": 20
+    },
+    {
+        "word": "allein",
+        "definition_german": "Jedoch, aber.",
+        "definition_english": "But, however.",
+        "context_snippet": "Allein auch Herr Gr\u00fcnlich erhob sich.",
+        "chapter": 20
+    },
+    {
+        "word": "beide",
+        "definition_german": "Die zwei genannten Personen oder Dinge.",
+        "definition_english": "Both.",
+        "context_snippet": "Er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "beinkleid",
+        "definition_german": "Archaisches Wort f\u00fcr Hose.",
+        "definition_english": "Trousers, breeches.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer;",
+        "chapter": 20
+    },
+    {
+        "word": "mu\u00df",
+        "definition_german": "Konjugierte Form von 'm\u00fcssen'; es besteht eine Notwendigkeit.",
+        "definition_english": "Must, has to.",
+        "context_snippet": "Konnte ich l\u00e4nger warten ... Mu\u00dfte ich nicht hierher zur\u00fcckkehren?\u00bb fragte er eindringlich.",
+        "chapter": 20
+    },
+    {
+        "word": "stiegen",
+        "definition_german": "Pr\u00e4teritum Plural von 'steigen'; kamen empor.",
+        "definition_english": "Rose, ascended.",
+        "context_snippet": "Ihre Tr\u00e4nen waren versiegt, R\u00fchrung und Mitleid stiegen in ihr auf.",
+        "chapter": 20
+    },
+    {
+        "word": "armsessel",
+        "definition_german": "Ein Stuhl mit Lehnen f\u00fcr die Arme.",
+        "definition_english": "Armchair.",
+        "context_snippet": "Herr Gr\u00fcnlich hatte einen Armsessel ganz dicht an ihren Fenstersitz herangezogen, er setzte sich, er n\u00f6tigte auch sie selbst, sich wieder niederzulassen, ...",
+        "chapter": 20
+    },
+    {
+        "word": "sprang",
+        "definition_german": "Pr\u00e4teritum von 'springen'; machte einen schnellen Satz.",
+        "definition_english": "Jumped, sprang.",
+        "context_snippet": "Tony sprang auf, sie befreite ihre Hand, und w\u00e4hrend ihre Tr\u00e4nen hervorst\u00fcrzten, rief sie v\u00f6llig verzweifelt:",
+        "chapter": 20
+    },
+    {
+        "word": "ganz",
+        "definition_german": "V\u00f6llig, total.",
+        "definition_english": "Quite, entirely, very.",
+        "context_snippet": "Tony!\u00ab sagte er ganz leise, w\u00e4hrend er sanft ihre Hand erfa\u00dfte;",
+        "chapter": 20
+    },
+    {
+        "word": "ton",
+        "definition_german": "Klangfarbe, Art der \u00c4u\u00dferung.",
+        "definition_english": "Tone, sound.",
+        "context_snippet": "Nein, nein!\u00ab sagte Tony pl\u00f6tzlich in tr\u00f6stendem Ton.",
+        "chapter": 20
+    },
+    {
+        "word": "erf\u00fcllt",
+        "definition_german": "Voll von, ges\u00e4ttigt mit.",
+        "definition_english": "Filled, fulfilled.",
+        "context_snippet": "diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "verwirrt",
+        "definition_german": "Geistig durcheinander, ratlos.",
+        "definition_english": "Confused, bewildered.",
+        "context_snippet": "Sie stand, v\u00f6llig verwirrt und ersch\u00f6pft, inmitten des Zimmers, das feuchte Taschentuch in einer ihrer hinabh\u00e4ngenden H\u00e4nde.",
+        "chapter": 20
+    },
+    {
+        "word": "gasthofe",
+        "definition_german": "Dativ Singular von Gasthof; kleineres Hotel oder Wirtshaus.",
+        "definition_english": "Inn, guesthouse.",
+        "context_snippet": "Ich habe ein paar Zimmer im Gasthofe Stadt Hamburg genommen ...",
+        "chapter": 20
+    },
+    {
+        "word": "zimmer",
+        "definition_german": "Ein Raum in einem Geb\u00e4ude.",
+        "definition_english": "Room.",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "bewegung",
+        "definition_german": "Ver\u00e4nderung der Position; Geste.",
+        "definition_english": "Movement, gesture.",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "jawort",
+        "definition_german": "Die Zusage oder Zustimmung zur Ehe.",
+        "definition_english": "Consent (to marriage), 'yes' word.",
+        "context_snippet": "Ich werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "anspruch",
+        "definition_german": "Forderung, Beanspruchung von Zeit oder Ressourcen.",
+        "definition_english": "Claim, demand, requirement.",
+        "context_snippet": "Der Konsul erkl\u00e4rte, gesch\u00e4ftlich zu sehr in Anspruch genommen zu sein,",
+        "chapter": 20
+    },
+    {
+        "word": "hierbei",
+        "definition_german": "W\u00e4hrend dieses Vorgangs; in diesem Zusammenhang.",
+        "definition_english": "Hereby, in this process.",
+        "context_snippet": "Hierbei ergriff er auch mit der anderen Hand die ihre und blickte ihr tief in die \u00e4ngstlich ge\u00f6ffneten Augen.",
+        "chapter": 20
+    },
+    {
+        "word": "standen",
+        "definition_german": "Pr\u00e4teritum Plural von 'stehen'; sich aufrecht befanden.",
+        "definition_english": "Stood.",
+        "context_snippet": "So standen sie sich w\u00e4hrend eines Augenblicks gegen\u00fcber;",
+        "chapter": 20
+    },
+    {
+        "word": "oben",
+        "definition_german": "Auf einer h\u00f6heren Position, nach oben.",
+        "definition_english": "Above, upward.",
+        "context_snippet": "indem sie bei jedem Worte eine Kopfbewegung von unten nach oben machte und jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "weinte",
+        "definition_german": "Pr\u00e4teritum von 'weinen'; vergoss Tr\u00e4nen.",
+        "definition_english": "Cried, wept.",
+        "context_snippet": "Sie bem\u00fchte sich fest zu sprechen, aber sie weinte schon.",
+        "chapter": 20
+    },
+    {
+        "word": "versteht",
+        "definition_german": "Konjugierte Form von 'verstehen'; begreift.",
+        "definition_english": "Understands (used idiomatically: as is understood).",
+        "context_snippet": "es war, wie sich versteht, Herr Gr\u00fcnlich,",
+        "chapter": 20
+    },
+    {
+        "word": "ratlosigkeit",
+        "definition_german": "Zustand, in dem man keinen Rat oder Ausweg findet.",
+        "definition_english": "Helplessness, perplexity.",
+        "context_snippet": "ihre Hand, die schlaff war vor Ratlosigkeit, in der seinen hielt,",
+        "chapter": 20
+    },
+    {
+        "word": "stuhle",
+        "definition_german": "Dativ Singular von Stuhl; Sitzm\u00f6bel.",
+        "definition_english": "Chair.",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "kummer",
+        "definition_german": "Tiefe Trauer, seelisches Leid.",
+        "definition_english": "Grief, sorrow.",
+        "context_snippet": "ja, der vor Kummer sterben wird\u00ab, unterbrach er sich mit einer gewissen Hast, \u00bbwenn Sie seine Liebe verschm\u00e4hen!",
+        "chapter": 20
+    },
+    {
+        "word": "tragen",
+        "definition_german": "Eine Last halten oder bef\u00f6rdern; sich k\u00fcmmern.",
+        "definition_english": "To carry, to bear.",
+        "context_snippet": "ich verpf\u00e4nde Ihnen mein Manneswort, da\u00df ich Sie auf H\u00e4nden tragen werde, ...",
+        "chapter": 20
+    },
+    {
+        "word": "beleidigen",
+        "definition_german": "Die Ehre oder Gef\u00fchle verletzen.",
+        "definition_english": "To insult, to offend.",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "hast",
+        "definition_german": "Eile, gro\u00dfe Geschwindigkeit.",
+        "definition_english": "Haste, rush.",
+        "context_snippet": "unterbrach er sich mit einer gewissen Hast, \u00bbwenn Sie seine Liebe verschm\u00e4hen!",
+        "chapter": 20
+    },
+    {
+        "word": "hand",
+        "definition_german": "Das Greiforgan am Ende des Arms.",
+        "definition_english": "Hand.",
+        "context_snippet": "w\u00e4hrend er, vorn\u00fcbergebeugt, ihre Hand, die schlaff war vor Ratlosigkeit, in der seinen hielt,",
+        "chapter": 20
+    },
+    {
+        "word": "gro\u00df",
+        "definition_german": "Von betr\u00e4chtlicher Ausdehnung oder Intensit\u00e4t.",
+        "definition_english": "Great, large.",
+        "context_snippet": "Herrn Gr\u00fcnlichs Bewegung war allzu gro\u00df, als da\u00df er diesen Einwurf h\u00e4tte beachten k\u00f6nnen.",
+        "chapter": 20
+    },
+    {
+        "word": "zugrunde",
+        "definition_german": "V\u00f6llig zerst\u00f6rt, ruiniert (in der Wendung 'zugrunde gerichtet').",
+        "definition_english": "Ruined, destroyed (used in 'zugrunde gerichtet').",
+        "context_snippet": "Sie sehen einen Mann vor sich, der vernichtet, zugrunde gerichtet ist, wenn ...",
+        "chapter": 20
+    },
+    {
+        "word": "konsulin",
+        "definition_german": "Die Ehefrau eines Konsuls.",
+        "definition_english": "Consul's wife, Consuless.",
+        "context_snippet": "Es war Nachmittag -- ein blauer, warmer Nachmittag; die Konsulin war ausgegangen, und Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "schon",
+        "definition_german": "Bereits; zu dieser Zeit.",
+        "definition_english": "Already.",
+        "context_snippet": "Sie f\u00fchlte schon wieder, da\u00df sie weinen werde.",
+        "chapter": 20
+    },
+    {
+        "word": "entfliehen",
+        "definition_german": "Fl\u00fcchten, entkommen wollen.",
+        "definition_english": "To flee, to escape.",
+        "context_snippet": "und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "antoniens",
+        "definition_german": "Genitiv des Namens Antonie.",
+        "definition_english": "Antonie's.",
+        "context_snippet": "Die schwebende Frage in betreff Antoniens trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "schob",
+        "definition_german": "Pr\u00e4teritum von 'schieben'; etwas nach vorne bewegen.",
+        "definition_english": "Pushed, thrust (forward).",
+        "context_snippet": "Tony, die, ihren Roman in der Rechten, aufgerichtet an ihrem Stuhle stand, schob die Lippen hervor, und indem sie bei jedem Worte eine Kopfbewegung von unten nach oben machte und jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "abwartend",
+        "definition_german": "Z\u00f6gernd, in der Haltung des Wartens.",
+        "definition_english": "Waiting, expectant.",
+        "context_snippet": "trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "gattin",
+        "definition_german": "Ehefrau.",
+        "definition_english": "Wife, spouse.",
+        "context_snippet": "da\u00df Sie als meine Gattin nichts entbehren werden, da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "konsuls",
+        "definition_german": "Genitiv von Konsul; eines h\u00f6heren Beamten.",
+        "definition_english": "Consul's.",
+        "context_snippet": "An Herrn Gr\u00fcnlich war, von der Hand des Konsuls geschrieben, ein \u00fcberaus diplomatischer Brief abgegangen;",
+        "chapter": 20
+    },
+    {
+        "word": "entschlu\u00df",
+        "definition_german": "Feste Absicht, Resolution.",
+        "definition_english": "Determination, resolution.",
+        "context_snippet": "und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "rechten",
+        "definition_german": "Die rechte Hand.",
+        "definition_english": "Right (hand).",
+        "context_snippet": "Tony, die, ihren Roman in der Rechten, aufgerichtet an ihrem Stuhle stand, schob die Lippen hervor, ...",
+        "chapter": 20
+    },
+    {
+        "word": "eltern",
+        "definition_german": "Vater und Mutter.",
+        "definition_english": "Parents.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "sprechen",
+        "definition_german": "M\u00fcndlich kommunizieren, reden.",
+        "definition_english": "To speak, to talk.",
+        "context_snippet": "Wie war es m\u00f6glich, noch mit einem Herrn zu sprechen, der um ihre Hand angehalten hatte?",
+        "chapter": 20
+    },
+    {
+        "word": "ergriffen",
+        "definition_german": "Tief emotional bewegt, ger\u00fchrt.",
+        "definition_english": "Touched, moved (emotionally).",
+        "context_snippet": "wiederholte sie, indem sie sich ganz ergriffen \u00fcber ihn beugte, \u00bbich verabscheue Sie nicht, Herr Gr\u00fcnlich, wie k\u00f6nnen Sie dergleichen sagen!...",
+        "chapter": 20
+    },
+    {
+        "word": "gr\u00fcnlichs",
+        "definition_german": "Genitiv des Namens Gr\u00fcnlich.",
+        "definition_english": "Gr\u00fcnlich's.",
+        "context_snippet": "Herrn Gr\u00fcnlichs Bewegung war allzu gro\u00df, als da\u00df er diesen Einwurf h\u00e4tte beachten k\u00f6nnen.",
+        "chapter": 20
+    },
+    {
+        "word": "namen",
+        "definition_german": "Bezeichnung einer Person oder Sache.",
+        "definition_english": "Name.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer;",
+        "chapter": 20
+    },
+    {
+        "word": "herz",
+        "definition_german": "Das zentrale Organ; Sitz der Gef\u00fchle.",
+        "definition_english": "Heart.",
+        "context_snippet": "Das Herz pochte ihr bis in den Hals hinauf, und sie war sehr bleich geworden.",
+        "chapter": 20
+    },
+    {
+        "word": "sprach",
+        "definition_german": "Pr\u00e4teritum von 'sprechen'; \u00e4u\u00dferte.",
+        "definition_english": "Spoke.",
+        "context_snippet": "Aus seiner Stimme und seinem Gesicht sprach eine so ehrliche Angst, eine so aufrichtige und verzweifelte Bitte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "woche",
+        "definition_german": "Ein Zeitraum von sieben Tagen.",
+        "definition_english": "Week.",
+        "context_snippet": "Ich habe vor einer Woche den Brief Ihres =lieben= Herrn Vaters erhalten, diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "korridor",
+        "definition_german": "Langer Gang in einem Geb\u00e4ude.",
+        "definition_english": "Corridor, hallway.",
+        "context_snippet": "Tony sah, wie er in der S\u00e4ulenhalle seinen Stock ergriff und im Korridor verschwand.",
+        "chapter": 20
+    },
+    {
+        "word": "h\u00e4nden",
+        "definition_german": "Dativ Plural von Hand; die Greiforgane.",
+        "definition_english": "Hands.",
+        "context_snippet": "da\u00df ich Sie auf H\u00e4nden tragen werde, da\u00df Sie als meine Gattin nichts entbehren werden, ...",
+        "chapter": 20
+    },
+    {
+        "word": "reden",
+        "definition_german": "Sprechen, sich unterhalten.",
+        "definition_english": "To talk, to speak.",
+        "context_snippet": "Wir reden weiter davon ... Ein anderes Mal ...",
+        "chapter": 20
+    },
+    {
+        "word": "verblieb",
+        "definition_german": "Pr\u00e4teritum von 'verbleiben'; blieb an einem Ort.",
+        "definition_english": "Remained, stayed.",
+        "context_snippet": "trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "haltung",
+        "definition_german": "K\u00f6rperposition; auch: Einstellung.",
+        "definition_english": "Stance, posture, attitude.",
+        "context_snippet": "er in aufrichtig erz\u00fcrnter und gebietender Haltung, Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "lieben",
+        "definition_german": "Tiefe Zuneigung oder Leidenschaft empfinden.",
+        "definition_english": "To love.",
+        "context_snippet": "Mein Gott, wie sehr mu\u00dfte er sie lieben, da\u00df er diese Sache, die ihr selbst innerlich ganz fremd und gleichg\u00fcltig war, so weit trieb!",
+        "chapter": 20
+    },
+    {
+        "word": "stehen",
+        "definition_german": "Aufrecht auf den F\u00fc\u00dfen sein.",
+        "definition_english": "To stand.",
+        "context_snippet": "Tony, die, ihren Roman in der Rechten, aufgerichtet an ihrem Stuhle stand, schob die Lippen hervor, ...",
+        "chapter": 20
+    },
+    {
+        "word": "sei",
+        "definition_german": "Konjunktiv I von 'sein' (als ob er w\u00e4re).",
+        "definition_english": "Be, were (subjunctive).",
+        "context_snippet": "Endlich wandte er sich ab und durchma\u00df, die H\u00e4nde auf dem R\u00fccken, zweimal das Zimmer, als sei er hier zu Hause.",
+        "chapter": 20
+    },
+    {
+        "word": "augenblicke",
+        "definition_german": "Plural von Augenblick; sehr kurze Zeitspannen.",
+        "definition_english": "Moments, instants.",
+        "context_snippet": "So standen sie sich w\u00e4hrend eines Augenblicks gegen\u00fcber;",
+        "chapter": 20
+    },
+    {
+        "word": "tische",
+        "definition_german": "Dativ Singular von Tisch; M\u00f6belst\u00fcck mit Platte.",
+        "definition_english": "Table.",
+        "context_snippet": "Er hatte sich rasch erhoben, er hatte seinen gro\u00dfen grauen Hut vom Tische gerissen, hatte ihre Hand gek\u00fc\u00dft und war durch die Glast\u00fcr hinausgeeilt.",
+        "chapter": 20
+    },
+    {
+        "word": "bla\u00df",
+        "definition_german": "Hell, farblos im Gesicht, oft durch Angst oder Krankheit.",
+        "definition_english": "Pale, pallid.",
+        "context_snippet": "Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "geneigt",
+        "definition_german": "Gekippt, zur Seite gebeugt.",
+        "definition_english": "Inclined, tilted.",
+        "context_snippet": "die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "gedanke",
+        "definition_german": "Produkt des Denkens; Idee.",
+        "definition_english": "Thought, idea.",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "v\u00f6llig",
+        "definition_german": "Ganz und gar, total.",
+        "definition_english": "Completely, totally.",
+        "context_snippet": "Tony sprang auf, sie befreite ihre Hand, und w\u00e4hrend ihre Tr\u00e4nen hervorst\u00fcrzten, rief sie v\u00f6llig verzweifelt:",
+        "chapter": 20
+    },
+    {
+        "word": "verstehen",
+        "definition_german": "Den Sinn erfassen, begreifen.",
+        "definition_english": "To understand.",
+        "context_snippet": "Ich gebe Ihnen einen Korb, verstehen Sie das denn nicht, Gott im Himmel?!...\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "erteilen",
+        "definition_german": "Geben, zusprechen.",
+        "definition_english": "To grant, to give.",
+        "context_snippet": "Ich werde ihm mein Jawort niemals erteilen.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "gerissen",
+        "definition_german": "Partizip II von 'rei\u00dfen'; schnell und heftig weggezogen.",
+        "definition_english": "Tore (off), snatched.",
+        "context_snippet": "Er hatte sich rasch erhoben, er hatte seinen gro\u00dfen grauen Hut vom Tische gerissen, hatte ihre Hand gek\u00fc\u00dft und war durch die Glast\u00fcr hinausgeeilt.",
+        "chapter": 20
+    },
+    {
+        "word": "beachten",
+        "definition_german": "Ber\u00fccksichtigen, Notiz nehmen.",
+        "definition_english": "To notice, to heed.",
+        "context_snippet": "als da\u00df er diesen Einwurf h\u00e4tte beachten k\u00f6nnen.",
+        "chapter": 20
+    },
+    {
+        "word": "ausstehen",
+        "definition_german": "Jemanden nicht ertragen k\u00f6nnen (meist in Verneinung).",
+        "definition_english": "To stand, to tolerate (usually negative).",
+        "context_snippet": "Ich kann ihn nicht ausstehen!\u00bb wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "mengstra\u00dfe",
+        "definition_german": "Der Name der Stra\u00dfe in L\u00fcbeck, in der die Familie Buddenbrook wohnt.",
+        "definition_english": "Mengstra\u00dfe (street name).",
+        "context_snippet": "trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "weit",
+        "definition_german": "Mit gro\u00dfem Abstand.",
+        "definition_english": "Far, distant.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "hervor",
+        "definition_german": "Nach vorne, aus einem Inneren heraus.",
+        "definition_english": "Out, forth.",
+        "context_snippet": "stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "mitte",
+        "definition_german": "Der zentrale Punkt.",
+        "definition_english": "Middle, center.",
+        "context_snippet": "man stand in der Mitte des Juli\u00a0--,",
+        "chapter": 20
+    },
+    {
+        "word": "fast",
+        "definition_german": "Beinahe, ann\u00e4hernd.",
+        "definition_english": "Almost, nearly.",
+        "context_snippet": "fragte er mit tief gesenkter und fast vorwurfsvoller Stimme.",
+        "chapter": 20
+    },
+    {
+        "word": "wagen",
+        "definition_german": "Fahrzeug, Kutsche.",
+        "definition_english": "Carriage, coach.",
+        "context_snippet": "Ich habe mich in einen Wagen geworfen ... Ich bin hierher geeilt ...",
+        "chapter": 20
+    },
+    {
+        "word": "zehn",
+        "definition_german": "Die Zahl 10.",
+        "definition_english": "Ten.",
+        "context_snippet": "wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "leise",
+        "definition_german": "Mit geringer Lautst\u00e4rke.",
+        "definition_english": "Quietly, softly.",
+        "context_snippet": "Tony!\u00ab sagte er ganz leise, w\u00e4hrend er sanft ihre Hand erfa\u00dfte;",
+        "chapter": 20
+    },
+    {
+        "word": "sagen",
+        "definition_german": "M\u00fcndlich \u00e4u\u00dfern, sprechen.",
+        "definition_english": "To say, to tell.",
+        "context_snippet": "Bewahre, Mama!\u00ab sagte sie.",
+        "chapter": 20
+    },
+    {
+        "word": "willst",
+        "definition_german": "Konjugierte Form von 'wollen'; du hast den Wunsch.",
+        "definition_english": "Want, wish (you want to).",
+        "context_snippet": "T\u00f6te mich, wenn du willst! kam Herr Gr\u00fcnlich auf sie zu.",
+        "chapter": 20
+    },
+    {
+        "word": "langsam",
+        "definition_german": "Mit geringer Geschwindigkeit.",
+        "definition_english": "Slowly.",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu; aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "fort",
+        "definition_german": "Weiter, ununterbrochen.",
+        "definition_english": "On, further.",
+        "context_snippet": "in der seinen hielt, fuhr er mit bewegter Stimme fort:",
+        "chapter": 20
+    },
+    {
+        "word": "entschuldigen",
+        "definition_german": "Um Verzeihung bitten.",
+        "definition_english": "To excuse, to apologize.",
+        "context_snippet": "verlassen, entschuldigen Sie, ich habe keine Zeit mehr.\u00bb",
+        "chapter": 20
+    },
+    {
+        "word": "bleich",
+        "definition_german": "Farblos, hell (Gesichtsfarbe).",
+        "definition_english": "Pale.",
+        "context_snippet": "Das Herz pochte ihr bis in den Hals hinauf, und sie war sehr bleich geworden.",
+        "chapter": 20
+    },
+    {
+        "word": "hinzu",
+        "definition_german": "Zus\u00e4tzlich, obendrein.",
+        "definition_english": "In addition, besides.",
+        "context_snippet": "Ja\u00ab, sagte Tony; und aus Vorsicht f\u00fcgte sie hinzu: \u00bbLeider\u00bb\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "erhalten",
+        "definition_german": "Bekommen, in Empfang nehmen.",
+        "definition_english": "To receive, to obtain.",
+        "context_snippet": "Ich habe vor einer Woche den Brief Ihres =lieben= Herrn Vaters erhalten, diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "bereute",
+        "definition_german": "Pr\u00e4teritum von 'bereuen'; bedauerte eine Handlung.",
+        "definition_english": "Regretted.",
+        "context_snippet": "Aber ich beleidige Sie nicht, Herr Gr\u00fcnlich\u00ab, sagte Tony, denn sie bereute, so heftig gewesen zu sein.",
+        "chapter": 20
+    },
+    {
+        "word": "fremd",
+        "definition_german": "Nicht bekannt, nicht zugeh\u00f6rig, unvertraut.",
+        "definition_english": "Foreign, alien, unfamiliar.",
+        "context_snippet": "die ihr selbst innerlich ganz fremd und gleichg\u00fcltig war, so weit trieb!",
+        "chapter": 20
+    },
+    {
+        "word": "neue",
+        "definition_german": "Wieder, erneut (in der Wendung 'aufs neue').",
+        "definition_english": "New, again (in 'aufs neue').",
+        "context_snippet": "aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "verharren",
+        "definition_german": "Bleiben, ausharren, in einem Zustand verweilen.",
+        "definition_english": "To persist, to remain.",
+        "context_snippet": "Konnte ich noch l\u00e4nger in halber Gewi\u00dfheit verharren, Fr\u00e4ulein Antonie?",
+        "chapter": 20
+    },
+    {
+        "word": "drei",
+        "definition_german": "Die Zahl 3.",
+        "definition_english": "Three.",
+        "context_snippet": "Sie stammelte drei- oder viermal:",
+        "chapter": 20
+    },
+    {
+        "word": "albern",
+        "definition_german": "T\u00f6richt, l\u00e4ppisch.",
+        "definition_english": "Silly, foolish.",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "abgegangen",
+        "definition_german": "Partizip II von 'abgehen'; abgesendet, verschickt.",
+        "definition_english": "Sent off, dispatched.",
+        "context_snippet": "An Herrn Gr\u00fcnlich war, von der Hand des Konsuls geschrieben, ein \u00fcberaus diplomatischer Brief abgegangen;",
+        "chapter": 20
+    },
+    {
+        "word": "leider",
+        "definition_german": "Bedauerlicherweise.",
+        "definition_english": "Unfortunately, sadly.",
+        "context_snippet": "Ja\u00ab, sagte Tony; und aus Vorsicht f\u00fcgte sie hinzu: \u00bbLeider\u00bb\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "raschen",
+        "definition_german": "Schnell, eilig.",
+        "definition_english": "Quick, rapid.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "solange",
+        "definition_german": "W\u00e4hrend der gesamten Zeit, in der.",
+        "definition_english": "As long as.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "fest",
+        "definition_german": "Entschlossen, bestimmt.",
+        "definition_english": "Firmly, resolutely.",
+        "context_snippet": "Sie bem\u00fchte sich fest zu sprechen, aber sie weinte schon.",
+        "chapter": 20
+    },
+    {
+        "word": "hoffnung",
+        "definition_german": "Erwartung eines positiven Ergebnisses.",
+        "definition_english": "Hope.",
+        "context_snippet": "diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "sicher",
+        "definition_german": "Ohne Zweifel, gewiss; gesch\u00fctzt.",
+        "definition_english": "Sure, certain, safe.",
+        "context_snippet": "Ihrer Gegenneigung sicher sein!\u00bb Hierbei ergriff er auch mit der anderen Hand die ihre und blickte ihr tief in die \u00e4ngstlich ge\u00f6ffneten Augen.",
+        "chapter": 20
+    },
+    {
+        "word": "einfach",
+        "definition_german": "Schlicht, ohne Komplikationen; nur, lediglich.",
+        "definition_english": "Simple, merely, straightforwardly.",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "m\u00e4dchen",
+        "definition_german": "Weibliche, jugendliche Person.",
+        "definition_english": "Girl, maiden.",
+        "context_snippet": "Sie sind ein von liebender Sorgfalt beh\u00fctetes und verw\u00f6hntes M\u00e4dchen ...",
+        "chapter": 20
+    },
+    {
+        "word": "seite",
+        "definition_german": "Eine Fl\u00e4che oder Richtung, oft lateral.",
+        "definition_english": "Side.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "zwei",
+        "definition_german": "Die Zahl nach eins; das zweite Element.",
+        "definition_english": "Two.",
+        "context_snippet": "Er machte zwei gro\u00dfe Schritte r\u00fcckw\u00e4rts, beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "korb",
+        "definition_german": "Ablehnung eines Heiratsantrags (idiomatisch: einen Korb geben).",
+        "definition_english": "Rejection (specifically of a marriage proposal, 'to give someone the basket').",
+        "context_snippet": "Ich gebe Ihnen einen Korb, verstehen Sie das denn nicht, Gott im Himmel?!...",
+        "chapter": 20
+    },
+    {
+        "word": "eindringlich",
+        "definition_german": "Mit Nachdruck, nachdr\u00fccklich, fordernd.",
+        "definition_english": "Insistent, urgently, pleadingly.",
+        "context_snippet": "Konnte ich l\u00e4nger warten ... Mu\u00dfte ich nicht hierher zur\u00fcckkehren?\" fragte er eindringlich.",
+        "chapter": 20
+    },
+    {
+        "word": "diejenigen",
+        "definition_german": "Demonstrativpronomen, verweist auf bestimmte Personen oder Dinge.",
+        "definition_english": "Those, the ones.",
+        "context_snippet": "Tony starrte in sein rosiges Gesicht, auf die Warze an seiner Nase, und in seine Augen, die so blau waren wie diejenigen einer Gans.",
+        "chapter": 20
+    },
+    {
+        "word": "bevor",
+        "definition_german": "Konjunktion, die zeitliche Priorit\u00e4t anzeigt (ehe, fr\u00fcher als).",
+        "definition_english": "Before.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer; es war, wie sich versteht, Herr Gr\u00fcnlich, und auf seinem Gesicht lag ein Ausdruck flehender Z\u00e4rtlichkeit.",
+        "chapter": 20
+    },
+    {
+        "word": "erholungsreise",
+        "definition_german": "Eine Reise zur Entspannung und Wiederherstellung der Kr\u00e4fte.",
+        "definition_english": "Recreational trip, holiday, vacation journey.",
+        "context_snippet": "In diesem Jahre unternahmen Buddenbrooks auch w\u00e4hrend der Schulferien Christians und Klaras keine Erholungsreise.",
+        "chapter": 20
+    },
+    {
+        "word": "durchaus",
+        "definition_german": "In jeder Hinsicht, unbedingt, g\u00e4nzlich.",
+        "definition_english": "Absolutely, entirely, by all means.",
+        "context_snippet": "Aber, bei Gott, in diesem Augenblicke war er durchaus nicht albern!",
+        "chapter": 20
+    },
+    {
+        "word": "ersten",
+        "definition_german": "Der an der Spitze einer Reihe steht; original.",
+        "definition_english": "First.",
+        "context_snippet": "Seit dem ersten Augenblicke, seit jenem Nachmittage ... Sie erinnern sich jenes Nachmittages?...",
+        "chapter": 20
+    },
+    {
+        "word": "angehalten",
+        "definition_german": "Um die Hand angehalten: einen Heiratsantrag gemacht.",
+        "definition_english": "(Here) Proposed (for her hand in marriage).",
+        "context_snippet": "Wie war es m\u00f6glich, noch mit einem Herrn zu sprechen, der um ihre Hand angehalten hatte?",
+        "chapter": 20
+    },
+    {
+        "word": "paar",
+        "definition_german": "Zwei zusammengeh\u00f6rige Dinge oder eine kleine, unbestimmte Menge.",
+        "definition_english": "A couple, a pair, a few.",
+        "context_snippet": "Ich habe ein paar Zimmer im Gasthofe Stadt Hamburg genommen ... und da bin ich, Antonie, um von Ihren Lippen das letzte, entscheidende Wort in Empfang zu nehmen, das mich gl\u00fccklicher machen wird, als ich es zu sagen vermag!",
+        "chapter": 20
+    },
+    {
+        "word": "unterredung",
+        "definition_german": "Ein Gespr\u00e4ch zwischen zwei oder mehr Personen.",
+        "definition_english": "Conversation, discussion, interview.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "fr\u00fchst\u00fcckszimmer",
+        "definition_german": "Ein Raum, der zum Einnehmen des Fr\u00fchst\u00fccks bestimmt ist.",
+        "definition_english": "Breakfast room.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "geradezu",
+        "definition_german": "Unverbl\u00fcmt, direkt, schlichtweg.",
+        "definition_english": "Downright, absolutely, frankly.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "unterbrach",
+        "definition_german": "Die Handlung stoppen oder dazwischen reden (Pr\u00e4teritum von unterbrechen).",
+        "definition_english": "Interrupted (past tense of unterbrechen).",
+        "context_snippet": "ja, der vor Kummer sterben wird\", unterbrach er sich mit einer gewissen Hast, \"wenn Sie seine Liebe verschm\u00e4hen!",
+        "chapter": 20
+    },
+    {
+        "word": "teppich",
+        "definition_german": "Ein textiler Bodenbelag.",
+        "definition_english": "Carpet, rug.",
+        "context_snippet": "Er machte zwei gro\u00dfe Schritte r\u00fcckw\u00e4rts, beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "angst",
+        "definition_german": "Starkes Gef\u00fchl der Besorgnis oder Furcht.",
+        "definition_english": "Fear, anxiety, dread.",
+        "context_snippet": "Aus seiner Stimme und seinem Gesicht sprach eine so ehrliche Angst, eine so aufrichtige und verzweifelte Bitte...",
+        "chapter": 20
+    },
+    {
+        "word": "beugte",
+        "definition_german": "Den K\u00f6rper oder einen Teil davon neigen oder kr\u00fcmmen (Pr\u00e4teritum von beugen).",
+        "definition_english": "Bent, bowed, inclined (past tense of beugen).",
+        "context_snippet": "Er machte zwei gro\u00dfe Schritte r\u00fcckw\u00e4rts, beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "blickte",
+        "definition_german": "Den Blick richten (Pr\u00e4teritum von blicken).",
+        "definition_english": "Looked, gazed (past tense of blicken).",
+        "context_snippet": "Dann blieb er am Fenster stehen und blickte durch die Scheiben in die beginnende D\u00e4mmerung.",
+        "chapter": 20
+    },
+    {
+        "word": "leben",
+        "definition_german": "Zustand der Existenz; die Gesamtheit der Erfahrungen.",
+        "definition_english": "Life, existence.",
+        "context_snippet": "da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden...",
+        "chapter": 20
+    },
+    {
+        "word": "zweifeln",
+        "definition_german": "Zweifel hegen, unsicher sein, misstrauen.",
+        "definition_english": "To doubt, to hesitate (in belief).",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\" fragte er mit tief gesenkter und fast vorwurfsvoller Stimme.",
+        "chapter": 20
+    },
+    {
+        "word": "niederzulassen",
+        "definition_german": "Sich setzen, Platz nehmen (Infinitiv mit zu).",
+        "definition_english": "To sit down, to settle oneself.",
+        "context_snippet": "er setzte sich, er n\u00f6tigte auch sie selbst, sich wieder niederzulassen, und w\u00e4hrend er, vorn\u00fcbergebeugt, ihre Hand, die schlaff war vor Ratlosigkeit, in der seinen hielt, fuhr er mit bewegter Stimme fort:",
+        "chapter": 20
+    },
+    {
+        "word": "irren",
+        "definition_german": "Fehler machen, falsch liegen.",
+        "definition_english": "To be mistaken, to be wrong.",
+        "context_snippet": "Sie irren sich. -- Sie irren sich\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "r\u00fcckw\u00e4rts",
+        "definition_german": "In die entgegengesetzte Richtung, nach hinten.",
+        "definition_english": "Backwards, to the rear.",
+        "context_snippet": "Er machte zwei gro\u00dfe Schritte r\u00fcckw\u00e4rts, beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "person",
+        "definition_german": "Ein Mensch, Individuum; die eigene Identit\u00e4t.",
+        "definition_english": "Person, individual.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "f\u00fchren",
+        "definition_german": "Lenken, leiten, dirigieren, aus\u00fcben.",
+        "definition_english": "To lead, to conduct, to manage (a life).",
+        "context_snippet": "da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden...",
+        "chapter": 20
+    },
+    {
+        "word": "wort",
+        "definition_german": "Eine kleinste selbstst\u00e4ndige sprachliche Einheit; eine Aussage, ein Versprechen.",
+        "definition_english": "Word, promise.",
+        "context_snippet": "Das ist ein Wort!\" rief Herr Gr\u00fcnlich und sprang auf die F\u00fc\u00dfe.",
+        "chapter": 20
+    },
+    {
+        "word": "unsinnig",
+        "definition_german": "Ohne Sinn, widersinnig, absurd.",
+        "definition_english": "Nonsensical, absurd, senseless.",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "stand",
+        "definition_german": "Pr\u00e4teritum von stehen; war aufrecht.",
+        "definition_english": "Stood (past tense of stehen).",
+        "context_snippet": "Tony, die, ihren Roman in der Rechten, aufgerichtet an ihrem Stuhle stand, schob die Lippen hervor, und indem sie bei jedem Worte eine Kopfbewegung von unten nach oben machte und jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "verdient",
+        "definition_german": "Als Ergebnis einer Handlung erworben oder erhalten (Partizip II von verdienen).",
+        "definition_english": "Deserved, earned.",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\" fragte er mit tief gesenkter und fast vorwurfsvoller Stimme.",
+        "chapter": 20
+    },
+    {
+        "word": "sofort",
+        "definition_german": "Augenblicklich, ohne Verz\u00f6gerung.",
+        "definition_english": "Immediately, right away.",
+        "context_snippet": "Sofort aber, als er Tonys erschrockene Bewegung sah, lie\u00df er sich noch einmal nieder und sagte \u00e4ngstlich beschwichtigend:",
+        "chapter": 20
+    },
+    {
+        "word": "bereits",
+        "definition_german": "Schon zu diesem Zeitpunkt.",
+        "definition_english": "Already.",
+        "context_snippet": "Trotzdem standen ihr die Tr\u00e4nen bereits in der Kehle.",
+        "chapter": 20
+    },
+    {
+        "word": "sterben",
+        "definition_german": "Das Leben verlieren, aufh\u00f6ren zu existieren.",
+        "definition_english": "To die, to perish.",
+        "context_snippet": "ja, der vor Kummer sterben wird\", unterbrach er sich mit einer gewissen Hast, \"wenn Sie seine Liebe verschm\u00e4hen!",
+        "chapter": 20
+    },
+    {
+        "word": "taschentuch",
+        "definition_german": "Ein Tuch zur Reinigung des Mundes oder der Nase.",
+        "definition_english": "Handkerchief.",
+        "context_snippet": "Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "name",
+        "definition_german": "Die Bezeichnung einer Person oder Sache.",
+        "definition_english": "Name.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "ehre",
+        "definition_german": "Achtung, Respekt; W\u00fcrde, Tugend.",
+        "definition_english": "Honor, dignity.",
+        "context_snippet": "Allein auch Herr Gr\u00fcnlich erhob sich. Er trat einen Schritt zur\u00fcck, er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "gro\u00dfe",
+        "definition_german": "Von betr\u00e4chtlicher Ausdehnung oder Bedeutung.",
+        "definition_english": "Large, great, big.",
+        "context_snippet": "Er machte zwei gro\u00dfe Schritte r\u00fcckw\u00e4rts, beugte den Oberk\u00f6rper zur Seite, wies mit dem Zeigefinger auf den Teppich und rief mit f\u00fcrchterlicher Stimme:",
+        "chapter": 20
+    },
+    {
+        "word": "geworden",
+        "definition_german": "Partizip II von werden; in einen bestimmten Zustand \u00fcbergegangen.",
+        "definition_english": "Become, turned (Participle II of werden).",
+        "context_snippet": "Das Herz pochte ihr bis in den Hals hinauf, und sie war sehr bleich geworden.",
+        "chapter": 20
+    },
+    {
+        "word": "trat",
+        "definition_german": "Pr\u00e4teritum von treten; einen Schritt machen oder eintreten.",
+        "definition_english": "Stepped, entered (past tense of treten).",
+        "context_snippet": "Allein auch Herr Gr\u00fcnlich erhob sich. Er trat einen Schritt zur\u00fcck, er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "fr\u00e4ulein",
+        "definition_german": "Anrede f\u00fcr eine unverheiratete Frau (veraltet).",
+        "definition_english": "Miss (title for an unmarried woman, antiquated).",
+        "context_snippet": "Konnte ich noch l\u00e4nger in halber Gewi\u00dfheit verharren, Fr\u00e4ulein Antonie?",
+        "chapter": 20
+    },
+    {
+        "word": "mehr",
+        "definition_german": "Eine gr\u00f6\u00dfere Anzahl oder Menge.",
+        "definition_english": "More, no longer.",
+        "context_snippet": "Entschuldigen Sie, ich habe keine Zeit mehr.",
+        "chapter": 20
+    },
+    {
+        "word": "christians",
+        "definition_german": "Genitiv des Namens Christian.",
+        "definition_english": "Christian's.",
+        "context_snippet": "In diesem Jahre unternahmen Buddenbrooks auch w\u00e4hrend der Schulferien Christians und Klaras keine Erholungsreise.",
+        "chapter": 20
+    },
+    {
+        "word": "durchma\u00df",
+        "definition_german": "Eine Strecke zur\u00fccklegen, durchqueren (Pr\u00e4teritum von durchmessen).",
+        "definition_english": "Traversed, measured across (past tense of durchmessen).",
+        "context_snippet": "Endlich wandte er sich ab und durchma\u00df, die H\u00e4nde auf dem R\u00fccken, zweimal das Zimmer, als sei er hier zu Hause.",
+        "chapter": 20
+    },
+    {
+        "word": "genug",
+        "definition_german": "Eine ausreichende Menge oder Ausma\u00df.",
+        "definition_english": "Enough, sufficient.",
+        "context_snippet": "Gut, gut ... sprechen Sie nun nichts mehr, Antonie! Genug f\u00fcr diesmal, ich bitte Sie, von dieser Sache ...",
+        "chapter": 20
+    },
+    {
+        "word": "fenster",
+        "definition_german": "Eine \u00d6ffnung in einer Wand oder Decke, meist mit Glas verschlossen.",
+        "definition_english": "Window.",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "kopf",
+        "definition_german": "Der oberste Teil des K\u00f6rpers; das Denkorgan.",
+        "definition_english": "Head.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "letzte",
+        "definition_german": "Der/die/das am Ende einer Reihe steht; abschlie\u00dfend.",
+        "definition_english": "Last, final.",
+        "context_snippet": "um von Ihren Lippen das letzte, entscheidende Wort in Empfang zu nehmen, das mich gl\u00fccklicher machen wird, als ich es zu sagen vermag!",
+        "chapter": 20
+    },
+    {
+        "word": "tr\u00f6stendem",
+        "definition_german": "Beruhigend, Trost spendend (Dativ).",
+        "definition_english": "Comforting, consoling (dative).",
+        "context_snippet": "Nein, nein!\" sagte Tony pl\u00f6tzlich in tr\u00f6stendem Ton.",
+        "chapter": 20
+    },
+    {
+        "word": "ruhig",
+        "definition_german": "Gelassen, still, ohne Aufregung.",
+        "definition_english": "Calm, quiet, serene.",
+        "context_snippet": "Ihr Antrag ehrt mich\", sagte sie so ruhig sie konnte; \"aber ich kann ihn nicht annehmen ... So, und ich mu\u00df Sie nun ... verlassen, entschuldigen Sie, ich habe keine Zeit mehr.\"",
+        "chapter": 20
+    },
+    {
+        "word": "tief",
+        "definition_german": "Weit nach unten reichend oder in niedrigem Tonfall.",
+        "definition_english": "Deep, low.",
+        "context_snippet": "Womit habe ich dieses Zweifeln und Z\u00f6gern Ihrerseits verdient?\" fragte er mit tief gesenkter und fast vorwurfsvoller Stimme.",
+        "chapter": 20
+    },
+    {
+        "word": "tage",
+        "definition_german": "Plural von Tag; Zeitabschnitte von 24 Stunden.",
+        "definition_english": "Days.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "ergriff",
+        "definition_german": "Etwas festhalten oder greifen (Pr\u00e4teritum von ergreifen).",
+        "definition_english": "Seized, grasped, took hold of (past tense of ergreifen).",
+        "context_snippet": "Hierbei ergriff er auch mit der anderen Hand die ihre und blickte ihr tief in die \u00e4ngstlich ge\u00f6ffneten Augen.",
+        "chapter": 20
+    },
+    {
+        "word": "rasch",
+        "definition_german": "Schnell, z\u00fcgig.",
+        "definition_english": "Quick, rapid, swift.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "gott",
+        "definition_german": "Das h\u00f6chste Wesen, Sch\u00f6pfer.",
+        "definition_english": "God.",
+        "context_snippet": "Ich gebe Ihnen einen Korb, verstehen Sie das denn nicht, Gott im Himmel?!...",
+        "chapter": 20
+    },
+    {
+        "word": "lag",
+        "definition_german": "Befand sich in einer ruhenden Position (Pr\u00e4teritum von liegen).",
+        "definition_english": "Lay, rested (past tense of liegen).",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer; es war, wie sich versteht, Herr Gr\u00fcnlich, und auf seinem Gesicht lag ein Ausdruck flehender Z\u00e4rtlichkeit.",
+        "chapter": 20
+    },
+    {
+        "word": "weise",
+        "definition_german": "Art und Weise, Methode.",
+        "definition_english": "Way, manner, fashion.",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?",
+        "chapter": 20
+    },
+    {
+        "word": "herr",
+        "definition_german": "Anrede f\u00fcr einen Mann; Meister.",
+        "definition_english": "Mr., gentleman, lord.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "erledigt",
+        "definition_german": "Abschlossen, beendet, geregelt.",
+        "definition_english": "Settled, dealt with, finished.",
+        "context_snippet": "Sie hatte geglaubt, man brauche nur zu sagen: \u00bbIhr Antrag ehrt mich, aber ich kann ihn nicht annehmen\u00ab, damit alles erledigt sei\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "begegnen",
+        "definition_german": "Auf jemanden treffen; geschehen, widerfahren.",
+        "definition_english": "To happen (to someone), to encounter.",
+        "context_snippet": "Mein Gott, mu\u00dfte gerade ihr dies begegnen!",
+        "chapter": 20
+    },
+    {
+        "word": "d\u00e4mmerung",
+        "definition_german": "Der \u00dcbergang von Tag zu Nacht oder umgekehrt.",
+        "definition_english": "Twilight, dusk, dawn.",
+        "context_snippet": "Dann blieb er am Fenster stehen und blickte durch die Scheiben in die beginnende D\u00e4mmerung.",
+        "chapter": 20
+    },
+    {
+        "word": "spa\u00df",
+        "definition_german": "Vergn\u00fcgen, Unterhaltung.",
+        "definition_english": "Fun, joke.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "entsetzt",
+        "definition_german": "Mit Schrecken erf\u00fcllt, au\u00dfer sich vor Schock.",
+        "definition_english": "Horrified, terrified, aghast.",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "verschwand",
+        "definition_german": "Nicht mehr sichtbar sein (Pr\u00e4teritum von verschwinden).",
+        "definition_english": "Disappeared, vanished (past tense of verschwinden).",
+        "context_snippet": "Tony sah, wie er in der S\u00e4ulenhalle seinen Stock ergriff und im Korridor verschwand.",
+        "chapter": 20
+    },
+    {
+        "word": "vorsichtigen",
+        "definition_german": "Bedacht, umsichtig, mit Vorsicht handelnd (Akkusativ).",
+        "definition_english": "Cautious, careful, prudent.",
+        "context_snippet": "Das also war die Wirkung des vorsichtigen v\u00e4terlichen Briefes, der jede Entscheidung auf unbestimmte Zeit hinausgeschoben hatte!",
+        "chapter": 20
+    },
+    {
+        "word": "davon",
+        "definition_german": "Von der genannten Sache; von diesem Ort.",
+        "definition_english": "Of it, about it.",
+        "context_snippet": "Wir reden weiter davon ... Ein anderes Mal ...",
+        "chapter": 20
+    },
+    {
+        "word": "trotzdem",
+        "definition_german": "Dennoch, ungeachtet dessen.",
+        "definition_english": "Nevertheless, despite that.",
+        "context_snippet": "Trotzdem standen ihr die Tr\u00e4nen bereits in der Kehle.",
+        "chapter": 20
+    },
+    {
+        "word": "hierher",
+        "definition_german": "An diesen Ort (Richtung).",
+        "definition_english": "Hither, to this place.",
+        "context_snippet": "Mu\u00dfte ich nicht hierher zur\u00fcckkehren?\" fragte er eindringlich.",
+        "chapter": 20
+    },
+    {
+        "word": "t\u00f6ten",
+        "definition_german": "Jemandem das Leben nehmen.",
+        "definition_english": "To kill, to slay.",
+        "context_snippet": "Sie wollen mich nicht t\u00f6ten?\" fragte er wieder, und sie sagte noch einmal in einem beinahe m\u00fctterlich tr\u00f6stenden Ton:",
+        "chapter": 20
+    },
+    {
+        "word": "wohl",
+        "definition_german": "Gut; dr\u00fcckt oft Abschiedsw\u00fcnsche aus (Lebewohl: Farewell).",
+        "definition_english": "Well; expressing farewell (fare well).",
+        "context_snippet": "Leben Sie wohl f\u00fcr heute ... Leben Sie wohl ... Ich kehre zur\u00fcck ... Leben Sie wohl!\u00a0--",
+        "chapter": 20
+    },
+    {
+        "word": "mama",
+        "definition_german": "Koseform f\u00fcr Mutter.",
+        "definition_english": "Mom, Mummy.",
+        "context_snippet": "Bewahre, Mama!\" sagte sie.",
+        "chapter": 20
+    },
+    {
+        "word": "stie\u00df",
+        "definition_german": "Aussagen mit Nachdruck oder schnell hervorbringen (Pr\u00e4teritum von sto\u00dfen).",
+        "definition_english": "Thrust, uttered, blurted out (past tense of sto\u00dfen).",
+        "context_snippet": "stie\u00df sie hervor: \u00bbWas -- f\u00e4llt -- Ihnen -- ein!\u00ab",
+        "chapter": 20
+    },
+    {
+        "word": "hut",
+        "definition_german": "Eine Kopfbedeckung.",
+        "definition_english": "Hat.",
+        "context_snippet": "Er hatte sich rasch erhoben, er hatte seinen gro\u00dfen grauen Hut vom Tische gerissen, hatte ihre Hand gek\u00fc\u00dft und war durch die Glast\u00fcr hinausgeeilt.",
+        "chapter": 20
+    },
+    {
+        "word": "werbung",
+        "definition_german": "Die Bem\u00fchung, jemanden zur Heirat zu bewegen; das Werben um jemanden.",
+        "definition_english": "Courting, wooing, proposal.",
+        "context_snippet": "Sie hatte sich so eine Werbung nicht vorgestellt.",
+        "chapter": 20
+    },
+    {
+        "word": "konnte",
+        "definition_german": "Pr\u00e4teritum von k\u00f6nnen; war f\u00e4hig.",
+        "definition_english": "Could, was able to (past tense of k\u00f6nnen).",
+        "context_snippet": "Ihr Antrag ehrt mich\", sagte sie so ruhig sie konnte; \"aber ich kann ihn nicht annehmen ...",
+        "chapter": 20
+    },
+    {
+        "word": "glast\u00fcr",
+        "definition_german": "Eine T\u00fcr, deren Fl\u00e4che gr\u00f6\u00dftenteils aus Glas besteht.",
+        "definition_english": "Glass door.",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu; aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "st",
+        "definition_german": "Die Konsonantenkombination s-t, hier bezogen auf die Aussprache.",
+        "definition_english": "The consonant combination 'st'.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "frage",
+        "definition_german": "Eine Angelegenheit, die noch nicht entschieden ist; ein Sachverhalt.",
+        "definition_english": "Question, issue, matter.",
+        "context_snippet": "Der Konsul erkl\u00e4rte, gesch\u00e4ftlich zu sehr in Anspruch genommen zu sein, und die schwebende Frage in betreff Antoniens trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "h\u00f6chstem",
+        "definition_german": "Superlativ von hoch; von gr\u00f6\u00dftem Grad.",
+        "definition_english": "Highest, utmost.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "gerade",
+        "definition_german": "Eben, exakt zu diesem Zeitpunkt; speziell.",
+        "definition_english": "Just, exactly, precisely.",
+        "context_snippet": "Mein Gott, mu\u00dfte gerade ihr dies begegnen!",
+        "chapter": 20
+    },
+    {
+        "word": "blau",
+        "definition_german": "Eine der Grundfarben; die Farbe des Himmels.",
+        "definition_english": "Blue.",
+        "context_snippet": "Es war Nachmittag -- ein blauer, warmer Nachmittag; die Konsulin war ausgegangen, und Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "erst",
+        "definition_german": "Zuerst; nicht fr\u00fcher als; nur.",
+        "definition_english": "First, only, not until.",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu; aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "zur\u00fcck",
+        "definition_german": "In die Ausgangsposition, nach hinten.",
+        "definition_english": "Back, backwards, return.",
+        "context_snippet": "Allein auch Herr Gr\u00fcnlich erhob sich. Er trat einen Schritt zur\u00fcck, er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "traumhaft",
+        "definition_german": "Wie im Traum, wunderbar, unwirklich sch\u00f6n.",
+        "definition_english": "Dreamlike, wonderful, lovely.",
+        "context_snippet": "als ich Sie zum ersten Male im Kreise der Ihrigen, eine so vornehme, so traumhaft liebliche Erscheinung, erblickte ...",
+        "chapter": 20
+    },
+    {
+        "word": "angelegenheit",
+        "definition_german": "Ein Problem, eine Sache, ein Gesch\u00e4ft.",
+        "definition_english": "Matter, affair, business.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "feierlichkeit",
+        "definition_german": "Ernsthaftigkeit, W\u00fcrde, Zeremonie.",
+        "definition_english": "Solemnity, formality.",
+        "context_snippet": "Oder sie erkl\u00e4rte mit Feierlichkeit: \u00bbVater!\u00ab -- sonst pflegte Tony \u00bbPapa\u00ab zu sagen -- \u00bbIch werde ihm mein Jawort niemals erteilen.\u00ab",
+        "chapter": 20
+    },
+    {
+        "word": "annehmen",
+        "definition_german": "Akzeptieren, entgegennehmen.",
+        "definition_english": "To accept, to take.",
+        "context_snippet": "Ihr Antrag ehrt mich\", sagte sie so ruhig sie konnte; \"aber ich kann ihn nicht annehmen ...",
+        "chapter": 20
+    },
+    {
+        "word": "fenstersitz",
+        "definition_german": "Ein Sitzplatz direkt am Fenster.",
+        "definition_english": "Window seat.",
+        "context_snippet": "Herr Gr\u00fcnlich hatte einen Armsessel ganz dicht an ihren Fenstersitz herangezogen, er setzte sich, er n\u00f6tigte auch sie selbst, sich wieder niederzulassen, und w\u00e4hrend er, vorn\u00fcbergebeugt, ihre Hand, die schlaff war vor Ratlosigkeit, in der seinen hielt, fuhr er mit bewegter Stimme fort:",
+        "chapter": 20
+    },
+    {
+        "word": "betrat",
+        "definition_german": "Den Raum betreten (Pr\u00e4teritum von betreten).",
+        "definition_english": "Entered, stepped into (past tense of betreten).",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "gleichg\u00fcltig",
+        "definition_german": "Ohne Interesse oder Anteilnahme; egal.",
+        "definition_english": "Indifferent, unconcerned.",
+        "context_snippet": "diese Sache, die ihr selbst innerlich ganz fremd und gleichg\u00fcltig war, so weit trieb!",
+        "chapter": 20
+    },
+    {
+        "word": "zweimal",
+        "definition_german": "Zwei Male, in doppelter Ausf\u00fchrung.",
+        "definition_english": "Twice, two times.",
+        "context_snippet": "Endlich wandte er sich ab und durchma\u00df, die H\u00e4nde auf dem R\u00fccken, zweimal das Zimmer, als sei er hier zu Hause.",
+        "chapter": 20
+    },
+    {
+        "word": "gehrock",
+        "definition_german": "Ein langer Herrenrock, der typischerweise im 19. Jahrhundert getragen wurde.",
+        "definition_english": "Frock coat, walking coat.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "heute",
+        "definition_german": "Am gegenw\u00e4rtigen Tag.",
+        "definition_english": "Today.",
+        "context_snippet": "Er trug heute keine Zwirnhandschuhe; seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "fuhr",
+        "definition_german": "Schnell, abrupt bewegt; Pr\u00e4teritum von fahren.",
+        "definition_english": "Moved abruptly, drove (past tense of fahren).",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "dahin",
+        "definition_german": "An jenen Ort; bis zu diesem Punkt (\u00fcbertragen).",
+        "definition_english": "Thither, there; up to this point.",
+        "context_snippet": "sehen Sie mich hier ... Dahin haben Sie es gebracht ...",
+        "chapter": 20
+    },
+    {
+        "word": "trieb",
+        "definition_german": "Pr\u00e4teritum von treiben; etwas voranbringen, erzwingen.",
+        "definition_english": "Drove, pushed, forced (past tense of treiben).",
+        "context_snippet": "wie sehr mu\u00dfte er sie lieben, da\u00df er diese Sache, die ihr selbst innerlich ganz fremd und gleichg\u00fcltig war, so weit trieb!",
+        "chapter": 20
+    },
+    {
+        "word": "gebracht",
+        "definition_german": "Partizip II von bringen; veranlasst, hingef\u00fchrt.",
+        "definition_english": "Brought, caused (Participle II of bringen).",
+        "context_snippet": "sehen Sie mich hier ... Dahin haben Sie es gebracht ...",
+        "chapter": 20
+    },
+    {
+        "word": "\u00e4ngstlich",
+        "definition_german": "Von Angst erf\u00fcllt, besorgt.",
+        "definition_english": "Anxiously, fearfully.",
+        "context_snippet": "blickte ihr tief in die \u00e4ngstlich ge\u00f6ffneten Augen.",
+        "chapter": 20
+    },
+    {
+        "word": "arme",
+        "definition_german": "Plural von Arm; die oberen Gliedma\u00dfen.",
+        "definition_english": "Arms.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "tonlos",
+        "definition_german": "Ohne Klang oder Ausdruck.",
+        "definition_english": "Toneless, flatly, weakly.",
+        "context_snippet": "Sie weisen mich zur\u00fcck?\" fragte er tonlos...",
+        "chapter": 20
+    },
+    {
+        "word": "kam",
+        "definition_german": "Pr\u00e4teritum von kommen; n\u00e4herte sich.",
+        "definition_english": "Came (past tense of kommen).",
+        "context_snippet": "kam Herr Gr\u00fcnlich auf sie zu.",
+        "chapter": 20
+    },
+    {
+        "word": "ausdruck",
+        "definition_german": "Die Darstellung oder Kundgabe eines Gef\u00fchls.",
+        "definition_english": "Expression, look.",
+        "context_snippet": "es war, wie sich versteht, Herr Gr\u00fcnlich, und auf seinem Gesicht lag ein Ausdruck flehender Z\u00e4rtlichkeit.",
+        "chapter": 20
+    },
+    {
+        "word": "gesicht",
+        "definition_german": "Die Vorderseite des Kopfes.",
+        "definition_english": "Face.",
+        "context_snippet": "Tony starrte in sein rosiges Gesicht, auf die Warze an seiner Nase, und in seine Augen, die so blau waren wie diejenigen einer Gans.",
+        "chapter": 20
+    },
+    {
+        "word": "lang",
+        "definition_german": "Von gro\u00dfer Ausdehnung in einer Dimension.",
+        "definition_english": "Long.",
+        "context_snippet": "Seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "hinausgeschoben",
+        "definition_german": "Auf einen sp\u00e4teren Zeitpunkt verlegt (Partizip II von hinausschieben).",
+        "definition_english": "Postponed, delayed.",
+        "context_snippet": "Das also war die Wirkung des vorsichtigen v\u00e4terlichen Briefes, der jede Entscheidung auf unbestimmte Zeit hinausgeschoben hatte!",
+        "chapter": 20
+    },
+    {
+        "word": "nase",
+        "definition_german": "Das Geruchsorgan in der Mitte des Gesichts.",
+        "definition_english": "Nose.",
+        "context_snippet": "Tony starrte in sein rosiges Gesicht, auf die Warze an seiner Nase, und in seine Augen, die so blau waren wie diejenigen einer Gans.",
+        "chapter": 20
+    },
+    {
+        "word": "entr\u00fcstung",
+        "definition_german": "Emp\u00f6rung, Zorn \u00fcber etwas Unrechtes.",
+        "definition_english": "Indignation, outrage.",
+        "context_snippet": "jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "beschwichtigend",
+        "definition_german": "Beruhigend, bes\u00e4nftigend, mildernd.",
+        "definition_english": "Placating, reassuring, soothing.",
+        "context_snippet": "lie\u00df er sich noch einmal nieder und sagte \u00e4ngstlich beschwichtigend:",
+        "chapter": 20
+    },
+    {
+        "word": "schulferien",
+        "definition_german": "Die unterrichtsfreie Zeit w\u00e4hrend des Schuljahres.",
+        "definition_english": "School holidays, school vacation.",
+        "context_snippet": "In diesem Jahre unternahmen Buddenbrooks auch w\u00e4hrend der Schulferien Christians und Klaras keine Erholungsreise.",
+        "chapter": 20
+    },
+    {
+        "word": "inmitten",
+        "definition_german": "In der Mitte von etwas, mitten unter.",
+        "definition_english": "In the middle of, amidst.",
+        "context_snippet": "Sie stand, v\u00f6llig verwirrt und ersch\u00f6pft, inmitten des Zimmers, das feuchte Taschentuch in einer ihrer hinabh\u00e4ngenden H\u00e4nde.",
+        "chapter": 20
+    },
+    {
+        "word": "entbehren",
+        "definition_german": "Auf etwas verzichten m\u00fcssen, etwas missen.",
+        "definition_english": "To lack, to do without.",
+        "context_snippet": "da\u00df Sie als meine Gattin nichts entbehren werden, da\u00df Sie in Hamburg ein Ihrer w\u00fcrdiges Leben f\u00fchren werden...",
+        "chapter": 20
+    },
+    {
+        "word": "verweint",
+        "definition_german": "Durch Weinen gezeichnet; mit Tr\u00e4nenspuren.",
+        "definition_english": "Tear-stained, tearful.",
+        "context_snippet": "Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "\u00fcberaus",
+        "definition_german": "Sehr, au\u00dferordentlich, in hohem Ma\u00dfe.",
+        "definition_english": "Exceedingly, extremely.",
+        "context_snippet": "An Herrn Gr\u00fcnlich war, von der Hand des Konsuls geschrieben, ein \u00fcberaus diplomatischer Brief abgegangen;",
+        "chapter": 20
+    },
+    {
+        "word": "tiefen",
+        "definition_german": "Stark, intensiv; von gro\u00dfer Tiefe.",
+        "definition_english": "Deep, profound.",
+        "context_snippet": "jedes dieser Worte mit einer tiefen Entr\u00fcstung betonte, stie\u00df sie hervor:",
+        "chapter": 20
+    },
+    {
+        "word": "dergleichen",
+        "definition_german": "Solche Sachen, \u00c4hnliches.",
+        "definition_english": "Such things, the like.",
+        "context_snippet": "In Romanen las man dergleichen, und nun lag im gew\u00f6hnlichen Leben ein Herr im Gehrock vor ihr auf den Knien und flehte!...",
+        "chapter": 20
+    },
+    {
+        "word": "verschm\u00e4hen",
+        "definition_german": "Verachten, ablehnen, zur\u00fcckweisen.",
+        "definition_english": "To scorn, to reject, to disdain.",
+        "context_snippet": "wenn Sie seine Liebe verschm\u00e4hen!",
+        "chapter": 20
+    },
+    {
+        "word": "konsul",
+        "definition_german": "Ein Titel, oft f\u00fcr eine hochrangige Kaufmannsfigur (hier: Herr Buddenbrook).",
+        "definition_english": "Consul (a title of high civic or mercantile standing).",
+        "context_snippet": "Der Konsul erkl\u00e4rte, gesch\u00e4ftlich zu sehr in Anspruch genommen zu sein, und die schwebende Frage in betreff Antoniens trug dazu bei, da\u00df man abwartend in der Mengstra\u00dfe verblieb.",
+        "chapter": 20
+    },
+    {
+        "word": "kehle",
+        "definition_german": "Der Rachen, der obere Teil der Speiser\u00f6hre.",
+        "definition_english": "Throat.",
+        "context_snippet": "Trotzdem standen ihr die Tr\u00e4nen bereits in der Kehle.",
+        "chapter": 20
+    },
+    {
+        "word": "aufrichtig",
+        "definition_german": "Ehrlich, offen, unverstellt.",
+        "definition_english": "Sincere, honest, candid.",
+        "context_snippet": "Aus seiner Stimme und seinem Gesicht sprach eine so ehrliche Angst, eine so aufrichtige und verzweifelte Bitte...",
+        "chapter": 20
+    },
+    {
+        "word": "diesmal",
+        "definition_german": "Nur dieses eine Mal.",
+        "definition_english": "This time.",
+        "context_snippet": "Genug f\u00fcr diesmal, ich bitte Sie, von dieser Sache ...",
+        "chapter": 20
+    },
+    {
+        "word": "vernichtet",
+        "definition_german": "Zerst\u00f6rt, ruiniert, v\u00f6llig am Ende.",
+        "definition_english": "Destroyed, annihilated, ruined.",
+        "context_snippet": "sehen Sie einen Mann vor sich, der vernichtet, zugrunde gerichtet ist, wenn ...",
+        "chapter": 20
+    },
+    {
+        "word": "stehengeblieben",
+        "definition_german": "An einem Punkt verharrt, nicht fortgeschritten.",
+        "definition_english": "Remained stuck, stagnated.",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben, wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "entfernt",
+        "definition_german": "Weit weg, r\u00e4umlich getrennt.",
+        "definition_english": "Distant, far away.",
+        "context_snippet": "Solange sie Herrn Gr\u00fcnlich weit entfernt wu\u00dfte, hatten die ernsthaften Verhandlungen mit den Eltern und die pl\u00f6tzliche Wichtigkeit ihrer Person und Entscheidung ihr geradezu Spa\u00df gemacht.",
+        "chapter": 20
+    },
+    {
+        "word": "grauen",
+        "definition_german": "Die Farbe zwischen Schwarz und Wei\u00df.",
+        "definition_english": "Gray, grey.",
+        "context_snippet": "Er hatte sich rasch erhoben, er hatte seinen gro\u00dfen grauen Hut vom Tische gerissen, hatte ihre Hand gek\u00fc\u00dft und war durch die Glast\u00fcr hinausgeeilt.",
+        "chapter": 20
+    },
+    {
+        "word": "wunsch",
+        "definition_german": "Ein Verlangen, ein Begehren.",
+        "definition_english": "Wish, desire.",
+        "context_snippet": "ist es mein einziger, mein hei\u00dfer Wunsch, Ihre sch\u00f6ne Hand f\u00fcrs Leben zu gewinnen...",
+        "chapter": 20
+    },
+    {
+        "word": "befand",
+        "definition_german": "Pr\u00e4teritum von befinden; war an einem bestimmten Ort.",
+        "definition_english": "Found oneself, was located (past tense of befinden).",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu; aber sie befand sich erst in der Mitte des Zimmers, als Herr Gr\u00fcnlich aufs neue bei ihr stand.",
+        "chapter": 20
+    },
+    {
+        "word": "manneswort",
+        "definition_german": "Ein feierliches Versprechen oder eine eidliche Zusicherung eines Mannes.",
+        "definition_english": "A man's word, solemn promise.",
+        "context_snippet": "ja, ich verpf\u00e4nde Ihnen mein Manneswort, da\u00df ich Sie auf H\u00e4nden tragen werde...",
+        "chapter": 20
+    },
+    {
+        "word": "halber",
+        "definition_german": "Die H\u00e4lfte; unvollst\u00e4ndig.",
+        "definition_english": "Half, partial.",
+        "context_snippet": "Konnte ich noch l\u00e4nger in halber Gewi\u00dfheit verharren, Fr\u00e4ulein Antonie?",
+        "chapter": 20
+    },
+    {
+        "word": "heftig",
+        "definition_german": "Stark, leidenschaftlich, st\u00fcrmisch.",
+        "definition_english": "Vehemently, strongly, fierce.",
+        "context_snippet": "Aber ich beleidige Sie nicht, Herr Gr\u00fcnlich\", sagte Tony, denn sie bereute, so heftig gewesen zu sein.",
+        "chapter": 20
+    },
+    {
+        "word": "zeit",
+        "definition_german": "Die Dimension, in der Ereignisse nacheinander stattfinden.",
+        "definition_english": "Time.",
+        "context_snippet": "Bevor sie noch Zeit gehabt, den Namen zu lesen, betrat ein Herr in glockenf\u00f6rmigem Gehrock und erbsenfarbenem Beinkleid das Zimmer...",
+        "chapter": 20
+    },
+    {
+        "word": "nein",
+        "definition_german": "Verneinendes Wort; Ablehnung.",
+        "definition_english": "No.",
+        "context_snippet": "Nein, nein!\" brachte sie rasch und angstvoll hervor. Hierauf sagte sie noch: \"Ich gebe Ihnen nicht mein Jawort!\"",
+        "chapter": 20
+    },
+    {
+        "word": "gr\u00fcnlich",
+        "definition_german": "Nachname der Figur.",
+        "definition_english": "Gr\u00fcnlich (surname of the character).",
+        "context_snippet": "es war, wie sich versteht, Herr Gr\u00fcnlich, und auf seinem Gesicht lag ein Ausdruck flehender Z\u00e4rtlichkeit.",
+        "chapter": 20
+    },
+    {
+        "word": "hervorst\u00fcrzten",
+        "definition_german": "Pl\u00f6tzlich und schnell herauskommen, hervorbrechen (Pr\u00e4teritum Plural/Infinitiv).",
+        "definition_english": "Gushed out, burst forth (past tense).",
+        "context_snippet": "w\u00e4hrend ihre Tr\u00e4nen hervorst\u00fcrzten, rief sie v\u00f6llig verzweifelt:",
+        "chapter": 20
+    },
+    {
+        "word": "erhoben",
+        "definition_german": "Sich aufrichten, aufstehen (Pr\u00e4teritum von erheben).",
+        "definition_english": "Raised, stood up (past tense of erheben).",
+        "context_snippet": "Allein auch Herr Gr\u00fcnlich erhob sich. Er trat einen Schritt zur\u00fcck, er breitete die Arme aus, indem er ihr beide Handfl\u00e4chen entgegenhielt, und sprach mit dem Ernst eines Mannes von Ehre und Entschlu\u00df:",
+        "chapter": 20
+    },
+    {
+        "word": "mademoiselle",
+        "definition_german": "Franz\u00f6sische Anrede f\u00fcr eine unverheiratete Frau.",
+        "definition_english": "Mademoiselle, Miss.",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?",
+        "chapter": 20
+    },
+    {
+        "word": "zitternd",
+        "definition_german": "Bebend, sch\u00fcttelnd vor Angst oder K\u00e4lte.",
+        "definition_english": "Trembling, shaking.",
+        "context_snippet": "Tony bla\u00df, verweint und zitternd, das feuchte Taschentuch am Munde.",
+        "chapter": 20
+    },
+    {
+        "word": "gerichtet",
+        "definition_german": "Ruiniert, in den Ruin getrieben (Partizip II von richten).",
+        "definition_english": "Ruined, destroyed.",
+        "context_snippet": "sehen Sie einen Mann vor sich, der vernichtet, zugrunde gerichtet ist, wenn ...",
+        "chapter": 20
+    },
+    {
+        "word": "s\u00e4ulenhalle",
+        "definition_german": "Ein Eingangsbereich oder eine Halle, die von S\u00e4ulen gest\u00fctzt wird.",
+        "definition_english": "Pillared hall, colonnade.",
+        "context_snippet": "Tony sah, wie er in der S\u00e4ulenhalle seinen Stock ergriff und im Korridor verschwand.",
+        "chapter": 20
+    },
+    {
+        "word": "wei\u00df",
+        "definition_german": "Die hellste Farbe, die Farbe des Schnees.",
+        "definition_english": "White.",
+        "context_snippet": "Seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "warze",
+        "definition_german": "Eine kleine, gutartige Hautwucherung.",
+        "definition_english": "Wart.",
+        "context_snippet": "Tony starrte in sein rosiges Gesicht, auf die Warze an seiner Nase, und in seine Augen, die so blau waren wie diejenigen einer Gans.",
+        "chapter": 20
+    },
+    {
+        "word": "hierauf",
+        "definition_german": "Danach, als Reaktion darauf.",
+        "definition_english": "Thereupon, after that.",
+        "context_snippet": "Nein, nein!\" brachte sie rasch und angstvoll hervor. Hierauf sagte sie noch: \"Ich gebe Ihnen nicht mein Jawort!\"",
+        "chapter": 20
+    },
+    {
+        "word": "empfang",
+        "definition_german": "Die Entgegennahme, Annahme.",
+        "definition_english": "Receipt, reception.",
+        "context_snippet": "um von Ihren Lippen das letzte, entscheidende Wort in Empfang zu nehmen, das mich gl\u00fccklicher machen wird, als ich es zu sagen vermag!",
+        "chapter": 20
+    },
+    {
+        "word": "bitte",
+        "definition_german": "Eine h\u00f6fliche Aufforderung; das Erbitten.",
+        "definition_english": "Please, request.",
+        "context_snippet": "Aber nun stehen Sie auf ... bitte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "antrag",
+        "definition_german": "Ein Heiratsangebot; formeller Vorschlag.",
+        "definition_english": "Proposal, offer.",
+        "context_snippet": "Ihr Antrag ehrt mich\", sagte sie so ruhig sie konnte; \"aber ich kann ihn nicht annehmen ...",
+        "chapter": 20
+    },
+    {
+        "word": "silbe",
+        "definition_german": "Eine kleinste Einheit der Sprache, die in einem Atemzug gesprochen wird.",
+        "definition_english": "Syllable.",
+        "context_snippet": "wobei sie die zweite Silbe des letzten Wortes mit h\u00f6chstem Nachdruck betonte und das \u00bbst\u00ab ausnahmsweise nicht getrennt sprach.",
+        "chapter": 20
+    },
+    {
+        "word": "durchzogen",
+        "definition_german": "Von etwas durchdrungen oder durchlaufen.",
+        "definition_english": "Threaded through, traversed, laced (with veins).",
+        "context_snippet": "seine H\u00e4nde waren lang, wei\u00df und von hohen, blauen Adern durchzogen.",
+        "chapter": 20
+    },
+    {
+        "word": "gefunden",
+        "definition_german": "Partizip II von finden; als Ergebnis der Suche erhalten oder als Meinung etabliert.",
+        "definition_english": "Found, considered (Participle II of finden).",
+        "context_snippet": "Ihr war der Gedanke, ihn zu heiraten, einfach unsinnig erschienen, weil sie Herrn Gr\u00fcnlich albern gefunden hatte.",
+        "chapter": 20
+    },
+    {
+        "word": "landschaftszimmer",
+        "definition_german": "Ein Raum, oft mit Landschaftsbildern oder Blick auf die Natur.",
+        "definition_english": "Landscape room (a room likely decorated with landscapes or affording a good view).",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "sehen",
+        "definition_german": "Mit den Augen wahrnehmen.",
+        "definition_english": "To see, to perceive.",
+        "context_snippet": "sehen Sie mich hier ... Dahin haben Sie es gebracht ...",
+        "chapter": 20
+    },
+    {
+        "word": "ausgebreitet",
+        "definition_german": "Weit ge\u00f6ffnet, gestreckt (Partizip II).",
+        "definition_english": "Spread out, extended.",
+        "context_snippet": "Mit raschen Schritten, die Arme ausgebreitet und den Kopf zur Seite geneigt, in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "sch\u00f6ne",
+        "definition_german": "\u00c4sthetisch ansprechend, h\u00fcbsch (Adjektiv).",
+        "definition_english": "Beautiful, lovely.",
+        "context_snippet": "ist es mein einziger, mein hei\u00dfer Wunsch, Ihre sch\u00f6ne Hand f\u00fcrs Leben zu gewinnen...",
+        "chapter": 20
+    },
+    {
+        "word": "stadt",
+        "definition_german": "Eine gr\u00f6\u00dfere, bewohnte Ortschaft.",
+        "definition_english": "City, town.",
+        "context_snippet": "Ich habe ein paar Zimmer im Gasthofe Stadt Hamburg genommen...",
+        "chapter": 20
+    },
+    {
+        "word": "angstvoll",
+        "definition_german": "Voller Angst, besorgt.",
+        "definition_english": "Fearfully, anxiously.",
+        "context_snippet": "Nein, nein!\" brachte sie rasch und angstvoll hervor. Hierauf sagte sie noch: \"Ich gebe Ihnen nicht mein Jawort!\"",
+        "chapter": 20
+    },
+    {
+        "word": "gl\u00fccklicher",
+        "definition_german": "Komparativ von gl\u00fccklich; froher, zufriedener.",
+        "definition_english": "Happier.",
+        "context_snippet": "das mich gl\u00fccklicher machen wird, als ich es zu sagen vermag!",
+        "chapter": 20
+    },
+    {
+        "word": "brief",
+        "definition_german": "Eine schriftliche Mitteilung.",
+        "definition_english": "Letter.",
+        "context_snippet": "Ich habe vor einer Woche den Brief Ihres =lieben= Herrn Vaters erhalten, diesen Brief, der mich mit Hoffnung erf\u00fcllt hat!",
+        "chapter": 20
+    },
+    {
+        "word": "stock",
+        "definition_german": "Ein Gehstock.",
+        "definition_english": "Stick, cane.",
+        "context_snippet": "Tony sah, wie er in der S\u00e4ulenhalle seinen Stock ergriff und im Korridor verschwand.",
+        "chapter": 20
+    },
+    {
+        "word": "hartn\u00e4ckigkeit",
+        "definition_german": "Eigensinn, Starrsinn, unbeirrtes Beharren.",
+        "definition_english": "Stubbornness, obstinacy.",
+        "context_snippet": "aber der Fortgang der Dinge ward durch Tonys in den kindischsten Formen ge\u00e4u\u00dferte Hartn\u00e4ckigkeit behindert.",
+        "chapter": 20
+    },
+    {
+        "word": "l\u00e4nger",
+        "definition_german": "Komparativ von lang; f\u00fcr eine ausgedehntere Zeit.",
+        "definition_english": "Longer.",
+        "context_snippet": "Konnte ich l\u00e4nger warten ... Mu\u00dfte ich nicht hierher zur\u00fcckkehren?\" fragte er eindringlich.",
+        "chapter": 20
+    },
+    {
+        "word": "nieder",
+        "definition_german": "Nach unten gerichtet.",
+        "definition_english": "Down, low.",
+        "context_snippet": "er sank ... sank langsam bei ihr zu Boden auf die Knie.",
+        "chapter": 20
+    },
+    {
+        "word": "knie",
+        "definition_german": "Gelenke in den Beinen.",
+        "definition_english": "Knees.",
+        "context_snippet": "er sank ... sank langsam bei ihr zu Boden auf die Knie.",
+        "chapter": 20
+    },
+    {
+        "word": "mann",
+        "definition_german": "Ein erwachsener Mensch m\u00e4nnlichen Geschlechts.",
+        "definition_english": "Man.",
+        "context_snippet": "in der Haltung eines Mannes, welcher sagen will: Hier bin ich!",
+        "chapter": 20
+    },
+    {
+        "word": "empor",
+        "definition_german": "Nach oben, in die H\u00f6he.",
+        "definition_english": "Upward, aloft.",
+        "context_snippet": "Tony fuhr entsetzt auf ihrem Stuhle empor und machte eine Bewegung, als wollte sie in den E\u00dfsaal entfliehen ...",
+        "chapter": 20
+    },
+    {
+        "word": "sah",
+        "definition_german": "Pr\u00e4teritum von sehen; wahrgenommen.",
+        "definition_english": "Saw (past tense of sehen).",
+        "context_snippet": "Tony sah, wie er in der S\u00e4ulenhalle seinen Stock ergriff und im Korridor verschwand.",
+        "chapter": 20
+    },
+    {
+        "word": "vielleicht",
+        "definition_german": "M\u00f6glicherweise, unter Umst\u00e4nden.",
+        "definition_english": "Perhaps, maybe.",
+        "context_snippet": "wenn sich nicht, zehn Tage vielleicht nach jener Unterredung im Fr\u00fchst\u00fcckszimmer -- man stand in der Mitte des Juli\u00a0--, das Folgende ereignet h\u00e4tte\u00a0...",
+        "chapter": 20
+    },
+    {
+        "word": "allzu",
+        "definition_german": "Zu sehr, \u00fcberm\u00e4\u00dfig.",
+        "definition_english": "Too, excessively.",
+        "context_snippet": "Herrn Gr\u00fcnlichs Bewegung war allzu gro\u00df, als da\u00df er diesen Einwurf h\u00e4tte beachten k\u00f6nnen.",
+        "chapter": 20
+    },
+    {
+        "word": "fortgang",
+        "definition_german": "Weiterentwicklung, Verlauf, Fortschritt.",
+        "definition_english": "Progress, continuation.",
+        "context_snippet": "aber der Fortgang der Dinge ward durch Tonys in den kindischsten Formen ge\u00e4u\u00dferte Hartn\u00e4ckigkeit behindert.",
+        "chapter": 20
+    },
+    {
+        "word": "gut",
+        "definition_german": "Richtig, in Ordnung; positiv.",
+        "definition_english": "Good, well, fine.",
+        "context_snippet": "Gut, gut ... sprechen Sie nun nichts mehr, Antonie! Genug f\u00fcr diesmal, ich bitte Sie, von dieser Sache ...",
+        "chapter": 20
+    },
+    {
+        "word": "lange",
+        "definition_german": "\u00dcber einen ausgedehnten Zeitraum.",
+        "definition_english": "Long (time).",
+        "context_snippet": "Auf diesem Punkte w\u00e4re die Angelegenheit sicherlich noch lange Zeit stehengeblieben...",
+        "chapter": 20
+    },
+    {
+        "word": "beinahe",
+        "definition_german": "Fast, ann\u00e4hernd.",
+        "definition_english": "Almost, nearly.",
+        "context_snippet": "und sie sagte noch einmal in einem beinahe m\u00fctterlich tr\u00f6stenden Ton:",
+        "chapter": 20
+    },
+    {
+        "word": "rechnen",
+        "definition_german": "Erwarten, voraussetzen, kalkulieren.",
+        "definition_english": "To reckon, to count on, to expect.",
+        "context_snippet": "nicht wahr?! ich darf mit Ihrer Gegenneigung rechnen ... Ihrer Gegenneigung sicher sein!",
+        "chapter": 20
+    },
+    {
+        "word": "behutsamkeit",
+        "definition_german": "Vorsicht, Bedachtsamkeit.",
+        "definition_english": "Caution, carefulness.",
+        "context_snippet": "Tony schritt langsam und mit einer gewissen Behutsamkeit auf die Glast\u00fcr zu...",
+        "chapter": 20
+    },
+    {
+        "word": "dicht",
+        "definition_german": "Ganz nah, eng an.",
+        "definition_english": "Close, tightly, right next to.",
+        "context_snippet": "Herr Gr\u00fcnlich hatte einen Armsessel ganz dicht an ihren Fenstersitz herangezogen, er setzte sich, er n\u00f6tigte auch sie selbst, sich wieder niederzulassen...",
+        "chapter": 20
+    },
+    {
+        "word": "buddenbrook",
+        "definition_german": "Nachname der Familie.",
+        "definition_english": "Buddenbrook (surname of the family).",
+        "context_snippet": "Wissen Sie, Mademoiselle Buddenbrook, da\u00df ich mich nicht in dieser Weise beleidigen lassen darf?",
+        "chapter": 20
+    },
+    {
+        "word": "bringen",
+        "definition_german": "Jemanden an einen Ort verschaffen; etwas schaffen/fertigbringen.",
+        "definition_english": "To bring, to manage (to do something).",
+        "context_snippet": "bringen Sie es \u00fcber das Herz, mir zu sagen: Ich verabscheue Sie --?",
+        "chapter": 20
+    },
+    {
+        "word": "sa\u00df",
+        "definition_german": "Pr\u00e4teritum von sitzen; auf einem Sitzplatz sein.",
+        "definition_english": "Sat (past tense of sitzen).",
+        "context_snippet": "Tony sa\u00df mit einem Romane allein im Landschaftszimmer am Fenster, als Anton ihr eine Visitkarte \u00fcberbrachte.",
+        "chapter": 20
+    },
+    {
+        "word": "buddenbrooks",
+        "definition_german": "Die Familie Buddenbrook (Plural/Genitiv).",
+        "definition_english": "The Buddenbrooks (the family name used collectively).",
+        "context_snippet": "In diesem Jahre unternahmen Buddenbrooks auch w\u00e4hrend der Schulferien Christians und Klaras keine Erholungsreise.",
+        "chapter": 20
+    }
+]

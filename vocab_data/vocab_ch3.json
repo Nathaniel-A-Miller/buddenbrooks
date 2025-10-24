@@ -1,0 +1,1612 @@
+[
+    {
+        "word": "abend",
+        "definition_german": "Tageszeit nach Sonnenuntergang, bevor man schlafen geht.",
+        "definition_english": "Evening.",
+        "context_snippet": "Nein, nein, Jean, noch nicht jetzt ... Heute abend vielleicht, vorm Zubettegehen ...",
+        "chapter": 3
+    },
+    {
+        "word": "abends",
+        "definition_german": "Zur Abendzeit.",
+        "definition_english": "In the evening.",
+        "context_snippet": "Abends sp\u00e4t, Jean.",
+        "chapter": 3
+    },
+    {
+        "word": "abraten",
+        "definition_german": "Jemandem empfehlen, etwas nicht zu tun.",
+        "definition_english": "To advise against.",
+        "context_snippet": "Nein, nein, ich kann nicht zuraten ... aber auch nicht abraten.",
+        "chapter": 3
+    },
+    {
+        "word": "ach",
+        "definition_german": "Ausdruck des Bedauerns oder der Einsicht.",
+        "definition_english": "Ah, oh (expressing regret or realization).",
+        "context_snippet": "Ach, Jean, das beste w\u00e4re, Papa g\u00e4be nach!",
+        "chapter": 3
+    },
+    {
+        "word": "acht",
+        "definition_german": "Die Kardinalzahl nach sieben.",
+        "definition_english": "Eight.",
+        "context_snippet": "Die schweren roten Fenstervorh\u00e4nge waren geschlossen, und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "alte",
+        "definition_german": "Weibliche Person von fortgeschrittenem Alter.",
+        "definition_english": "Old (female).",
+        "context_snippet": "Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "anschein",
+        "definition_german": "Die \u00e4u\u00dfere Erscheinung, das Aussehen.",
+        "definition_english": "Appearance, look, semblance.",
+        "context_snippet": "auch dem Vater gegen\u00fcber mu\u00df ich den Anschein dieser Rolle vermeiden.",
+        "chapter": 3
+    },
+    {
+        "word": "anteil",
+        "definition_german": "Ein Teil einer Gesamtmenge; Beteiligung an etwas.",
+        "definition_english": "Share, stake, portion.",
+        "context_snippet": "Er kapriziert sich auf diese Entsch\u00e4digungssumme f\u00fcr den Anteil am Hause ... Nein, nein, Jean, noch nicht jetzt ...",
+        "chapter": 3
+    },
+    {
+        "word": "app\u00e9tit",
+        "definition_german": "Wunsch zu essen. (Franz\u00f6sisch: bon app\u00e9tit)",
+        "definition_english": "Appetite. (French: enjoy your meal)",
+        "context_snippet": "Bon app\u00e9tit!\u00ab sagte sie mit ihrem kurzen, raschen, herzlichen Kopfnicken, indem sie einen schnellen Blick \u00fcber die ganze Tafel bis zu den Kindern hinuntergleiten lie\u00df ...",
+        "chapter": 3
+    },
+    {
+        "word": "arm",
+        "definition_german": "K\u00f6rperteil zwischen Schulter und Hand.",
+        "definition_english": "Arm.",
+        "context_snippet": "sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "armleuchtern",
+        "definition_german": "Mehrarmiger Kerzenhalter.",
+        "definition_english": "Candelabra, candlestick.",
+        "context_snippet": "abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "arrangiert",
+        "definition_german": "Geordnet, geregelt, eine Einigung erzielt.",
+        "definition_english": "Arranged, settled.",
+        "context_snippet": "Was meine Schwester in Frankfurt betrifft, nun, so ist die Sache arrangiert.",
+        "chapter": 3
+    },
+    {
+        "word": "associ\u00e9",
+        "definition_german": "Gesch\u00e4ftspartner, Teilhaber (besonders in einer Firma).",
+        "definition_english": "Partner, associate.",
+        "context_snippet": "Aber wenn ich ehrlich sein soll ... ich bin schlie\u00dflich Associ\u00e9.",
+        "chapter": 3
+    },
+    {
+        "word": "aufbruch",
+        "definition_german": "Der Beginn des Weggehens, die Abreise.",
+        "definition_english": "Departure, breaking up (of a gathering).",
+        "context_snippet": "Der j\u00fcngere Hausherr hatte, als der allgemeine Aufbruch begann, mit der Hand nach der linken Brustseite gegriffen, wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "aufeinander",
+        "definition_german": "Eines auf das andere, in direktem Kontakt.",
+        "definition_english": "Upon each other, together.",
+        "context_snippet": "und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "ausdruck",
+        "definition_german": "Art, wie sich etwas auf dem Gesicht zeigt; eine \u00c4u\u00dferung.",
+        "definition_english": "Expression.",
+        "context_snippet": "um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "aussehen",
+        "definition_german": "Die \u00e4u\u00dfere Erscheinung haben, scheinen.",
+        "definition_english": "To look, appear.",
+        "context_snippet": "Es soll nicht aussehen, als ob ich, der Stiefbruder, mich bei den Eltern eingenistet h\u00e4tte und gegen Gotthold intrigierte ...",
+        "chapter": 3
+    },
+    {
+        "word": "au\u00dferordentlich",
+        "definition_german": "Ungew\u00f6hnlich, in hohem Ma\u00dfe.",
+        "definition_english": "Extraordinarily, exceptionally.",
+        "context_snippet": "dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "barg",
+        "definition_german": "Vergangenheitsform von bergen: verstecken, sicher aufbewahren.",
+        "definition_english": "Hid, concealed.",
+        "context_snippet": "Der Konsul barg das Papier in der Brusttasche, bot seiner Mutter den Arm, und nebeneinander \u00fcberschritten sie die Schwelle zum hellerleuchteten Speisesaal, wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "beantwortet",
+        "definition_german": "Eine Antwort auf eine Frage oder ein Schreiben geben.",
+        "definition_english": "Answered, replied to.",
+        "context_snippet": "Das ist seine Handschrift ... Es ist das dritte Schreiben, und nur das erste hat Papa ihm beantwortet ... Was machen?",
+        "chapter": 3
+    },
+    {
+        "word": "bek\u00fcmmert",
+        "definition_german": "Traurig, besorgt.",
+        "definition_english": "Worried, distressed.",
+        "context_snippet": "Was soll darin stehen!\u00ab f\u00fcgte sie bek\u00fcmmert hinzu.",
+        "chapter": 3
+    },
+    {
+        "word": "beste",
+        "definition_german": "Das Positivste, Optimalste.",
+        "definition_english": "The best.",
+        "context_snippet": "Ach, Jean, das beste w\u00e4re, Papa g\u00e4be nach!",
+        "chapter": 3
+    },
+    {
+        "word": "betriebskapital",
+        "definition_german": "Das Kapital, das zur Finanzierung der laufenden Gesch\u00e4ftst\u00e4tigkeit einer Firma ben\u00f6tigt wird.",
+        "definition_english": "Working capital.",
+        "context_snippet": "dem Betriebskapital die Summe zu entziehen ... Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "bezahlen",
+        "definition_german": "Geld f\u00fcr eine Leistung oder Ware geben.",
+        "definition_english": "To pay.",
+        "context_snippet": "Aber ich bin auch Associ\u00e9, ich habe die Interessen der Firma zu vertreten, und wenn Papa nicht glaubt, einem ungehorsamen und rebellischen Sohn gegen\u00fcber die Verpflichtung zu haben, dem Betriebskapital die Summe zu entziehen ...",
+        "chapter": 3
+    },
+    {
+        "word": "bisse",
+        "definition_german": "Konjunktiv II Pr\u00e4teritum von bei\u00dfen: die Z\u00e4hne zusammendr\u00fccken.",
+        "definition_english": "Bit, clutched (subjunctive II of bite/clench).",
+        "context_snippet": "und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "bitten",
+        "definition_german": "Jemanden h\u00f6flich um etwas ersuchen.",
+        "definition_english": "To ask, beg, plead.",
+        "context_snippet": "Ich selbst habe Papa oft genug bitten wollen, nachzugeben ...",
+        "chapter": 3
+    },
+    {
+        "word": "blick",
+        "definition_german": "Schnelles Sehen, eine kurze Betrachtung.",
+        "definition_english": "Glance, look.",
+        "context_snippet": "rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "blo\u00df",
+        "definition_german": "Nur, lediglich.",
+        "definition_english": "Merely, only.",
+        "context_snippet": "Ihr Mann bekommt schon jetzt, bei Papas Lebzeiten, eine Abstandssumme, ein Viertel blo\u00df von der Hauskaufsumme ...",
+        "chapter": 3
+    },
+    {
+        "word": "brannten",
+        "definition_german": "Vergangenheitsform von brennen: Feuer haben, Licht geben.",
+        "definition_english": "Were burning.",
+        "context_snippet": "Die schweren roten Fenstervorh\u00e4nge waren geschlossen, und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "brusttasche",
+        "definition_german": "Eine Tasche, die sich am oder nahe dem Brustbereich eines Kleidungsst\u00fccks befindet.",
+        "definition_english": "Breast pocket.",
+        "context_snippet": "Der Konsul barg das Papier in der Brusttasche, bot seiner Mutter den Arm, und nebeneinander \u00fcberschritten sie die Schwelle zum hellerleuchteten Speisesaal, wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "dame",
+        "definition_german": "Eine vornehme Frau.",
+        "definition_english": "Lady, dame.",
+        "context_snippet": "Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "damast",
+        "definition_german": "Ein gemusterter, oft seidiger Webstoff.",
+        "definition_english": "Damask.",
+        "context_snippet": "M\u00e4chtige, steiflehnige Sofas in rotem Damast standen an den W\u00e4nden.",
+        "chapter": 3
+    },
+    {
+        "word": "darin",
+        "definition_german": "In diesem/r, im Inneren.",
+        "definition_english": "In it, inside.",
+        "context_snippet": "Was soll darin stehen!\u00ab f\u00fcgte sie bek\u00fcmmert hinzu.",
+        "chapter": 3
+    },
+    {
+        "word": "davon",
+        "definition_german": "Von dieser Sache, von ihm/ihr/ihnen.",
+        "definition_english": "Of it, about it.",
+        "context_snippet": "Ich will nichts davon wissen.",
+        "chapter": 3
+    },
+    {
+        "word": "demoiselle",
+        "definition_german": "Fr\u00e4ulein (franz\u00f6sisch, oft leicht abwertend oder altert\u00fcmlich).",
+        "definition_english": "Young lady, Miss.",
+        "context_snippet": "Warum mu\u00dfte er diese Demoiselle St\u00fcwing heiraten und den ... Laden ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "deshalb",
+        "definition_german": "Aus diesem Grund.",
+        "definition_english": "Therefore, that's why.",
+        "context_snippet": "Ich bin pers\u00f6nlich interessiert, und deshalb m\u00fc\u00dfte ich sagen: Vater, bezahle.",
+        "chapter": 3
+    },
+    {
+        "word": "dunklen",
+        "definition_german": "Nicht hell, lichtarm (Adjektiv, Dativ Plural).",
+        "definition_english": "Dark (plural accusative/dative, describing eyes).",
+        "context_snippet": "sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "einh\u00e4ndigen",
+        "definition_german": "Jemandem etwas pers\u00f6nlich \u00fcbergeben.",
+        "definition_english": "To hand over, deliver.",
+        "context_snippet": "und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "eitelkeit",
+        "definition_german": "\u00dcberm\u00e4\u00dfige Besch\u00e4ftigung mit dem eigenen Aussehen oder \u00fcbertriebener Stolz.",
+        "definition_english": "Vanity.",
+        "context_snippet": "Es ist eine Schw\u00e4che, Vaters Widerwille gegen den Laden; aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "elftausend",
+        "definition_german": "Die Zahl 11.000.",
+        "definition_english": "Eleven thousand.",
+        "context_snippet": "Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "eltern",
+        "definition_german": "Vater und Mutter.",
+        "definition_english": "Parents.",
+        "context_snippet": "als ob ich, der Stiefbruder, mich bei den Eltern eingenistet h\u00e4tte und gegen Gotthold intrigierte ...",
+        "chapter": 3
+    },
+    {
+        "word": "entsch\u00e4digungssumme",
+        "definition_german": "Geldbetrag als Ausgleich f\u00fcr einen Verlust oder Verzicht.",
+        "definition_english": "Compensation sum/amount.",
+        "context_snippet": "Er kapriziert sich auf diese Entsch\u00e4digungssumme f\u00fcr den Anteil am Hause ...",
+        "chapter": 3
+    },
+    {
+        "word": "entziehen",
+        "definition_german": "Wegnehmen, vorenthalten.",
+        "definition_english": "To withdraw, pull out.",
+        "context_snippet": "dem Betriebskapital die Summe zu entziehen ... Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "erfreulich",
+        "definition_german": "Freude bereitend, angenehm.",
+        "definition_english": "Delightful, pleasing.",
+        "context_snippet": "und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "erledigt",
+        "definition_german": "Abgeschlossen, ausgef\u00fchrt.",
+        "definition_english": "Settled, concluded.",
+        "context_snippet": "Das ist ein vorteilhaftes Gesch\u00e4ft, das Papa sehr glatt und gut erledigt hat, und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "erregten",
+        "definition_german": "Aufgeregt, emotional bewegt.",
+        "definition_english": "Excited, agitated.",
+        "context_snippet": "fl\u00fcsterte der Konsul mit einer erregten Handbewegung nach der Stirn.",
+        "chapter": 3
+    },
+    {
+        "word": "\u00e4rgerlich",
+        "definition_german": "Ver\u00e4rgert, w\u00fctend.",
+        "definition_english": "Annoyed, angry.",
+        "context_snippet": "Der Konsul lachte \u00e4rgerlich und verlegen bei diesem Worte.",
+        "chapter": 3
+    },
+    {
+        "word": "fast",
+        "definition_german": "Beinahe, nahezu.",
+        "definition_english": "Almost, nearly.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "fenster",
+        "definition_german": "\u00d6ffnung in der Wand, meist mit Glas versehen.",
+        "definition_english": "Window.",
+        "context_snippet": "n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "fensterseite",
+        "definition_german": "Die Seite eines Raumes, an der sich Fenster befinden.",
+        "definition_english": "Window side.",
+        "context_snippet": "als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "fenstervorh\u00e4nge",
+        "definition_german": "Stoffbahnen, die vor Fenstern angebracht werden.",
+        "definition_english": "Window curtains.",
+        "context_snippet": "Die schweren roten Fenstervorh\u00e4nge waren geschlossen, und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "fertiggeworden",
+        "definition_german": "Beendet, abgeschlossen sein.",
+        "definition_english": "Finished, completed.",
+        "context_snippet": "wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "frankfurt",
+        "definition_german": "Name einer Stadt (hier: Frankfurt am Main, wo die Schwester lebt).",
+        "definition_english": "Frankfurt (city name).",
+        "context_snippet": "Was meine Schwester in Frankfurt betrifft, nun, so ist die Sache arrangiert.",
+        "chapter": 3
+    },
+    {
+        "word": "ganz",
+        "definition_german": "V\u00f6llig, total; die gesamte Menge.",
+        "definition_english": "Quite, entirely; whole.",
+        "context_snippet": "Und dann bezahlen Bethsy und ich vorl\u00e4ufig eine ganz normale Miete f\u00fcr den zweiten Stock ...",
+        "chapter": 3
+    },
+    {
+        "word": "gegen\u00fcber",
+        "definition_german": "In Bezug auf; auf der anderen Seite von.",
+        "definition_english": "Towards, vis-\u00e0-vis; opposite.",
+        "context_snippet": "auch dem Vater gegen\u00fcber mu\u00df ich den Anschein dieser Rolle vermeiden.",
+        "chapter": 3
+    },
+    {
+        "word": "gem\u00e4lde",
+        "definition_german": "Ein Kunstwerk, das mit Farbe auf einer Oberfl\u00e4che geschaffen wurde.",
+        "definition_english": "Painting.",
+        "context_snippet": "\u00dcber dem massigen B\u00fcfett, dem Landschaftszimmer gegen\u00fcber, hing ein umfangreiches Gem\u00e4lde, ein italienischer Golf, dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "genug",
+        "definition_german": "Ausreichend.",
+        "definition_english": "Enough.",
+        "context_snippet": "Ich selbst habe Papa oft genug bitten wollen, nachzugeben ...",
+        "chapter": 3
+    },
+    {
+        "word": "gesellschaft",
+        "definition_german": "Eine Gruppe von Menschen, die zusammenkommen.",
+        "definition_english": "Company, gathering.",
+        "context_snippet": "Der j\u00fcngere Hausherr hatte, als der allgemeine Aufbruch begann, mit der Hand nach der linken Brustseite gegriffen, wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "gesicht",
+        "definition_german": "Vorderseite des Kopfes.",
+        "definition_english": "Face.",
+        "context_snippet": "das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "gespannten",
+        "definition_german": "Unter Anspannung stehend, nerv\u00f6s.",
+        "definition_english": "Tense, strained.",
+        "context_snippet": "um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "geschlossen",
+        "definition_german": "Zugezogen, nicht offen.",
+        "definition_english": "Closed.",
+        "context_snippet": "Die schweren roten Fenstervorh\u00e4nge waren geschlossen, und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "glatt",
+        "definition_german": "Reibungslos, ohne Schwierigkeiten.",
+        "definition_english": "Smoothly, efficiently.",
+        "context_snippet": "Das ist ein vorteilhaftes Gesch\u00e4ft, das Papa sehr glatt und gut erledigt hat, und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "glaubt",
+        "definition_german": "Meint, ist \u00fcberzeugt von etwas.",
+        "definition_english": "Believes.",
+        "context_snippet": "Aber Gotthold glaubt, da\u00df ich, seine Stiefmutter, nur f\u00fcr meine eigenen Kinder sorge und ihm seinen Vater geflissentlich entfremde.",
+        "chapter": 3
+    },
+    {
+        "word": "golf",
+        "definition_german": "Gro\u00dfe, oft buchtartige Meeresbucht.",
+        "definition_english": "Gulf.",
+        "context_snippet": "\u00dcber dem massigen B\u00fcfett, dem Landschaftszimmer gegen\u00fcber, hing ein umfangreiches Gem\u00e4lde, ein italienischer Golf, dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "gotthold",
+        "definition_german": "Der Name des Stiefbruders/Sohnes.",
+        "definition_english": "Gotthold (proper name).",
+        "context_snippet": "Es ist, um kurz zu sein, ein Brief von Gotthold gekommen\u00ab, sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "g\u00f6tterbilder",
+        "definition_german": "Darstellungen von G\u00f6ttern (hier: Statuen/Reliefs).",
+        "definition_english": "Images of gods, divine statues.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "gewohnheit",
+        "definition_german": "Eine bestimmte Art, sich regelm\u00e4\u00dfig zu verhalten.",
+        "definition_english": "Habit, custom.",
+        "context_snippet": "sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "hand",
+        "definition_german": "Der Greif- und Tastk\u00f6rper am Ende des Arms.",
+        "definition_english": "Hand.",
+        "context_snippet": "Der j\u00fcngere Hausherr hatte, als der allgemeine Aufbruch begann, mit der Hand nach der linken Brustseite gegriffen, wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "handbewegung",
+        "definition_german": "Eine Geste oder ein Zeichen, das mit der Hand gemacht wird.",
+        "definition_english": "Hand gesture, motion of the hand.",
+        "context_snippet": "fl\u00fcsterte der Konsul mit einer erregten Handbewegung nach der Stirn.",
+        "chapter": 3
+    },
+    {
+        "word": "handschrift",
+        "definition_german": "Die individuelle Art, wie jemand schreibt.",
+        "definition_english": "Handwriting.",
+        "context_snippet": "Das ist seine Handschrift ... Es ist das dritte Schreiben, und nur das erste hat Papa ihm beantwortet ... Was machen?",
+        "chapter": 3
+    },
+    {
+        "word": "hast",
+        "definition_german": "Du hast (Pr\u00e4sens von haben, zweite Person Singular).",
+        "definition_english": "You have.",
+        "context_snippet": "Nein, du hast recht, Jean, warte damit!\u00ab sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "hausherr",
+        "definition_german": "Der m\u00e4nnliche Leiter eines Haushalts oder Besitzers eines Hauses.",
+        "definition_english": "Master of the house, landlord.",
+        "context_snippet": "Der j\u00fcngere Hausherr hatte, als der allgemeine Aufbruch begann, mit der Hand nach der linken Brustseite gegriffen, wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "heiraten",
+        "definition_german": "Die Ehe eingehen.",
+        "definition_english": "To marry.",
+        "context_snippet": "Warum mu\u00dfte er diese Demoiselle St\u00fcwing heiraten und den ... Laden ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "herr",
+        "definition_german": "Anredeform f\u00fcr einen Mann.",
+        "definition_english": "Mr., Lord, Gentleman.",
+        "context_snippet": "Pardon, lieber Herr Pastor ... Auf zwei Worte, Mama!\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "hervor",
+        "definition_german": "Nach vorne, in den Vordergrund.",
+        "definition_english": "Forth, prominently.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "heute",
+        "definition_german": "An diesem Tag.",
+        "definition_english": "Today.",
+        "context_snippet": "und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "hintergrund",
+        "definition_german": "Der hintere Teil eines Raumes oder Bildes.",
+        "definition_english": "Background.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "hinuntergleiten",
+        "definition_german": "Nach unten gleiten lassen.",
+        "definition_english": "To let slide down, sweep over.",
+        "context_snippet": "indem sie einen schnellen Blick \u00fcber die ganze Tafel bis zu den Kindern hinuntergleiten lie\u00df ...",
+        "chapter": 3
+    },
+    {
+        "word": "hinzu",
+        "definition_german": "Zus\u00e4tzlich, weiter.",
+        "definition_english": "In addition, furthermore.",
+        "context_snippet": "Was soll darin stehen!\u00ab f\u00fcgte sie bek\u00fcmmert hinzu.",
+        "chapter": 3
+    },
+    {
+        "word": "hing",
+        "definition_german": "Vergangenheitsform von h\u00e4ngen: befestigt sein.",
+        "definition_english": "Hung.",
+        "context_snippet": "\u00dcber dem massigen B\u00fcfett, dem Landschaftszimmer gegen\u00fcber, hing ein umfangreiches Gem\u00e4lde, ein italienischer Golf, dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "h\u00f6chst",
+        "definition_german": "\u00c4u\u00dferst, sehr.",
+        "definition_english": "Highly, extremely.",
+        "context_snippet": "und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "immer",
+        "definition_german": "Zu jeder Zeit, st\u00e4ndig.",
+        "definition_english": "Always, still.",
+        "context_snippet": "Es ist immer noch Zeit, ihn herauszubitten ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "interessiert",
+        "definition_german": "Anteil nehmend, von Interesse geleitet.",
+        "definition_english": "Interested.",
+        "context_snippet": "Ich bin pers\u00f6nlich interessiert, und deshalb m\u00fc\u00dfte ich sagen: Vater, bezahle.",
+        "chapter": 3
+    },
+    {
+        "word": "jean",
+        "definition_german": "Name des Konsuls.",
+        "definition_english": "Jean (proper name).",
+        "context_snippet": "Nein, du hast recht, Jean, warte damit!\u00ab sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "junge",
+        "definition_german": "Kind m\u00e4nnlichen Geschlechts; Jugendlicher.",
+        "definition_english": "Boy, young man.",
+        "context_snippet": "Er gibt nicht nach, der Junge.",
+        "chapter": 3
+    },
+    {
+        "word": "klar",
+        "definition_german": "Deutlich, verst\u00e4ndlich.",
+        "definition_english": "Clear.",
+        "context_snippet": "Nein, Unsinn, Jean, dein Verh\u00e4ltnis zur Sache ist doch wohl klar.",
+        "chapter": 3
+    },
+    {
+        "word": "kleine",
+        "definition_german": "Gering in Gr\u00f6\u00dfe oder Bedeutung.",
+        "definition_english": "Small, little.",
+        "context_snippet": "aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "komm",
+        "definition_german": "Imperativ von kommen: sich n\u00e4hern.",
+        "definition_english": "Come.",
+        "context_snippet": "Komm nun, man wartet ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "konnte",
+        "definition_german": "Vergangenheitsform von k\u00f6nnen.",
+        "definition_english": "Could, was able to.",
+        "context_snippet": "Warum konnte er nicht vern\u00fcnftig sein!",
+        "chapter": 3
+    },
+    {
+        "word": "kopf",
+        "definition_german": "Teil des K\u00f6rpers, der Gehirn und Gesicht enth\u00e4lt.",
+        "definition_english": "Head.",
+        "context_snippet": "wiederholte der Konsul, indem er den gesenkten Kopf sch\u00fcttelte.",
+        "chapter": 3
+    },
+    {
+        "word": "kuranttaler",
+        "definition_german": "Eine historische W\u00e4hrungseinheit in Norddeutschland.",
+        "definition_english": "Curantthaler (a unit of currency).",
+        "context_snippet": "Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "kurz",
+        "definition_german": "Von geringer Dauer; nicht lang.",
+        "definition_english": "Short, brief.",
+        "context_snippet": "Es ist, um kurz zu sein, ein Brief von Gotthold gekommen\u00ab, sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "kurzen",
+        "definition_german": "Von geringer Dauer; nicht lang (Adjektiv).",
+        "definition_english": "Short, brief (adjective).",
+        "context_snippet": "Bon app\u00e9tit!\u00ab sagte sie mit ihrem kurzen, raschen, herzlichen Kopfnicken, indem sie einen schnellen Blick \u00fcber die ganze Tafel bis zu den Kindern hinuntergleiten lie\u00df ...",
+        "chapter": 3
+    },
+    {
+        "word": "laden",
+        "definition_german": "Kleines Gesch\u00e4ft, Einzelhandelsgesch\u00e4ft (hier: oft abwertend gemeint).",
+        "definition_english": "Shop, store (often derogatory in this context).",
+        "context_snippet": "Warum mu\u00dfte er diese Demoiselle St\u00fcwing heiraten und den ... Laden ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "lachte",
+        "definition_german": "Vergangenheitsform von lachen: Freude oder Verlegenheit durch Laute \u00e4u\u00dfern.",
+        "definition_english": "Laughed.",
+        "context_snippet": "Der Konsul lachte \u00e4rgerlich und verlegen bei diesem Worte.",
+        "chapter": 3
+    },
+    {
+        "word": "l\u00e4cheln",
+        "definition_german": "Freundlicher Gesichtsausdruck.",
+        "definition_english": "Smile.",
+        "context_snippet": "das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "l\u00e4ngst",
+        "definition_german": "Schon lange vorher.",
+        "definition_english": "Long ago, long since.",
+        "context_snippet": "und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "laut",
+        "definition_german": "Mit gro\u00dfer Lautst\u00e4rke.",
+        "definition_english": "Loudly.",
+        "context_snippet": "Aber es ist seine Schuld!\u00ab rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "lebzeiten",
+        "definition_german": "W\u00e4hrend der Zeit, in der jemand lebt.",
+        "definition_english": "Lifetime.",
+        "context_snippet": "Ihr Mann bekommt schon jetzt, bei Papas Lebzeiten, eine Abstandssumme, ein Viertel blo\u00df von der Hauskaufsumme ...",
+        "chapter": 3
+    },
+    {
+        "word": "leise",
+        "definition_german": "Mit geringer Lautst\u00e4rke, sanft.",
+        "definition_english": "Quietly, softly.",
+        "context_snippet": "sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "lieber",
+        "definition_german": "Als Anrede: verehrt, gesch\u00e4tzt.",
+        "definition_english": "Dear, kind.",
+        "context_snippet": "Pardon, lieber Herr Pastor ... Auf zwei Worte, Mama!\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "linken",
+        "definition_german": "Auf der linken Seite gelegen.",
+        "definition_english": "Left (side).",
+        "context_snippet": "Der j\u00fcngere Hausherr hatte, als der allgemeine Aufbruch begann, mit der Hand nach der linken Brustseite gegriffen, wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "madame",
+        "definition_german": "Anrede f\u00fcr eine verheiratete Frau (franz\u00f6sisch).",
+        "definition_english": "Madam (Mrs.).",
+        "context_snippet": "sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "mama",
+        "definition_german": "Vertraute Anrede f\u00fcr die Mutter.",
+        "definition_english": "Mama, Mom.",
+        "context_snippet": "Auf zwei Worte, Mama!\u00ab Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "mehr",
+        "definition_german": "Gr\u00f6\u00dfere Menge oder Anzahl.",
+        "definition_english": "More.",
+        "context_snippet": "Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "miete",
+        "definition_german": "Geldzahlung f\u00fcr die zeitweilige Nutzung einer Wohnung oder Sache.",
+        "definition_english": "Rent.",
+        "context_snippet": "Und dann bezahlen Bethsy und ich vorl\u00e4ufig eine ganz normale Miete f\u00fcr den zweiten Stock ...",
+        "chapter": 3
+    },
+    {
+        "word": "mu\u00df",
+        "definition_german": "Pr\u00e4sens von m\u00fcssen (Verpflichtung).",
+        "definition_english": "Must, has to.",
+        "context_snippet": "auch dem Vater gegen\u00fcber mu\u00df ich den Anschein dieser Rolle vermeiden.",
+        "chapter": 3
+    },
+    {
+        "word": "m\u00fcssen",
+        "definition_german": "Die Notwendigkeit haben, etwas zu tun.",
+        "definition_english": "Must, have to.",
+        "context_snippet": "aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "mutter",
+        "definition_german": "Weibliche Elternperson.",
+        "definition_english": "Mother.",
+        "context_snippet": "und suchte mit den Augen seine Mutter, die als eine der letzten, an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "nebeneinander",
+        "definition_german": "Direkt angrenzend, Schulter an Schulter.",
+        "definition_english": "Side by side.",
+        "context_snippet": "Der Konsul barg das Papier in der Brusttasche, bot seiner Mutter den Arm, und nebeneinander \u00fcberschritten sie die Schwelle zum hellerleuchteten Speisesaal, wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "niederlie\u00df",
+        "definition_german": "Vergangenheitsform von sich niederlassen: Platz nehmen, sich setzen.",
+        "definition_english": "Sat down, settled.",
+        "context_snippet": "als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "paar",
+        "definition_german": "Zwei zusammengeh\u00f6rige Dinge oder Personen.",
+        "definition_english": "A pair, a few.",
+        "context_snippet": "und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "papa",
+        "definition_german": "Vertraute Anrede f\u00fcr den Vater.",
+        "definition_english": "Papa, Dad.",
+        "context_snippet": "und nur das erste hat Papa ihm beantwortet ... Was machen?",
+        "chapter": 3
+    },
+    {
+        "word": "papas",
+        "definition_german": "Possessivform von Papa (Vaters).",
+        "definition_english": "Papa's.",
+        "context_snippet": "Ihr Mann bekommt schon jetzt, bei Papas Lebzeiten, eine Abstandssumme, ein Viertel blo\u00df von der Hauskaufsumme ...",
+        "chapter": 3
+    },
+    {
+        "word": "papier",
+        "definition_german": "Material zum Beschreiben, Bedrucken oder Falten; hier: Brief.",
+        "definition_english": "Paper, letter.",
+        "context_snippet": "wo ein Papier knisterte, das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "pardon",
+        "definition_german": "Entschuldigung (franz\u00f6sisch).",
+        "definition_english": "Pardon, excuse me.",
+        "context_snippet": "Pardon, lieber Herr Pastor ... Auf zwei Worte, Mama!\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "pastor",
+        "definition_german": "Ein Geistlicher der evangelischen Kirche.",
+        "definition_english": "Pastor, clergyman.",
+        "context_snippet": "an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "pers\u00f6nlich",
+        "definition_german": "Direkt auf die eigene Person bezogen.",
+        "definition_english": "Personally.",
+        "context_snippet": "Ich bin pers\u00f6nlich interessiert, und deshalb m\u00fc\u00dfte ich sagen: Vater, bezahle.",
+        "chapter": 3
+    },
+    {
+        "word": "placierung",
+        "definition_german": "Die Anordnung der G\u00e4ste an der Tafel.",
+        "definition_english": "Placement, seating arrangement.",
+        "context_snippet": "wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "plastisch",
+        "definition_german": "Dreidimensional, wie eine Skulptur.",
+        "definition_english": "Sculptural, plastic.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "platz",
+        "definition_german": "Raum, Stelle; Sitzgelegenheit.",
+        "definition_english": "Space, room.",
+        "context_snippet": "um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "pl\u00f6tzlich",
+        "definition_german": "Unerwartet, auf einmal.",
+        "definition_english": "Suddenly.",
+        "context_snippet": "das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "raten",
+        "definition_german": "Jemanden beraten, einen Vorschlag machen.",
+        "definition_english": "To advise.",
+        "context_snippet": "Aber kann ich denn dazu raten?\u00ab fl\u00fcsterte der Konsul mit einer erregten Handbewegung nach der Stirn.",
+        "chapter": 3
+    },
+    {
+        "word": "rasch",
+        "definition_german": "Schnell, z\u00fcgig.",
+        "definition_english": "Quickly, rapidly.",
+        "context_snippet": "sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "raschen",
+        "definition_german": "Schnell, eilig (Adjektiv).",
+        "definition_english": "Quick, rapid.",
+        "context_snippet": "Bon app\u00e9tit!\u00ab sagte sie mit ihrem kurzen, raschen, herzlichen Kopfnicken, indem sie einen schnellen Blick \u00fcber die ganze Tafel bis zu den Kindern hinuntergleiten lie\u00df ...",
+        "chapter": 3
+    },
+    {
+        "word": "recht",
+        "definition_german": "Richtig, korrekt; Berechtigung.",
+        "definition_english": "Right, correct.",
+        "context_snippet": "Nein, du hast recht, Jean, warte damit!\u00ab sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "respektieren",
+        "definition_german": "Achtung oder Wertsch\u00e4tzung zeigen.",
+        "definition_english": "To respect.",
+        "context_snippet": "aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "rolle",
+        "definition_german": "Die zu spielende Funktion oder Aufgabe.",
+        "definition_english": "Role.",
+        "context_snippet": "auch dem Vater gegen\u00fcber mu\u00df ich den Anschein dieser Rolle vermeiden.",
+        "chapter": 3
+    },
+    {
+        "word": "sache",
+        "definition_german": "Angelegenheit, Thema, Ding.",
+        "definition_english": "Matter, issue, thing.",
+        "context_snippet": "Was meine Schwester in Frankfurt betrifft, nun, so ist die Sache arrangiert.",
+        "chapter": 3
+    },
+    {
+        "word": "sagen",
+        "definition_german": "Sprechen, \u00e4u\u00dfern.",
+        "definition_english": "To say, tell.",
+        "context_snippet": "Was sagen Sie?",
+        "chapter": 3
+    },
+    {
+        "word": "s\u00e4ulen",
+        "definition_german": "Senkrechte St\u00fctzen, oft rund.",
+        "definition_english": "Columns, pillars.",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "schein",
+        "definition_german": "Das \u00e4u\u00dfere Bild, der Anschein; nicht die Realit\u00e4t.",
+        "definition_english": "Appearance, pretense.",
+        "context_snippet": "Nur zum Schein machte er einige Schritte dem Speisesaale zu, dann aber hielt er sich zur\u00fcck und suchte mit den Augen seine Mutter, die als eine der letzten, an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "schl\u00e4fen",
+        "definition_german": "Seitenbereiche des Kopfes zwischen Augen und Ohr.",
+        "definition_english": "Temples (of the head).",
+        "context_snippet": "und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "schnellen",
+        "definition_german": "Schnell, z\u00fcgig (Adjektiv).",
+        "definition_english": "Quick, fast.",
+        "context_snippet": "sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "schon",
+        "definition_german": "Bereits.",
+        "definition_english": "Already.",
+        "context_snippet": "Es ist schon um zwei Uhr angekommen, und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "schreiben",
+        "definition_german": "Eine schriftliche Mitteilung (Substantiv).",
+        "definition_english": "Writing, letter (noun).",
+        "context_snippet": "Es ist das dritte Schreiben, und nur das erste hat Papa ihm beantwortet ... Was machen?",
+        "chapter": 3
+    },
+    {
+        "word": "schuld",
+        "definition_german": "Verantwortung f\u00fcr einen Fehler oder Schaden.",
+        "definition_english": "Fault, guilt.",
+        "context_snippet": "Aber es ist seine Schuld!\u00ab rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "sch\u00fcttelte",
+        "definition_german": "Vergangenheitsform von sch\u00fctteln: etwas heftig hin und her bewegen.",
+        "definition_english": "Shook.",
+        "context_snippet": "Was tun?\u00ab wiederholte der Konsul, indem er den gesenkten Kopf sch\u00fcttelte.",
+        "chapter": 3
+    },
+    {
+        "word": "schw\u00e4che",
+        "definition_german": "Mangelnde St\u00e4rke oder Willenskraft; Fehler.",
+        "definition_english": "Weakness.",
+        "context_snippet": "Es ist eine Schw\u00e4che, Vaters Widerwille gegen den Laden; aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "schwelle",
+        "definition_german": "Der untere Balken einer T\u00fcr\u00f6ffnung.",
+        "definition_english": "Threshold.",
+        "context_snippet": "die als eine der letzten, an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "seite",
+        "definition_german": "Eine Fl\u00e4che oder Richtung.",
+        "definition_english": "Side.",
+        "context_snippet": "an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "silbernen",
+        "definition_german": "Aus Silber bestehend.",
+        "definition_english": "Silver (adjective, plural).",
+        "context_snippet": "abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "soeben",
+        "definition_german": "Gerade erst, vor kurzem.",
+        "definition_english": "Just now, moments ago.",
+        "context_snippet": "wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "sofas",
+        "definition_german": "Gepolsterte Sitzm\u00f6bel f\u00fcr mehrere Personen.",
+        "definition_english": "Sofas, couches.",
+        "context_snippet": "M\u00e4chtige, steiflehnige Sofas in rotem Damast standen an den W\u00e4nden.",
+        "chapter": 3
+    },
+    {
+        "word": "sohn",
+        "definition_german": "M\u00e4nnlicher Nachkomme.",
+        "definition_english": "Son.",
+        "context_snippet": "einem ungehorsamen und rebellischen Sohn gegen\u00fcber die Verpflichtung zu haben, dem Betriebskapital die Summe zu entziehen ...",
+        "chapter": 3
+    },
+    {
+        "word": "sohnes",
+        "definition_german": "Possessivform von Sohn.",
+        "definition_english": "Son's.",
+        "context_snippet": "sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "sp\u00e4t",
+        "definition_german": "Nach der erwarteten Zeit; weit fortgeschritten in der Zeit.",
+        "definition_english": "Late.",
+        "context_snippet": "Abends sp\u00e4t, Jean.",
+        "chapter": 3
+    },
+    {
+        "word": "speisesaal",
+        "definition_german": "Ein gro\u00dfer Raum zum Essen.",
+        "definition_english": "Dining hall.",
+        "context_snippet": "rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "spur",
+        "definition_german": "Ein Zeichen, ein Rest.",
+        "definition_english": "Trace, sign.",
+        "context_snippet": "Es war jede Spur von Besorgnis und Unruhe aus dem Gesicht Madame Buddenbrooks verschwunden, als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "standen",
+        "definition_german": "Vergangenheitsform von stehen: aufrecht sein.",
+        "definition_english": "Stood.",
+        "context_snippet": "abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "stehen",
+        "definition_german": "Vertikal positioniert sein; geschrieben sein.",
+        "definition_english": "To stand; to be written (in a letter).",
+        "context_snippet": "Was soll darin stehen!\u00ab f\u00fcgte sie bek\u00fcmmert hinzu.",
+        "chapter": 3
+    },
+    {
+        "word": "stiefbruder",
+        "definition_german": "Der Sohn des Stiefvaters oder der Stiefmutter.",
+        "definition_english": "Stepbrother.",
+        "context_snippet": "Es soll nicht aussehen, als ob ich, der Stiefbruder, mich bei den Eltern eingenistet h\u00e4tte und gegen Gotthold intrigierte ...",
+        "chapter": 3
+    },
+    {
+        "word": "stiefmutter",
+        "definition_german": "Die neue Ehefrau des Vaters.",
+        "definition_english": "Stepmother.",
+        "context_snippet": "Aber Gotthold glaubt, da\u00df ich, seine Stiefmutter, nur f\u00fcr meine eigenen Kinder sorge und ihm seinen Vater geflissentlich entfremde.",
+        "chapter": 3
+    },
+    {
+        "word": "stimme",
+        "definition_german": "Klang der menschlichen Sprache.",
+        "definition_english": "Voice.",
+        "context_snippet": "rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "stimmung",
+        "definition_german": "Die vorherrschende Gef\u00fchlslage.",
+        "definition_english": "Mood, atmosphere.",
+        "context_snippet": "aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "stirn",
+        "definition_german": "Teil des Gesichts oberhalb der Augen.",
+        "definition_english": "Forehead.",
+        "context_snippet": "fl\u00fcsterte der Konsul mit einer erregten Handbewegung nach der Stirn.",
+        "chapter": 3
+    },
+    {
+        "word": "st\u00fcwing",
+        "definition_german": "Name der Demoiselle.",
+        "definition_english": "St\u00fcwing (proper name).",
+        "context_snippet": "Warum mu\u00dfte er diese Demoiselle St\u00fcwing heiraten und den ... Laden ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "summe",
+        "definition_german": "Ein Geldbetrag.",
+        "definition_english": "Sum, amount.",
+        "context_snippet": "Er kapriziert sich auf diese Entsch\u00e4digungssumme f\u00fcr den Anteil am Hause ...",
+        "chapter": 3
+    },
+    {
+        "word": "szene",
+        "definition_german": "Eine dramatische oder auff\u00e4llige Situation.",
+        "definition_english": "Scene, episode.",
+        "context_snippet": "Nur die Szene mit Papa ist mir d\u00e9sagr\u00e9able ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "tafel",
+        "definition_german": "Langer Tisch, besonders f\u00fcr ein Festessen.",
+        "definition_english": "Table.",
+        "context_snippet": "wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "tasche",
+        "definition_german": "Beh\u00e4lter an der Kleidung zum Aufbewahren von Gegenst\u00e4nden.",
+        "definition_english": "Pocket.",
+        "context_snippet": "und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "ton",
+        "definition_german": "Farbe (besonders in der Malerei); Klang.",
+        "definition_english": "Tone, shade (color).",
+        "context_snippet": "dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "traurige",
+        "definition_german": "Kummer oder Betr\u00fcbnis hervorrufend.",
+        "definition_english": "Sad, unfortunate.",
+        "context_snippet": "Das ist das Traurige ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "tun",
+        "definition_german": "Handeln, verrichten.",
+        "definition_english": "To do.",
+        "context_snippet": "Was tun?\u00ab wiederholte der Konsul, indem er den gesenkten Kopf sch\u00fcttelte.",
+        "chapter": 3
+    },
+    {
+        "word": "unsinn",
+        "definition_german": "Sinnloses Gerede oder Verhalten.",
+        "definition_english": "Nonsense.",
+        "context_snippet": "Nein, Unsinn, Jean, dein Verh\u00e4ltnis zur Sache ist doch wohl klar.",
+        "chapter": 3
+    },
+    {
+        "word": "unruhe",
+        "definition_german": "Zustand der Aufregung oder Besorgnis.",
+        "definition_english": "Restlessness, anxiety.",
+        "context_snippet": "Es war jede Spur von Besorgnis und Unruhe aus dem Gesicht Madame Buddenbrooks verschwunden, als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "urteilen",
+        "definition_german": "Ein Urteil f\u00e4llen, bewerten.",
+        "definition_english": "To judge.",
+        "context_snippet": "Urteilen Sie selbst!",
+        "chapter": 3
+    },
+    {
+        "word": "vater",
+        "definition_german": "M\u00e4nnlicher Elternteil.",
+        "definition_english": "Father.",
+        "context_snippet": "und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "vaters",
+        "definition_german": "Genitivform von Vater.",
+        "definition_english": "Father's.",
+        "context_snippet": "Es ist eine Schw\u00e4che, Vaters Widerwille gegen den Laden; aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "verderben",
+        "definition_german": "Zerst\u00f6ren, schlecht machen.",
+        "definition_english": "To spoil, ruin.",
+        "context_snippet": "aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "verlegen",
+        "definition_german": "Besch\u00e4mt, unsicher.",
+        "definition_english": "Embarrassed, confused.",
+        "context_snippet": "Der Konsul lachte \u00e4rgerlich und verlegen bei diesem Worte.",
+        "chapter": 3
+    },
+    {
+        "word": "vermeiden",
+        "definition_german": "Umgehen, etwas nicht geschehen lassen.",
+        "definition_english": "To avoid.",
+        "context_snippet": "auch dem Vater gegen\u00fcber mu\u00df ich den Anschein dieser Rolle vermeiden.",
+        "chapter": 3
+    },
+    {
+        "word": "vern\u00fcnftig",
+        "definition_german": "Mit gesundem Menschenverstand, logisch.",
+        "definition_english": "Reasonable, sensible.",
+        "context_snippet": "Warum konnte er nicht vern\u00fcnftig sein!",
+        "chapter": 3
+    },
+    {
+        "word": "verpflichtung",
+        "definition_german": "Die Notwendigkeit, etwas zu tun (moralisch oder rechtlich).",
+        "definition_english": "Obligation, duty.",
+        "context_snippet": "die Verpflichtung zu haben, dem Betriebskapital die Summe zu entziehen ...",
+        "chapter": 3
+    },
+    {
+        "word": "verschwunden",
+        "definition_german": "Weg, nicht mehr da.",
+        "definition_english": "Vanished, disappeared.",
+        "context_snippet": "das gesellschaftliche L\u00e4cheln war pl\u00f6tzlich von seinem Gesicht verschwunden, um einem gespannten und besorgten Ausdruck Platz zu machen, und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "vertreten",
+        "definition_german": "Die Interessen einer Person oder Gruppe wahrnehmen.",
+        "definition_english": "To represent, advocate for.",
+        "context_snippet": "ich habe die Interessen der Firma zu vertreten, und wenn Papa nicht glaubt, einem ungehorsamen und rebellischen Sohn gegen\u00fcber die Verpflichtung zu haben, dem Betriebskapital die Summe zu entziehen ...",
+        "chapter": 3
+    },
+    {
+        "word": "viertel",
+        "definition_german": "Ein von vier gleichen Teilen.",
+        "definition_english": "Quarter, fourth.",
+        "context_snippet": "eine Abstandssumme, ein Viertel blo\u00df von der Hauskaufsumme ...",
+        "chapter": 3
+    },
+    {
+        "word": "vorm",
+        "definition_german": "Kurzform von \"vor dem\".",
+        "definition_english": "Before the.",
+        "context_snippet": "Heute abend vielleicht, vorm Zubettegehen ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "vorl\u00e4ufig",
+        "definition_german": "Gegenw\u00e4rtig, provisorisch.",
+        "definition_english": "Currently, temporarily.",
+        "context_snippet": "Und dann bezahlen Bethsy und ich vorl\u00e4ufig eine ganz normale Miete f\u00fcr den zweiten Stock ...",
+        "chapter": 3
+    },
+    {
+        "word": "vorteilhaftes",
+        "definition_german": "Gewinnbringend, n\u00fctzlich.",
+        "definition_english": "Advantageous, profitable.",
+        "context_snippet": "Das ist ein vorteilhaftes Gesch\u00e4ft, das Papa sehr glatt und gut erledigt hat, und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "warum",
+        "definition_german": "Fragewort nach dem Grund.",
+        "definition_english": "Why.",
+        "context_snippet": "Urteilen Sie selbst! Warum konnte er nicht vern\u00fcnftig sein!",
+        "chapter": 3
+    },
+    {
+        "word": "wartet",
+        "definition_german": "Pr\u00e4sens von warten: still verharren.",
+        "definition_english": "Is waiting.",
+        "context_snippet": "Komm nun, man wartet ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "wei\u00dfe",
+        "definition_german": "Von der Farbe des Schnees.",
+        "definition_english": "White (plural).",
+        "context_snippet": "Aus dem himmelblauen Hintergrund der Tapeten traten zwischen schlanken S\u00e4ulen wei\u00dfe G\u00f6tterbilder fast plastisch hervor.",
+        "chapter": 3
+    },
+    {
+        "word": "widerwille",
+        "definition_german": "Ablehnung, Ekel.",
+        "definition_english": "Aversion, dislike.",
+        "context_snippet": "Es ist eine Schw\u00e4che, Vaters Widerwille gegen den Laden; aber Gotthold h\u00e4tte diese kleine Eitelkeit respektieren m\u00fcssen ...",
+        "chapter": 3
+    },
+    {
+        "word": "wirksam",
+        "definition_german": "Wirkung zeigend, effektiv.",
+        "definition_english": "Effective, striking.",
+        "context_snippet": "dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "wissen",
+        "definition_german": "Kenntnis haben.",
+        "definition_english": "To know.",
+        "context_snippet": "Ich will nichts davon wissen.",
+        "chapter": 3
+    },
+    {
+        "word": "wohl",
+        "definition_german": "Wahrscheinlich, mutma\u00dflich.",
+        "definition_english": "Probably, surely.",
+        "context_snippet": "Nein, Unsinn, Jean, dein Verh\u00e4ltnis zur Sache ist doch wohl klar.",
+        "chapter": 3
+    },
+    {
+        "word": "wunderlich",
+        "definition_german": "Name des Pastors.",
+        "definition_english": "Wunderlich (proper name).",
+        "context_snippet": "die als eine der letzten, an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "z\u00e4hne",
+        "definition_german": "Harte, wei\u00dfe Strukturen im Mund.",
+        "definition_english": "Teeth.",
+        "context_snippet": "und an seinen Schl\u00e4fen spielten, als ob er die Z\u00e4hne aufeinander bisse, ein paar Muskeln.",
+        "chapter": 3
+    },
+    {
+        "word": "zeit",
+        "definition_german": "Die Abfolge von Momenten.",
+        "definition_english": "Time.",
+        "context_snippet": "Es ist immer noch Zeit, ihn herauszubitten ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "zog",
+        "definition_german": "Vergangenheitsform von ziehen: herausnehmen, herausholen.",
+        "definition_english": "Pulled, drew out.",
+        "context_snippet": "indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "zur\u00fcck",
+        "definition_german": "Wieder an den Ausgangspunkt.",
+        "definition_english": "Back.",
+        "context_snippet": "n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "zwei",
+        "definition_german": "Die Kardinalzahl nach eins.",
+        "definition_english": "Two.",
+        "context_snippet": "Pardon, lieber Herr Pastor ... Auf zwei Worte, Mama!\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "\u00fcberschreiten",
+        "definition_german": "\u00dcber etwas hinweggehen.",
+        "definition_english": "To cross, step over.",
+        "context_snippet": "die als eine der letzten, an der Seite Pastor Wunderlichs, die Schwelle \u00fcberschreiten wollte.",
+        "chapter": 3
+    },
+    {
+        "word": "herauszubitten",
+        "definition_german": "Jemanden h\u00f6flich auffordern, herauszukommen.",
+        "definition_english": "To ask someone to come out.",
+        "context_snippet": "Es ist immer noch Zeit, ihn herauszubitten ...\u00ab",
+        "chapter": 3
+    },
+    {
+        "word": "nein",
+        "definition_german": "Verneinendes Wort, um eine Ablehnung auszudr\u00fccken.",
+        "definition_english": "No.",
+        "context_snippet": "\u00bbNein, du hast recht, Jean, warte damit!\u00ab sagte Madame Buddenbrook und erfa\u00dfte nach ihrer Gewohnheit mit einer schnellen Bewegung den Arm ihres Sohnes.",
+        "chapter": 3
+    },
+    {
+        "word": "winkel",
+        "definition_german": "Ecke oder verborgener Raum in einem Zimmer.",
+        "definition_english": "Corner or angle.",
+        "context_snippet": "Und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "abweisend",
+        "definition_german": "Eine Haltung, die Distanz oder Ablehnung zeigt.",
+        "definition_english": "Rejecting, distant, dismissive.",
+        "context_snippet": "Und wenn Papa sich Gotthold gegen\u00fcber so ganz abweisend verh\u00e4lt, so ist das\u00a0...",
+        "chapter": 3
+    },
+    {
+        "word": "geflissentlich",
+        "definition_german": "Absichtlich, mit voller Beabsichtigung.",
+        "definition_english": "Deliberately, intentionally.",
+        "context_snippet": "Aber Gotthold glaubt, da\u00df ich, seine Stiefmutter, nur f\u00fcr meine eigenen Kinder sorge und ihm seinen Vater geflissentlich entfremde.",
+        "chapter": 3
+    },
+    {
+        "word": "sorge",
+        "definition_german": "Ich k\u00fcmmere mich um jemanden oder etwas.",
+        "definition_english": "I care for, I look after.",
+        "context_snippet": "Aber Gotthold glaubt, da\u00df ich, seine Stiefmutter, nur f\u00fcr meine eigenen Kinder sorge und ihm seinen Vater geflissentlich entfremde.",
+        "chapter": 3
+    },
+    {
+        "word": "oft",
+        "definition_german": "Mehrmals, h\u00e4ufig.",
+        "definition_english": "Often, frequently.",
+        "context_snippet": "Ich selbst habe Papa oft genug bitten wollen, nachzugeben ...",
+        "chapter": 3
+    },
+    {
+        "word": "munter",
+        "definition_german": "Fr\u00f6hlich, lebhaft, gut gelaunt.",
+        "definition_english": "Cheerful, lively, spirited.",
+        "context_snippet": "Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "kandelaber",
+        "definition_german": "Mehrarmiger Kerzenst\u00e4nder, meist hoch und verziert.",
+        "definition_english": "Candelabra, large branched candlestick.",
+        "context_snippet": "Und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "firma",
+        "definition_german": "Handelsunternehmen; die rechtliche Bezeichnung eines Gesch\u00e4ftsbetriebs.",
+        "definition_english": "Company, firm, business.",
+        "context_snippet": "Das ist ein vorteilhaftes Gesch\u00e4ft, das Papa sehr glatt und gut erledigt hat, und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "b\u00fcfett",
+        "definition_german": "Ein M\u00f6belst\u00fcck im Speisesaal zur Aufbewahrung von Geschirr; ein Anrichtetisch.",
+        "definition_english": "Buffet, sideboard.",
+        "context_snippet": "\u00dcber dem massigen B\u00fcfett, dem Landschaftszimmer gegen\u00fcber, hing ein umfangreiches Gem\u00e4lde, ein italienischer Golf, dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "schweren",
+        "definition_german": "Mit gro\u00dfem Gewicht; nicht leicht.",
+        "definition_english": "Heavy.",
+        "context_snippet": "Die schweren roten Fenstervorh\u00e4nge waren geschlossen, und in jedem Winkel des Zimmers brannten auf einem hohen, vergoldeten Kandelaber acht Kerzen, abgesehen von denen, die in silbernen Armleuchtern auf der Tafel standen.",
+        "chapter": 3
+    },
+    {
+        "word": "zubettegehen",
+        "definition_german": "Ins Bett gehen, schlafen gehen.",
+        "definition_english": "Going to bed, retiring for the night.",
+        "context_snippet": "Heute abend vielleicht, vorm Zubettegehen\u00a0...",
+        "chapter": 3
+    },
+    {
+        "word": "landschaftszimmer",
+        "definition_german": "Ein Salon im Buddenbrook-Haus, oft mit Landschaftsgem\u00e4lden ausgestattet.",
+        "definition_english": "Landscape room (a specific room name in the house).",
+        "context_snippet": "Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "handelt",
+        "definition_german": "Betrifft; die Sache geht um etwas.",
+        "definition_english": "Is about, concerns, deals with.",
+        "context_snippet": "Es handelt sich um mehr als elftausend Kuranttaler.",
+        "chapter": 3
+    },
+    {
+        "word": "geld",
+        "definition_german": "Zahlungsmittel; W\u00e4hrung.",
+        "definition_english": "Money, currency.",
+        "context_snippet": "Das ist gutes Geld ...",
+        "chapter": 3
+    },
+    {
+        "word": "schwester",
+        "definition_german": "Weibliches Geschwister.",
+        "definition_english": "Sister.",
+        "context_snippet": "Was meine Schwester in Frankfurt betrifft, nun, so ist die Sache arrangiert.",
+        "chapter": 3
+    },
+    {
+        "word": "brief",
+        "definition_german": "Geschriebene Nachricht, die verschickt wird.",
+        "definition_english": "Letter, correspondence.",
+        "context_snippet": "Es ist, um kurz zu sein, ein Brief von Gotthold gekommen.",
+        "chapter": 3
+    },
+    {
+        "word": "ehrlich",
+        "definition_german": "Aufrichtig, redlich.",
+        "definition_english": "Honest, frankly.",
+        "context_snippet": "Aber wenn ich ehrlich sein soll ... ich bin schlie\u00dflich Associ\u00e9.",
+        "chapter": 3
+    },
+    {
+        "word": "stock",
+        "definition_german": "Eine Etage in einem Geb\u00e4ude.",
+        "definition_english": "Floor, storey (of a building).",
+        "context_snippet": "Und dann bezahlen Bethsy und ich vorl\u00e4ufig eine ganz normale Miete f\u00fcr den zweiten Stock ...",
+        "chapter": 3
+    },
+    {
+        "word": "beleuchtung",
+        "definition_german": "Die Art und Weise, wie Licht in einem Raum verteilt ist.",
+        "definition_english": "Lighting, illumination.",
+        "context_snippet": "\u00dcber dem massigen B\u00fcfett, dem Landschaftszimmer gegen\u00fcber, hing ein umfangreiches Gem\u00e4lde, ein italienischer Golf, dessen blaudunstiger Ton in dieser Beleuchtung au\u00dferordentlich wirksam war.",
+        "chapter": 3
+    },
+    {
+        "word": "kr\u00f6ger",
+        "definition_german": "Nachname einer Person im Roman.",
+        "definition_english": "Kr\u00f6ger (a family name in the novel).",
+        "context_snippet": "Es war jede Spur von Besorgnis und Unruhe aus dem Gesicht Madame Buddenbrooks verschwunden, als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "besorgnis",
+        "definition_german": "Gef\u00fchl der Sorge, Angst oder Beunruhigung.",
+        "definition_english": "Concern, anxiety, worry.",
+        "context_snippet": "Es war jede Spur von Besorgnis und Unruhe aus dem Gesicht Madame Buddenbrooks verschwunden, als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    },
+    {
+        "word": "mann",
+        "definition_german": "Ehepartner (m\u00e4nnlich).",
+        "definition_english": "Man, husband.",
+        "context_snippet": "Ihr Mann bekommt schon jetzt, bei Papas Lebzeiten, eine Abstandssumme, ein Viertel blo\u00df von der Hauskaufsumme ...",
+        "chapter": 3
+    },
+    {
+        "word": "gesch\u00e4ft",
+        "definition_german": "Kaufm\u00e4nnische Transaktion oder Handlung; ein Unternehmen.",
+        "definition_english": "Business, deal, transaction.",
+        "context_snippet": "Das ist ein vorteilhaftes Gesch\u00e4ft, das Papa sehr glatt und gut erledigt hat, und das im Sinne der Firma h\u00f6chst erfreulich ist.",
+        "chapter": 3
+    },
+    {
+        "word": "sah",
+        "definition_german": "Konnte visuell wahrnehmen (Pr\u00e4teritum von sehen).",
+        "definition_english": "Saw, looked (past tense of see).",
+        "context_snippet": "Es ist, um kurz zu sein, ein Brief von Gotthold gekommen\u00ab, sagte er rasch und leise, indem er in ihre fragenden, dunklen Augen sah und das gefaltete und versiegelte Papier aus der Tasche zog.",
+        "chapter": 3
+    },
+    {
+        "word": "vielleicht",
+        "definition_german": "M\u00f6glicherweise, unter Umst\u00e4nden.",
+        "definition_english": "Perhaps, maybe.",
+        "context_snippet": "Heute abend vielleicht, vorm Zubettegehen\u00a0...",
+        "chapter": 3
+    },
+    {
+        "word": "bethsy",
+        "definition_german": "Spitzname f\u00fcr Elisabeth, die Frau von Konsul Buddenbrook.",
+        "definition_english": "Bethsy (nickname for Elisabeth, Consul Buddenbrook's wife).",
+        "context_snippet": "Und dann bezahlen Bethsy und ich vorl\u00e4ufig eine ganz normale Miete f\u00fcr den zweiten Stock ...",
+        "chapter": 3
+    },
+    {
+        "word": "gut",
+        "definition_german": "Positiv; von hoher Qualit\u00e4t.",
+        "definition_english": "Good, well.",
+        "context_snippet": "Das ist gutes Geld ...",
+        "chapter": 3
+    },
+    {
+        "word": "lange",
+        "definition_german": "Eine ausgedehnte Strecke (hier: die Tafel betreffend).",
+        "definition_english": "Long.",
+        "context_snippet": "Der Konsul barg das Papier in der Brusttasche, bot seiner Mutter den Arm, und nebeneinander \u00fcberschritten sie die Schwelle zum hellerleuchteten Speisesaal, wo die Gesellschaft mit der Placierung um die lange Tafel soeben fertiggeworden war.",
+        "chapter": 3
+    },
+    {
+        "word": "beinahe",
+        "definition_german": "Fast, nahezu.",
+        "definition_english": "Almost, nearly.",
+        "context_snippet": "Aber es ist seine Schuld!\u00ab rief der Konsul beinahe laut und m\u00e4\u00dfigte dann seine Stimme mit einem Blick nach dem Speisesaal.",
+        "chapter": 3
+    },
+    {
+        "word": "uhr",
+        "definition_german": "Zeitangabe (Stunde).",
+        "definition_english": "O'clock, hour.",
+        "context_snippet": "Es ist schon um zwei Uhr angekommen, und ich h\u00e4tte es dem Vater l\u00e4ngst einh\u00e4ndigen m\u00fcssen, aber sollte ich ihm heute die Stimmung verderben?",
+        "chapter": 3
+    },
+    {
+        "word": "nachzugeben",
+        "definition_german": "Sich f\u00fcgen, einer Forderung zustimmen.",
+        "definition_english": "To give in, to yield, to comply.",
+        "context_snippet": "Ich selbst habe Papa oft genug bitten wollen, nachzugeben ...",
+        "chapter": 3
+    },
+    {
+        "word": "buddenbrook",
+        "definition_german": "Familienname der Protagonisten, hier der Konsul Jean Buddenbrook.",
+        "definition_english": "Buddenbrook (The surname of the main family, here referring to Consul Jean Buddenbrook).",
+        "context_snippet": "Und w\u00e4hrend der Pastor ihm munter zunickte, n\u00f6tigte Konsul Buddenbrook die alte Dame ins Landschaftszimmer zur\u00fcck und zum Fenster.",
+        "chapter": 3
+    },
+    {
+        "word": "verh\u00e4ltnis",
+        "definition_german": "Beziehung, Relation oder Zustand zwischen Personen.",
+        "definition_english": "Relationship, circumstances, condition.",
+        "context_snippet": "Es ist seine Schuld, dies traurige Verh\u00e4ltnis!",
+        "chapter": 3
+    },
+    {
+        "word": "buddenbrooks",
+        "definition_german": "Der Familienname der Protagonisten, hier im Genitiv, bezieht sich auf Madame Buddenbrook.",
+        "definition_english": "Buddenbrooks (possessive form of the family name, here referring to Madame Buddenbrook's face).",
+        "context_snippet": "Es war jede Spur von Besorgnis und Unruhe aus dem Gesicht Madame Buddenbrooks verschwunden, als sie sich, zwischen dem alten Kr\u00f6ger, der an der Fensterseite pr\u00e4sidierte, und Pastor Wunderlich niederlie\u00df.",
+        "chapter": 3
+    }
+]
