@@ -250,7 +250,11 @@ function saveAndRenderVocab() {
     if (selectedVocab.length === 0) {
         vocabList.innerHTML = '<li>Dein Set ist leer. Klicke Wörter im Text an, um sie hinzuzufügen.</li>';
         // Reset the definition display when the list is cleared/empty
-        definitionDisplay.innerHTML = 'Klicke oder fahre mit der Maus über ein **fett gedrucktes** Wort, um die Definition hier zu sehen.';
+        definitionDisplay.innerHTML = `
+            Klicke oder fahre mit der Maus über ein 
+            <span style="font-weight: bold;">fett gedrucktes</span> 
+            Wort, um die Definition hier zu sehen.
+        `;
         return;
     }
 
