@@ -51,6 +51,7 @@ const definitionDisplay = document.getElementById('definition-display'); // New 
 const submissionForm = document.getElementById('submission-form');
 const submitWordInput = document.getElementById('submit-word');
 const submissionMessage = document.getElementById('submission-message');
+const submitDefinitionEnInput = document.getElementById('submit-definition-en');
 
 let germanText = '';
 let vocabularyData = [];
