@@ -280,3 +280,47 @@ clearButton.addEventListener('click', clearVocabSet);
 
 // Start the entire process by loading the data
 loadDataAndInitializeApp();
+
+// ========================================================================
+// 5. SUBMISSION HANDLER
+// ========================================================================
+
+submissionForm.addEventListener('submit', async (event) => {
+    event.preventDefault(); // Stop the form from submitting normally
+
+    const word = submitWordInput.value.trim();
+    const definition = document.getElementById('submit-definition').value.trim();
+    
+    // Simple validation
+    if (!word || !definition) {
+        submissionMessage.textContent = "Bitte Wort und Definition eingeben.";
+        return;
+    }
+    
+    // Ensure Firebase is initialized
+    if (typeof db === 'undefined') {
+        submissionMessage.textContent = "Fehler: Datenbank nicht verbunden.";
+        return;
+    }
+
+    try {
+        await submissionsCollection.add({
+            word: word,
+            definition_german: definition,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            status: 'pending' // For review later
+        });
+
+        submissionMessage.style.color = 'green';
+        submissionMessage.textContent = `Vielen Dank! Definition für "${word}" wurde gesendet.`;
+        
+        // Clear the form after successful submission
+        document.getElementById('submit-definition').value = '';
+        submitWordInput.value = '';
+
+    } catch (e) {
+        console.error("Error adding document: ", e);
+        submissionMessage.style.color = 'red';
+        submissionMessage.textContent = "Fehler beim Senden. Bitte versuchen Sie es später erneut.";
+    }
+});
