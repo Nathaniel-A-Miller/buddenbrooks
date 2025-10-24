@@ -61,15 +61,7 @@ let currentChapter = 1;     // Start with Chapter 1
 // ========================================================================
 // 3. CORE FUNCTIONS
 // ========================================================================
-/**
- * Converts a number (e.g., 1) to a two-digit string (e.g., "01").
- * This is necessary if your files are named 'vocab_ch01.json' or 'chapter_01.txt'.
- */
-function zeroPad(num) {
-    // If your chapter files are NOT zero-padded (e.g., chapter_1.txt), 
-    // you can simplify this to: return String(num);
-    return String(num).padStart(2, '0');
-}
+
 /**
  * Fetches the text and JSON data, then initializes the app.
  */
