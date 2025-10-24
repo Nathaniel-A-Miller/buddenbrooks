@@ -61,7 +61,15 @@ let currentChapter = 1;     // Start with Chapter 1
 // ========================================================================
 // 3. CORE FUNCTIONS
 // ========================================================================
-
+/**
+ * Converts a number (e.g., 1) to a two-digit string (e.g., "01").
+ * This is necessary if your files are named 'vocab_ch01.json' or 'chapter_01.txt'.
+ */
+function zeroPad(num) {
+    // If your chapter files are NOT zero-padded (e.g., chapter_1.txt), 
+    // you can simplify this to: return String(num);
+    return String(num).padStart(2, '0');
+}
 /**
  * Fetches the text and JSON data, then initializes the app.
  */
@@ -80,7 +88,7 @@ async function loadDataAndInitializeApp() {
         await fetchAndSetVocab(currentChapter);
 
         // 3. Extract unique chapters and populate the dropdown (NEW LOGIC)
-        availableChapters = [...new Set(vocabularyData.map(item => item.chapter))].sort((a, b) => a - b);
+        availableChapters = Array.from({length: 97}, (_, i) => i + 1);
         populateChapterDropdown(availableChapters); // Call new helper function
         
         // 4. Sort Vocabulary (Filter will happen in the rendering function)
@@ -143,9 +151,6 @@ async function handleChapterChange(event) {
         if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
         germanText = await textResponse.text();
         await fetchAndSetVocab(currentChapter);
-        
-        // 2. Re-render the UI with the new text and filtered vocab
-        renderInteractiveText(); 
         
     } catch (error) {
         console.error("Failed to load chapter text:", error);
@@ -290,8 +295,7 @@ function renderInteractiveText() {
         console.error("Text or vocabulary data is missing before rendering.");
         return;
     }
-    // Filter vocabularyData down to the current chapter
-    const chapterVocab = vocabularyData.filter(item => item.chapter === currentChapter);
+    
     let textWithParagraphs = germanText;
     
     // 1. Preserve paragraph breaks:
@@ -300,7 +304,7 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
     // 2. Proceed with word wrapping
-    chapterVocab.forEach(item => {
+    vocabularyData.forEach(item => {
         
         let regex;
         // Check if the word contains a German diacritic or compound part like 'ß' 
