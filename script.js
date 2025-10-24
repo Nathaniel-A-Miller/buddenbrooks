@@ -90,7 +90,9 @@ async function loadDataAndInitializeApp() {
 
         // 5. Initialize the UI
         renderInteractiveText();
-        saveAndRenderVocab(); 
+        saveAndRenderVocab();
+        // Check if instructions need to be shown
+        checkAndShowInstructions();
 
     } catch (error) {
         // ... error handling ...
@@ -191,6 +193,34 @@ function downloadCSV(csvContent, filename) {
     document.body.removeChild(a);
     
     URL.revokeObjectURL(url);
+}
+
+/**
+ * Shows the instructions panel once per user, using localStorage.
+ */
+function checkAndShowInstructions() {
+    // Check if the user has dismissed the instructions before
+    if (localStorage.getItem('instructionsDismissed') !== 'true') {
+        if (instructionsPanel) {
+            instructionsPanel.style.display = 'block';
+            
+            // Add event listener to dismiss button
+            if (dismissButton) {
+                dismissButton.addEventListener('click', dismissInstructions);
+            }
+        }
+    }
+}
+
+/**
+ * Hides the panel and sets a flag in localStorage.
+ */
+function dismissInstructions() {
+    if (instructionsPanel) {
+        instructionsPanel.style.display = 'none';
+    }
+    // Set the flag so instructions don't show on future visits
+    localStorage.setItem('instructionsDismissed', 'true');
 }
 // /**
 //  * Replaces words in the text with clickable <span> elements and preserves paragraphs.
