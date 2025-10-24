@@ -131,8 +131,6 @@ async function fetchAndSetVocab(chapterNum) {
     renderInteractiveText();
 }
 
- * Handles the change event from the dropdown.
- */
 async function handleChapterChange(event) {
     const newChapter = parseInt(event.target.value);
     if (newChapter === currentChapter) return; // No change
