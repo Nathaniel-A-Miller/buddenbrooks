@@ -39,7 +39,9 @@ def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
         if key in vocab_dict:
             saved_class = "saved" if key in saved_words else ""
             html += (
-                f"<span class='word {saved_class}' onclick='window.parent.postMessage({{type:\"word_click\", word:\"{key}\"}}, \"*\")'>"
+                f"<span class='word {saved_class}' "
+                f"onclick=\"document.getElementById('clicked_word').value='{key}'; "
+                f"document.getElementById('clicked_word').dispatchEvent(new Event('change'))\">"
                 f"{token}<span class='pop'>{vocab_dict[key]['definition_english']}</span>"
                 f"</span> "
             )
@@ -49,4 +51,4 @@ def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
     html += "</p>"
 
     # --- Render HTML in Streamlit component ---
-    components.html(html, height=400, scrolling=True)
+    components.html(html, height=500, scrolling=True)
