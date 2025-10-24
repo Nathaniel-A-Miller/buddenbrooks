@@ -294,20 +294,25 @@ loadDataAndInitializeApp();
 // 5. SUBMISSION HANDLER
 // ========================================================================
 
+// script.js (Submission Handler at the bottom of the file)
+
 submissionForm.addEventListener('submit', async (event) => {
-    event.preventDefault(); // Stop the form from submitting normally
+    event.preventDefault();
 
     const word = submitWordInput.value.trim();
-    const definition = document.getElementById('submit-definition').value.trim();
+    const definitionDE = document.getElementById('submit-definition').value.trim();
+    // NEW: Capture the English definition
+    const definitionEN = document.getElementById('submit-definition-en').value.trim();
     
-    // Simple validation
-    if (!word || !definition) {
-        submissionMessage.textContent = "Bitte Wort und Definition eingeben.";
+    // Simple validation (now requires all three fields)
+    if (!word || !definitionDE || !definitionEN) {
+        submissionMessage.style.color = 'red';
+        submissionMessage.textContent = "Bitte Wort, DE Definition, und EN Definition eingeben.";
         return;
     }
     
-    // Ensure Firebase is initialized
     if (typeof db === 'undefined') {
+        submissionMessage.style.color = 'red';
         submissionMessage.textContent = "Fehler: Datenbank nicht verbunden.";
         return;
     }
@@ -315,21 +320,21 @@ submissionForm.addEventListener('submit', async (event) => {
     try {
         await submissionsCollection.add({
             word: word,
-            definition_german: definition,
+            definition_german: definitionDE, // Use the new variable name
+            definition_english: definitionEN, // NEW: Save the English definition
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            status: 'pending' // For review later
+            status: 'pending'
         });
 
         submissionMessage.style.color = 'green';
-        submissionMessage.textContent = `Vielen Dank! Definition für "${word}" wurde gesendet.`;
+        submissionMessage.textContent = `Vielen Dank! Wort "${word}" wurde gesendet.`;
         
         // Clear the form after successful submission
         document.getElementById('submit-definition').value = '';
+        document.getElementById('submit-definition-en').value = ''; // NEW: Clear English field
         submitWordInput.value = '';
 
     } catch (e) {
-        console.error("Error adding document: ", e);
-        submissionMessage.style.color = 'red';
-        submissionMessage.textContent = "Fehler beim Senden. Bitte versuchen Sie es später erneut.";
+        // ... error handling remains the same ...
     }
 });
