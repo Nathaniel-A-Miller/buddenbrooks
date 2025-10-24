@@ -115,3 +115,33 @@ header {
     cursor: pointer;
     margin-top: 15px;
 }
+
+/* style.css (Add this to the bottom) */
+.add-word-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #2ecc71; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add-word-button:hover:not(:disabled) {
+    background-color: #27ae60;
+}
+
+.add-word-button:disabled {
+    background-color: #95a5a6; /* Gray when disabled/added */
+    cursor: default;
+}
+
+/* Remove or update the old definition-action style as it's replaced by the button */
+.definition-popup .definition-action {
+    /* You can remove this style if you only use the button */
+    display: none; 
+}
