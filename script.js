@@ -26,9 +26,8 @@ if (typeof firebase !== 'undefined' && !firebase.apps.length) {
 }
 
 // ========================================================================
-// 1. DATA FILE PATHS
+// 1. DATA FILE PATH
 // ========================================================================
-const TEXT_FILE_PATH = 'text.txt';
 const VOCAB_FILE_PATH = 'vocab.json';
 
 
