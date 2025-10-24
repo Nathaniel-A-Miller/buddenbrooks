@@ -42,12 +42,12 @@ const clearButton = document.getElementById('clear-vocab-button');
 const downloadButton = document.getElementById('download-vocab-button');
 const definitionDisplay = document.getElementById('definition-display'); // New element
 const chapterSelect = document.getElementById('chapter-select'); // <--- ADD THIS LINE
-
-// NEW VARIABLES
 const submissionForm = document.getElementById('submission-form');
 const submitWordInput = document.getElementById('submit-word');
 const submissionMessage = document.getElementById('submission-message');
 const submitDefinitionEnInput = document.getElementById('submit-definition-en');
+const instructionsPanel = document.getElementById('instructions-panel');
+const dismissButton = document.getElementById('dismiss-instructions');
 
 
 let germanText = '';
