@@ -302,7 +302,6 @@ submissionForm.addEventListener('submit', async (event) => {
 
     const word = submitWordInput.value.trim();
     const definitionDE = document.getElementById('submit-definition').value.trim();
-    // NEW: Capture the English definition
     const definitionEN = document.getElementById('submit-definition-en').value.trim();
     
     // Simple validation (now requires all three fields)
