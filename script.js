@@ -280,8 +280,8 @@ function handleWordClick(event) {
             // Word is NOT selected, ADD it.
             selectedVocab.push({
                 word: word,
-                definition: vocabEntry.definition,    // <-- German definition (Required for sidebar display)
-                definitionEN: vocabEntry.definitionEN // <-- English definition (Required for CSV download)
+                definition: vocabEntry.definition_german,    // <-- German definition (Required for sidebar display)
+                definitionEN: vocabEntry.definition_english // <-- English definition (Required for CSV download)
             });
         } else {
             // Word IS selected, REMOVE it (toggle off).
@@ -343,8 +343,8 @@ function saveAndRenderVocab() {
         const li = document.createElement('li');
         li.innerHTML = `
             <strong>${item.word}</strong>
-            <p>DE: ${item.definition_german}</p>
-            <p>EN: ${item.definition_english}</p>
+            <p>DE: ${item.definition}</p>
+            <p>EN: ${item.definitionEN}</p>
         `;
         vocabList.appendChild(li);
     });
