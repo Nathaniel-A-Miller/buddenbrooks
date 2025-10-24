@@ -100,7 +100,9 @@ function handleWordHover(event) {
             <strong>${vocabObject.word}</strong>
             <p>DE: ${vocabObject.definition_german}</p>
             <p>EN: ${vocabObject.definition_english}</p>
-            <div class="definition-action">Klicken, um zum Vokabel-Set hinzuzufügen.</div>
+            <button class="add-word-button" onclick="addWordToSet('${word}')">
+                Wort zu Set hinzufügen (Add to Set)
+            </button>
         `;
     }
 }
@@ -109,7 +111,12 @@ function handleWordHover(event) {
  * Handles the CLICK event on a vocabulary word to ADD it to the list.
  */
 function handleWordClick(event) {
-    const word = event.target.dataset.word;
+}
+
+/**
+ * The dedicated function called by the button to add the word to the list.
+ */
+function addWordToSet(word) {
     const vocabObject = vocabularyData.find(item => item.word === word);
 
     if (vocabObject) {
@@ -117,11 +124,11 @@ function handleWordClick(event) {
         if (!selectedVocab.some(item => item.word === word)) {
             selectedVocab.push(vocabObject);
             saveAndRenderVocab();
-            // Optional visual confirmation on the word itself
-            event.target.style.backgroundColor = '#2ecc71'; 
-            setTimeout(() => {
-                event.target.style.backgroundColor = ''; 
-            }, 500);
+            
+            // Optional: Provide visual feedback on the button itself (or in the text)
+            definitionDisplay.querySelector('.add-word-button').textContent = "Hinzugefügt! (Added!)";
+            definitionDisplay.querySelector('.add-word-button').disabled = true;
+
         } else {
             alert(`"${word}" ist schon im Set! (Already in your set!)`);
         }
