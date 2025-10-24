@@ -1,27 +1,29 @@
 // ========================================================================
 // 1. DATA FILE PATHS
 // ========================================================================
-// Assuming these files are in the same folder on GitHub Pages
 const TEXT_FILE_PATH = 'text.txt';
 const VOCAB_FILE_PATH = 'vocab.json';
 
 
 // ========================================================================
-// 2. CORE JAVASCRIPT LOGIC
+// 2. DOM ELEMENTS & GLOBAL VARIABLES
 // ========================================================================
 
 const textArea = document.getElementById('german-text-area');
 const vocabList = document.getElementById('selected-vocab-list');
 const vocabCountSpan = document.getElementById('vocab-count');
 const clearButton = document.getElementById('clear-vocab-button');
-// New constant for the definition display area
-const definitionDisplay = document.getElementById('definition-display');
+const definitionDisplay = document.getElementById('definition-display'); // New element
 
-// Global variables to store the data once fetched
 let germanText = '';
 let vocabularyData = [];
+// Load selected words from the browser's local storage or start with an empty array
 let selectedVocab = JSON.parse(localStorage.getItem('selectedVocab')) || [];
 
+
+// ========================================================================
+// 3. CORE FUNCTIONS
+// ========================================================================
 
 /**
  * Fetches the text and JSON data, then initializes the app.
@@ -51,6 +53,7 @@ async function loadDataAndInitializeApp() {
     }
 }
 
+
 /**
  * Replaces words in the text with clickable <span> elements.
  */
@@ -58,7 +61,21 @@ function renderInteractiveText() {
     if (!germanText || vocabularyData.length === 0) return;
 
     let newText = germanText;
-    // ... (rest of the text parsing and wrapping logic remains the same) ...
+
+    vocabularyData.forEach(item => {
+        // Create a regular expression to find the whole word, ignoring case.
+        const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+
+        // Replace the word with the clickable span
+        newText = newText.replace(regex, (match) => {
+            // Prevent double-wrapping if the word is part of another match
+            if (match.startsWith('<span')) {
+                return match; 
+            }
+            // Use a custom data attribute to store the word for easy lookup
+            return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+        });
+    });
 
     // Display the fully wrapped text in the HTML
     textArea.innerHTML = `<p>${newText.trim()}</p>`;
@@ -66,9 +83,10 @@ function renderInteractiveText() {
     // Attach new event listeners: mouseover for definition, click for adding
     document.querySelectorAll('.vocab-word').forEach(span => {
         span.addEventListener('mouseover', handleWordHover);
-        span.addEventListener('click', handleWordClick); // Now handles ONLY the adding
+        span.addEventListener('click', handleWordClick); 
     });
 }
+
 
 /**
  * Handles the MOUSEOVER event on a vocabulary word to display the definition.
@@ -87,16 +105,6 @@ function handleWordHover(event) {
     }
 }
 
-    // Display the fully wrapped text in the HTML
-    textArea.innerHTML = `<p>${newText.trim()}</p>`;
-
-    // Attach click listeners to all the new spans
-    document.querySelectorAll('.vocab-word').forEach(span => {
-        span.addEventListener('click', handleWordClick);
-    });
-}
-
-
 /**
  * Handles the CLICK event on a vocabulary word to ADD it to the list.
  */
@@ -109,13 +117,13 @@ function handleWordClick(event) {
         if (!selectedVocab.some(item => item.word === word)) {
             selectedVocab.push(vocabObject);
             saveAndRenderVocab();
-            alert(`"${word}" wurde zum Set hinzugefügt!`); // Small confirmation alert
-        } else {
-            // If the word is already in the set, perhaps highlight it briefly instead of alerting
-            event.target.style.backgroundColor = '#2ecc71'; // Green highlight
+            // Optional visual confirmation on the word itself
+            event.target.style.backgroundColor = '#2ecc71'; 
             setTimeout(() => {
-                event.target.style.backgroundColor = ''; // Reset color
+                event.target.style.backgroundColor = ''; 
             }, 500);
+        } else {
+            alert(`"${word}" ist schon im Set! (Already in your set!)`);
         }
     }
 }
@@ -135,6 +143,8 @@ function saveAndRenderVocab() {
     
     if (selectedVocab.length === 0) {
         vocabList.innerHTML = '<li>Dein Set ist leer. Klicke Wörter im Text an, um sie hinzuzufügen.</li>';
+        // Reset the definition display when the list is cleared/empty
+        definitionDisplay.innerHTML = 'Klicke oder fahre mit der Maus über ein **fett gedrucktes** Wort, um die Definition hier zu sehen.';
         return;
     }
 
@@ -161,7 +171,7 @@ function clearVocabSet() {
 }
 
 // ========================================================================
-// 3. INITIALIZATION
+// 4. INITIALIZATION
 // ========================================================================
 
 // Add the event listener for the clear button
