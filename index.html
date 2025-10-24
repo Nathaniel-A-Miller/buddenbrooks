@@ -9,62 +9,12 @@
 <body>
     <header>
         <h1>Buddenbrooks: Kapitel 1</h1>
-        <p>Click any **bold** word to see its definition and add it to your selection list.</p>
     </header>
 
     <div id="definition-display" class="definition-popup">
-    Klicke oder fahre mit der Maus über ein **fett gedrucktes** Wort, um die Definition hier zu sehen.
-</div>
+        Klicke oder fahre mit der Maus über ein **fett gedrucktes** Wort, um die Definition hier zu sehen.
+    </div>
 
-<div class="container">
-    ```
-
----
-
-## 2. Updated `style.css` (Style the Definition Area)
-
-This styles the new area to look like a prominent definition box, making it easy to read.
-
-* **Action:** Add this CSS to the bottom of your existing `style.css`.
-
-```css
-/* --- New Styles for the Definition Popup --- */
-.definition-popup {
-    background-color: #ffffff;
-    border: 1px solid #bdc3c7;
-    border-radius: 6px;
-    padding: 15px 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 1em;
-}
-
-.definition-popup strong {
-    font-size: 1.5em;
-    color: #34495e;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.definition-popup p {
-    margin: 5px 0;
-    line-height: 1.4;
-}
-
-.definition-popup .definition-action {
-    margin-top: 10px;
-    color: #e74c3c;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-/* Make the selected word look different from an unselected word on hover */
-.vocab-word:hover {
-    background-color: #f1c40f; /* Change hover color to yellow to show it's active */
-}
-    
     <div class="container">
         <div id="german-text-area" class="text-column">
             <h2>Lade Text...</h2>
