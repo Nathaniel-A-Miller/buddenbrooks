@@ -100,7 +100,7 @@ function convertArrayToCSV(data) {
     
     // 1. Get Headers (Keys of the first object)
     const headers = ['Wort (DE)', 'Definition (DE)', 'Definition (EN)']; 
-    const keys = ['word', 'definition'];
+    const keys = ['word', 'definition', 'definitionEN'];
     
     let csv = headers.join(',') + '\n';
 
