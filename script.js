@@ -99,7 +99,7 @@ function convertArrayToCSV(data) {
     if (data.length === 0) return '';
     
     // 1. Get Headers (Keys of the first object)
-    const headers = ['Wort (DE)', 'Definition (DE)']; 
+    const headers = ['Wort (DE)', 'Definition (DE)', 'Definition (EN)']; 
     const keys = ['word', 'definition'];
     
     let csv = headers.join(',') + '\n';
@@ -126,10 +126,12 @@ function convertArrayToCSV(data) {
 /**
  * Triggers the browser to download the CSV string as a file.
  */
+// script.js (The downloadCSV function)
+
 function downloadCSV(csvContent, filename) {
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const BOM = '\uFEFF'; 
+    const blob = new Blob([BOM + csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
-    
     const a = document.createElement('a');
     a.href = url;
     a.download = filename;
@@ -139,7 +141,6 @@ function downloadCSV(csvContent, filename) {
     a.click();
     document.body.removeChild(a);
     
-    // Revoke the object URL to free up memory
     URL.revokeObjectURL(url);
 }
 // /**
