@@ -117,10 +117,9 @@ function populateChapterDropdown(chapters) {
 
 // Function to fetch and set vocab for a chapter
 async function fetchAndSetVocab(chapterNum) {
-    const chapterString = zeroPad(chapterNum); 
     
     // Fetch the specific chapter's vocabulary JSON
-    const vocabResponse = await fetch(`vocab_data/vocab_ch${chapterString}.json`); 
+    const vocabResponse = await fetch(`vocab_data/vocab_ch${chapterNum}.json`);
     if (!vocabResponse.ok) throw new Error(`Vocab load error! status: ${vocabResponse.status}`);
     
     // vocabularyData now ONLY contains data for the current chapter
