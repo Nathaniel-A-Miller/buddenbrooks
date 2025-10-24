@@ -150,3 +150,35 @@ header {
     /* You can remove this style if you only use the button */
     display: none; 
 }
+
+/* --- Submission Form Styles --- */
+#submission-form input,
+#submission-form textarea,
+#submission-form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#submission-form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+#submission-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+#submit-button {
+    background-color: #3498db; /* Blue */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
