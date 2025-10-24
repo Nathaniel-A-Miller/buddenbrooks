@@ -40,6 +40,7 @@ const textArea = document.getElementById('german-text-area');
 const vocabList = document.getElementById('selected-vocab-list');
 const vocabCountSpan = document.getElementById('vocab-count');
 const clearButton = document.getElementById('clear-vocab-button');
+const downloadButton = document.getElementById('download-vocab-button');
 const definitionDisplay = document.getElementById('definition-display'); // New element
 
 // NEW VARIABLES
@@ -86,6 +87,58 @@ async function loadDataAndInitializeApp() {
     }
 }
 
+// script.js (Somewhere in the main body, e.g., Section 3)
+
+/**
+ * Converts the global selectedVocab array into a CSV string.
+ * Uses localStorage data structure: { word: '...', definition: '...' }
+ */
+function convertArrayToCSV(data) {
+    if (data.length === 0) return '';
+    
+    // 1. Get Headers (Keys of the first object)
+    const headers = ['Wort (DE)', 'Definition (DE)']; // Define friendly headers
+    const keys = ['word', 'definition']; // Use the actual object keys
+    
+    let csv = headers.join(',') + '\n'; // Start CSV string with headers
+
+    // 2. Map Data Rows
+    data.forEach(item => {
+        const row = keys.map(key => {
+            let val = item[key];
+            
+            // Handle quotes and commas within the data field
+            if (val.includes(',') || val.includes('"')) {
+                // Escape quotes and wrap in quotes
+                val = '"' + val.replace(/"/g, '""') + '"';
+            }
+            return val;
+        });
+        csv += row.join(',') + '\n';
+    });
+    
+    return csv;
+}
+
+/**
+ * Triggers the browser to download the CSV string as a file.
+ */
+function downloadCSV(csvContent, filename) {
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    
+    // Programmatically click the hidden link to start the download
+    document.body.appendChild(a); 
+    a.click();
+    document.body.removeChild(a);
+    
+    // Revoke the object URL to free up memory
+    URL.revokeObjectURL(url);
+}
 // /**
 //  * Replaces words in the text with clickable <span> elements and preserves paragraphs.
 //  */
@@ -337,3 +390,19 @@ submissionForm.addEventListener('submit', async (event) => {
         // ... error handling remains the same ...
     }
 });
+
+// script.js (Event Listeners at the bottom of the file)
+
+// Download button listener
+if (downloadButton) {
+    downloadButton.addEventListener('click', () => {
+        const csvData = convertArrayToCSV(selectedVocab);
+        if (csvData) {
+            // Filename includes current date for easy reference
+            const date = new Date().toISOString().slice(0, 10); 
+            downloadCSV(csvData, `vocab_set_${date}.csv`);
+        } else {
+            alert('Dein Vokabel-Set ist leer!');
+        }
+    });
+}
