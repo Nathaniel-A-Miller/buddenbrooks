@@ -60,8 +60,6 @@ header {
     border: 1px solid #bdc3c7;
     border-radius: 6px;
     padding: 15px 20px;
-    margin: 20px auto;
-    max-width: 800px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1em;
 }
