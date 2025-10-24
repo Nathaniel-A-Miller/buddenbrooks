@@ -1,27 +1,14 @@
-import streamlit as st
 import streamlit.components.v1 as components
 import re
 
-def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
+def render_text_html(text, vocab_dict, saved_words):
     """
-    Renders text with clickable words in HTML.
-    saved_words: a Python set of currently saved words
+    Display text with clickable words. Hover shows definitions.
+    Clicking a word adds/removes it from saved_words.
     """
 
-    # --- Session page handling ---
-    if "page" not in st.session_state:
-        st.session_state.page = 0
-    page = st.session_state.page
-
-    # --- Tokenize and paginate ---
     tokens = re.findall(r"\w+|[^\w\s]", text, re.UNICODE)
-    start = page * words_per_page
-    end = start + words_per_page
-    visible_tokens = tokens[start:end]
 
-    st.markdown(f"### 📖 Reading: words {start+1:,}–{min(end,len(tokens)):,} of {len(tokens):,}")
-
-    # --- Build HTML ---
     html = """
     <style>
     .word { cursor: pointer; padding:2px 3px; border-radius:3px; position: relative;}
@@ -34,13 +21,13 @@ def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
     <p style="font-size:18px; line-height:1.6;">
     """
 
-    for token in visible_tokens:
+    for token in tokens:
         key = token.strip('.,;:"!?()[]').lower()
         if key in vocab_dict:
             saved_class = "saved" if key in saved_words else ""
             html += (
                 f"<span class='word {saved_class}' "
-                f"onclick=\"document.getElementById('clicked_word').value='{key}'; "
+                f"onclick=\"document.getElementById('clicked_word').value='{key}';"
                 f"document.getElementById('clicked_word').dispatchEvent(new Event('change'))\">"
                 f"{token}<span class='pop'>{vocab_dict[key]['definition_english']}</span>"
                 f"</span> "
@@ -50,5 +37,4 @@ def render_text_html(text, vocab_dict, saved_words, words_per_page=1000):
 
     html += "</p>"
 
-    # --- Render HTML in Streamlit component ---
     components.html(html, height=500, scrolling=True)
