@@ -77,9 +77,7 @@ async function loadDataAndInitializeApp() {
         germanText = await textResponse.text();
 
         // 2. Fetch Vocabulary JSON (Loads all 97 chapters)
-        const vocabResponse = await fetch(VOCAB_FILE_PATH);
         if (!vocabResponse.ok) throw new Error(`HTTP error! status: ${vocabResponse.status}`);
-        vocabularyData = await vocabResponse.json();
 
         // 3. Extract unique chapters and populate the dropdown (NEW LOGIC)
         availableChapters = [...new Set(vocabularyData.map(item => item.chapter))].sort((a, b) => a - b);
@@ -117,6 +115,27 @@ function populateChapterDropdown(chapters) {
     chapterSelect.value = currentChapter;
 }
 
+// Function to fetch and set vocab for a chapter
+async function fetchAndSetVocab(chapterNum) {
+    const chapterString = zeroPad(chapterNum); 
+    
+    // Fetch the specific chapter's vocabulary JSON
+    const vocabResponse = await fetch(`vocab_data/vocab_ch${chapterString}.json`); 
+    if (!vocabResponse.ok) throw new Error(`Vocab load error! status: ${vocabResponse.status}`);
+    
+    // vocabularyData now ONLY contains data for the current chapter
+    vocabularyData = await vocabResponse.json(); 
+    
+    // Sort and render as usual
+    vocabularyData.sort((a, b) => b.word.length - a.word.length);
+    renderInteractiveText();
+}
+
+// Update loadDataAndInitializeApp to call the new function:
+await fetchAndSetVocab(currentChapter); 
+
+// Update handleChapterChange to call the new function:
+await fetchAndSetVocab(currentChapter);
 /**
  * Handles the change event from the dropdown.
  */
