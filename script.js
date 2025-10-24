@@ -53,6 +53,8 @@ let germanText = '';
 let vocabularyData = [];
 // Load selected words from the browser's local storage or start with an empty array
 let selectedVocab = JSON.parse(localStorage.getItem('selectedVocab')) || [];
+let availableChapters = []; // To store chapter numbers/titles
+let currentChapter = 1;     // Start with Chapter 1
 
 
 // ========================================================================
@@ -62,33 +64,79 @@ let selectedVocab = JSON.parse(localStorage.getItem('selectedVocab')) || [];
 /**
  * Fetches the text and JSON data, then initializes the app.
  */
+// script.js (Inside loadDataAndInitializeApp)
+
 async function loadDataAndInitializeApp() {
     try {
-        // 1. Fetch German Text
-        const textResponse = await fetch(TEXT_FILE_PATH);
-        if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status} for ${TEXT_FILE_PATH}`);
+        // ... (1. Fetch German Text)
+        // You'll need to fetch the text for the currentChapter, not just 'chapter 1'.
+        // For now, we'll assume a file path like `chapter_1.txt`, `chapter_2.txt`, etc.
+        const textResponse = await fetch(`chapter_${currentChapter}.txt`); // 👈 IMPORTANT CHANGE
+        if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
         germanText = await textResponse.text();
 
-        // 2. Fetch Vocabulary JSON
+        // 2. Fetch Vocabulary JSON (Loads all 97 chapters)
         const vocabResponse = await fetch(VOCAB_FILE_PATH);
-        if (!vocabResponse.ok) throw new Error(`HTTP error! status: ${vocabResponse.status} for ${VOCAB_FILE_PATH}`);
+        if (!vocabResponse.ok) throw new Error(`HTTP error! status: ${vocabResponse.status}`);
         vocabularyData = await vocabResponse.json();
 
-        // 3. Sort Vocabulary for accurate matching (longer words first)
-        vocabularyData.sort((a, b) => b.word.length - a.word.length);
+        // 3. Extract unique chapters and populate the dropdown (NEW LOGIC)
+        availableChapters = [...new Set(vocabularyData.map(item => item.chapter))].sort((a, b) => a - b);
+        populateChapterDropdown(availableChapters); // Call new helper function
         
-        // 4. Initialize the UI
+        // 4. Sort Vocabulary (Filter will happen in the rendering function)
+        // ...
+
+        // 5. Initialize the UI
         renderInteractiveText();
-        saveAndRenderVocab(); 
+        saveAndRenderVocab(); 
 
     } catch (error) {
-        console.error("Failed to load application data:", error);
-        textArea.innerHTML = `<p style="color: red;">Fehler beim Laden des Textes oder Vokabulars. Bitte prüfen Sie die Dateien ${TEXT_FILE_PATH} und ${VOCAB_FILE_PATH}.</p>`;
+        // ... error handling ...
     }
 }
+// script.js (New Helper Functions)
 
-// script.js (Somewhere in the main body, e.g., Section 3)
+/**
+ * Populates the <select> element with options for each chapter.
+ */
+function populateChapterDropdown(chapters) {
+    chapterSelect.innerHTML = ''; // Clear existing options
 
+    chapters.forEach(chapterNum => {
+        const option = document.createElement('option');
+        option.value = chapterNum;
+        option.textContent = `Kapitel ${chapterNum}`;
+        chapterSelect.appendChild(option);
+    });
+    
+    // Set the initial value to Chapter 1
+    chapterSelect.value = currentChapter;
+}
+
+/**
+ * Handles the change event from the dropdown.
+ */
+async function handleChapterChange(event) {
+    const newChapter = parseInt(event.target.value);
+    if (newChapter === currentChapter) return; // No change
+
+    currentChapter = newChapter;
+    
+    // 1. Fetch the new chapter text
+    try {
+        const textResponse = await fetch(`chapter_${currentChapter}.txt`); // 👈 IMPORTANT
+        if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
+        germanText = await textResponse.text();
+        
+        // 2. Re-render the UI with the new text and filtered vocab
+        renderInteractiveText(); 
+        
+    } catch (error) {
+        console.error("Failed to load chapter text:", error);
+        textArea.innerHTML = `<p style="color: red;">Fehler beim Laden von Kapitel ${currentChapter}.</p>`;
+    }
+}
 /**
  * Converts the global selectedVocab array into a CSV string.
  * Uses localStorage data structure: { word: '...', definition: '...' }
@@ -199,7 +247,8 @@ function renderInteractiveText() {
         console.error("Text or vocabulary data is missing before rendering.");
         return;
     }
-
+    // Filter vocabularyData down to the current chapter
+    const chapterVocab = vocabularyData.filter(item => item.chapter === currentChapter);
     let textWithParagraphs = germanText;
     
     // 1. Preserve paragraph breaks:
@@ -208,7 +257,7 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
     // 2. Proceed with word wrapping
-    vocabularyData.forEach(item => {
+    chapterVocab.forEach(item => {
         
         let regex;
         // Check if the word contains a German diacritic or compound part like 'ß' 
@@ -227,7 +276,7 @@ function renderInteractiveText() {
         textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
             // CRITICAL: Prevent double-wrapping (which corrupts the HTML)
             if (match.startsWith('<span') || match.includes('<span')) {
-                return match; 
+                return `<span class="vocab-word" data-word="${item.word}">${match}</span>`; 
             }
             // Use a custom data attribute to store the word for easy lookup
             return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
@@ -372,6 +421,9 @@ function clearVocabSet() {
 // Add the event listener for the clear button
 clearButton.addEventListener('click', clearVocabSet);
 
+// Add the event listener for the chapter selector
+chapterSelect.addEventListener('change', handleChapterChange);
+
 // Start the entire process by loading the data
 loadDataAndInitializeApp();
 
@@ -438,3 +490,5 @@ if (downloadButton) {
         }
     });
 }
+
+
