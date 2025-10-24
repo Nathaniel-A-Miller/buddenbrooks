@@ -1,6 +1,6 @@
 streamlit>=1.38
 pandas>=2.2
-streamlit-tooltip>=0.1.6
-streamlit-extras>=0.4.3
+# streamlit-tooltip>=0.1.6
+# streamlit-extras>=0.4.3
 # optional, for persistence
 tinydb>=4.8
