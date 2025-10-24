@@ -1,14 +1,23 @@
 // ========================================================================
 // 0. FIREBASE CONFIGURATION (PASTE YOUR CONFIG HERE)
 // ========================================================================
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY", // Replace with your key
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com", // Replace with your domain
-    projectId: "YOUR_PROJECT_ID", // Replace with your ID
-    storageBucket: "...",
-    messagingSenderId: "...",
-    appId: "..."
+  apiKey: "AIzaSyB_dWt_OFudecBlmyjnl5-b69lNp77OB9w",
+  authDomain: "buddenrbooks.firebaseapp.com",
+  projectId: "buddenrbooks",
+  storageBucket: "buddenrbooks.firebasestorage.app",
+  messagingSenderId: "133066434831",
+  appId: "1:133066434831:web:c7ea4f8ef5a8296181f67a"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 // Initialize Firebase and Firestore
 if (typeof firebase !== 'undefined' && !firebase.apps.length) {
