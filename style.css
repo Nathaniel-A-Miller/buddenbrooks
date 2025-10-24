@@ -114,6 +114,11 @@ header {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 15px;
+    /* --- NEW STICKY STYLES --- */
+    position: sticky; 
+    top: 0; 
+    z-index: 10; /* Ensures it stays above the scrolling list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Gives it a slight lift */
 }
 
 /* style.css (Add this to the bottom) */
