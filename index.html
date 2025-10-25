@@ -6,24 +6,79 @@
     <title>Buddenbrooks Vocab Tool</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
     <header>
         <h1>Buddenbrooks Reader</h1>
-        <div class="chapter-selector-container">
-        <label for="chapter-select">Wähle ein Kapitel (Select a Chapter):</label>
-        <select id="chapter-select"></select>
+        <div class="header-controls">
+            <div class="chapter-selector-container">
+                <label for="chapter-select">Wähle ein Kapitel (Select a Chapter):</label>
+                <select id="chapter-select"></select>
             </div>
+            
+            <a href="about.html" id="about-link" class="header-link">About</a>
+        </div>
+        
         <div id="instructions-panel" style="display: none;">
-    <div class="instructions-content">
-        <h4>Willkommen! So funktioniert's:</h4>
-        <ul>
-            <li>Mauszeiger: Über ein Wort fahren um die Definition zu sehen (DE/EN).</li>
-            <li>Klicken: Ein Wort anklicken um es zu deinem Vokabel-Set hinzuzufügen/zu entfernen.</li>
-        </ul>
-        <button id="dismiss-instructions">OK, verstanden! (Got it!)</button>
-    </div>
-</div>
+            <div class="instructions-content">
+                </div>
+        </div>
     </header>
+    ```
+
+---
+
+## 🎨 2. CSS Styling
+
+To make the link appear neatly on the right, you need to use **Flexbox** on the `<header>` element and the new wrapper `header-controls` element.
+
+### Action: Add these styles to your `<style>` block or CSS file:
+
+```css
+/* Ensure the header uses Flexbox to organize its main content */
+header {
+    display: flex;
+    justify-content: space-between; /* Pushes the title to the left and controls to the right */
+    align-items: center; /* Vertically centers items */
+    padding: 10px 20px; /* Optional: adds some padding */
+    border-bottom: 1px solid #ccc; /* Optional: Separator */
+}
+
+/* Ensure the title doesn't take up too much horizontal space */
+header h1 {
+    margin: 0;
+}
+
+/* Container for the chapter selector and the About link */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between chapter selector and About link */
+}
+
+/* Style the new About link to look good */
+.header-link {
+    text-decoration: none;
+    color: #333; /* Dark color */
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px; /* Gives it a clickable area */
+    transition: color 0.2s;
+}
+
+.header-link:hover {
+    color: #007bff; /* Highlight on hover */
+}
+
+/* Optional: Keep instructions panel from interfering with the main header flow */
+#instructions-panel {
+    /* If this is meant to be a pop-up, its CSS should be set to position: fixed or absolute */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
 
     <div class="container">
         <div id="german-text-area" class="text-column">
