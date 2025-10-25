@@ -237,68 +237,124 @@ function renderInteractiveText() {
         console.error("Text or vocabulary data is missing before rendering.");
         return;
     }
-    
-    let textWithParagraphs = germanText;
-    
-    // 1. Preserve paragraph breaks: (Keep this logic)
-    textWithParagraphs = textWithParagraphs.trim()
-        .replace(/\n\s*\n/g, '</p><p>'); 
+
+    // --- HTML Escape Helper (define once) ---
+    function escapeHTML(str) {
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    let textWithParagraphs = germanText.trim()
+        .replace(/\n\s*\n/g, '</p><p>');
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
-    // 2. SAFER WORD WRAPPING LOGIC: Split the text into tags and plain content.
-    let processedHTML = textWithParagraphs;
-
-    // Regex to split the content: captures HTML tags OR runs of non-HTML content.
-    // This isolates and keeps all HTML tags (<...>) separate from the text.
-    const parts = processedHTML.split(/(<[^>]+>)/g);
-    
+    const parts = textWithParagraphs.split(/(<[^>]+>)/g);
     const chapterVocab = vocabularyData;
 
     for (let i = 0; i < parts.length; i++) {
-        // If the part does NOT start with '<', it is plain text content to be processed.
         if (!parts[i].startsWith('<')) {
             let text = parts[i];
-            
-            // Loop through vocabulary and replace ONLY within this plain text part
+
             chapterVocab.forEach(item => {
                 let regex;
-                // Keep your existing robust regex logic for German words:
-                // Include 'ü' in the check for safety, based on the 'überzogen' issue.
                 if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
-                     regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
+                    regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
                 } else {
                     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
                 }
 
-                // Perform the replacement
                 text = text.replace(regex, (match) => {
-                    // Final safety check against double-wrapping (should be rare now)
-                    if (match.startsWith('<span')) {
-                        return match;
-                    }
-                    
-                    return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+                    if (match.startsWith('<span')) return match;
+                    const safeWord = escapeHTML(item.word);
+                    const safeMatch = escapeHTML(match);
+                    return `<span class="vocab-word" data-word="${safeWord}">${safeMatch}</span>`;
                 });
             });
 
-            // Update the parts array with the new, wrapped text
             parts[i] = text;
         }
     }
 
-    // Recombine all parts (tags and processed text) back into the full HTML string
-    textWithParagraphs = parts.join(''); 
-    // --- END SAFER WORD WRAPPING LOGIC ---
-    
-    // 3. Display the text
-    textArea.innerHTML = textWithParagraphs;
+    textArea.innerHTML = parts.join('');
 
-    // 4. Attach event listeners
     document.querySelectorAll('.vocab-word').forEach(span => {
         span.addEventListener('mouseover', handleWordHover);
-        span.addEventListener('click', handleWordClick); 
+        span.addEventListener('click', handleWordClick);
     });
 }
+
+// function renderInteractiveText() {
+//     if (!germanText || vocabularyData.length === 0) {
+//         console.error("Text or vocabulary data is missing before rendering.");
+//         return;
+//     }
+    
+//     let textWithParagraphs = germanText;
+    
+//     // 1. Preserve paragraph breaks: (Keep this logic)
+//     textWithParagraphs = textWithParagraphs.trim()
+//         .replace(/\n\s*\n/g, '</p><p>'); 
+//     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
+
+//     // 2. SAFER WORD WRAPPING LOGIC: Split the text into tags and plain content.
+//     let processedHTML = textWithParagraphs;
+
+//     // Regex to split the content: captures HTML tags OR runs of non-HTML content.
+//     // This isolates and keeps all HTML tags (<...>) separate from the text.
+//     const parts = processedHTML.split(/(<[^>]+>)/g);
+    
+//     const chapterVocab = vocabularyData;
+
+//     for (let i = 0; i < parts.length; i++) {
+//         // If the part does NOT start with '<', it is plain text content to be processed.
+//         if (!parts[i].startsWith('<')) {
+//             let text = parts[i];
+            
+//             // Loop through vocabulary and replace ONLY within this plain text part
+//             chapterVocab.forEach(item => {
+//                 let regex;
+//                 // Keep your existing robust regex logic for German words:
+//                 // Include 'ü' in the check for safety, based on the 'überzogen' issue.
+//                 if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
+//                      regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
+//                 } else {
+//                     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+//                 }
+
+//                 // Perform the replacement
+//                 text = text.replace(regex, (match) => {
+//                     // Final safety check against double-wrapping (should be rare now)
+//                     if (match.startsWith('<span')) {
+//                         return match;
+//                     }
+                    
+//                     return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+//                 });
+//             });
+
+//             // Update the parts array with the new, wrapped text
+//             parts[i] = text;
+//         }
+//     }
+
+//     // Recombine all parts (tags and processed text) back into the full HTML string
+//     textWithParagraphs = parts.join(''); 
+//     // --- END SAFER WORD WRAPPING LOGIC ---
+    
+//     // 3. Display the text
+//     textArea.innerHTML = textWithParagraphs;
+
+//     // 4. Attach event listeners
+//     document.querySelectorAll('.vocab-word').forEach(span => {
+//         span.addEventListener('mouseover', handleWordHover);
+//         span.addEventListener('click', handleWordClick); 
+//     });
+// }
+
 
 /**
  * Replaces words in the text with clickable <span> elements and preserves paragraphs.
