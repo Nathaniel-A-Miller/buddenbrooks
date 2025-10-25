@@ -1,1311 +1,1304 @@
 [
-    {
-        "word": "verzehren",
-        "definition_german": "etwas essen oder trinken; konsumieren",
-        "definition_english": "to consume; to eat or drink",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "schnell",
-        "definition_german": "mit hoher Geschwindigkeit; rasch",
-        "definition_english": "quickly; rapidly",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "fr\u00fcchte",
-        "definition_german": "essbare, meist s\u00fc\u00dfe Teile von Pflanzen (Beeren, \u00c4pfel, etc.)",
-        "definition_english": "fruit",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "jungchen",
-        "definition_german": "Verniedlichungsform f\u00fcr Junge oder junger Mann",
-        "definition_english": "little boy; youngster (diminutive)",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "bed\u00fcrfnis",
-        "definition_german": "ein starkes Verlangen oder eine Notwendigkeit",
-        "definition_english": "need; requirement; urge",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "kn\u00f6pfe",
-        "definition_german": "kleine, runde Gegenst\u00e4nde zum Verschlie\u00dfen von Kleidungst\u00fccken",
-        "definition_english": "buttons",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "ersichtlich",
-        "definition_german": "offensichtlich; klar erkennbar",
-        "definition_english": "evident; obvious; discernible",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "kleine",
-        "definition_german": "gering an Gr\u00f6\u00dfe oder Umfang",
-        "definition_english": "small; little",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "zog",
-        "definition_german": "Vergangenheitsform von ziehen (sich erstrecken)",
-        "definition_english": "pulled; stretched (past tense of ziehen)",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "zur\u00fcckgelegt",
-        "definition_german": "nach hinten geneigt oder gelegt",
-        "definition_english": "leaned back; put back",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "l\u00e4hmung",
-        "definition_german": "der Verlust der Bewegungsf\u00e4higkeit",
-        "definition_english": "paralysis",
-        "context_snippet": "Ein Schlag, hie\u00df es dann, eine L\u00e4hmung, ein pl\u00f6tzlicher und unvorhergesehener Tod ...",
-        "chapter": 7
-    },
-    {
-        "word": "\u00fcbel",
-        "definition_german": "krank, schlecht, leidend",
-        "definition_english": "sick; unwell; nauseous",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "oh",
-        "definition_german": "Ausruf des Erstaunens oder der Erkenntnis",
-        "definition_english": "oh",
-        "context_snippet": "Oh, er w\u00fcrde schon wieder essen, der junge Mann!",
-        "chapter": 7
-    },
-    {
-        "word": "chalottensauce",
-        "definition_german": "eine So\u00dfe, die mit Schalotten zubereitet ist",
-        "definition_english": "shallot sauce",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "inzwischen",
-        "definition_german": "w\u00e4hrend dieser Zeit; im Verlauf",
-        "definition_english": "in the meantime; meanwhile",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "liebe",
-        "definition_german": "z\u00e4rtlich, gutherzig, wertgesch\u00e4tzt (oft in Anrede oder Bezug auf Gott verwendet)",
-        "definition_english": "dear; kind; beloved",
-        "context_snippet": "\u00bbWenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch gr\u00f6\u00dferer \u00dcbelkeit!\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "pl\u00f6tzlich",
-        "definition_german": "unerwartet und schnell",
-        "definition_english": "sudden; suddenly",
-        "context_snippet": "Ein Schlag, hie\u00df es dann, eine L\u00e4hmung, ein pl\u00f6tzlicher und unvorhergesehener Tod ...",
-        "chapter": 7
-    },
-    {
-        "word": "bedeuten",
-        "definition_german": "wichtig sein; Relevanz haben",
-        "definition_english": "to matter; to signify",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "puls",
-        "definition_german": "das regelm\u00e4\u00dfige Schlagen der Arterien, verursacht durch das Herz",
-        "definition_english": "pulse",
-        "context_snippet": "Doktor Grabow f\u00fchlte den Puls; sein gutes Gesicht schien noch l\u00e4nger und milder geworden zu sein.",
-        "chapter": 7
-    },
-    {
-        "word": "butter",
-        "definition_german": "ein aus Rahm hergestelltes Streichfett",
-        "definition_english": "butter",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "strenge",
-        "definition_german": "sehr streng; rigide; ohne Ausnahmen",
-        "definition_english": "strict; severe",
-        "context_snippet": "Und strenge Di\u00e4t, -- Frau Konsulin?",
-        "chapter": 7
-    },
-    {
-        "word": "rauchfleisch",
-        "definition_german": "durch R\u00e4uchern haltbar gemachtes Fleisch",
-        "definition_english": "smoked meat",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "langsamen",
-        "definition_german": "nicht schnell; gem\u00e4chlich",
-        "definition_english": "slow; deliberate",
-        "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: \u00bbEs d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "versichern",
-        "definition_german": "mit Gewissheit zusagen; garantieren",
-        "definition_english": "to assure; to guarantee",
-        "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, da\u00df es f\u00fcr diesmal nichts zu bedeuten habe.",
-        "chapter": 7
-    },
-    {
-        "word": "teufel",
-        "definition_german": "Ausruf des Erstaunens oder der Bekr\u00e4ftigung (hier: 'zum Teufel' als Bekr\u00e4ftigung)",
-        "definition_english": "devil (here: 'to the devil' or 'damn it', used as an exclamation of emphasis)",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "gewissen",
-        "definition_german": "das innere Wissen um Richtig und Falsch",
-        "definition_english": "conscience",
-        "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, da\u00df es f\u00fcr diesmal nichts zu bedeuten habe.",
-        "chapter": 7
-    },
-    {
-        "word": "beste",
-        "definition_german": "am geeignetsten; optimal",
-        "definition_english": "best",
-        "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: \u00bbEs d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "viermal",
-        "definition_german": "vier Male; eine H\u00e4ufigkeitsangabe",
-        "definition_english": "four times",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "linderung",
-        "definition_german": "Erleichterung von Schmerz oder Leid",
-        "definition_english": "relief; alleviation",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "indigestion",
-        "definition_german": "Verdauungsst\u00f6rung; Magenverstimmung",
-        "definition_english": "indigestion",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "gehalten",
-        "definition_german": "Partizip II von halten (in der Hand halten)",
-        "definition_english": "held (past participle of hold)",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "schinken",
-        "definition_german": "ein Fleischerzeugnis, meist aus der Keule des Schweins",
-        "definition_english": "ham",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "ja",
-        "definition_german": "Ausdruck der Zustimmung oder Bejahung",
-        "definition_english": "yes; indeed",
-        "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, da\u00df es f\u00fcr diesmal nichts zu bedeuten habe.",
-        "chapter": 7
-    },
-    {
-        "word": "leiden",
-        "definition_german": "physische oder psychische Schmerzen oder Unannehmlichkeiten erfahren",
-        "definition_english": "suffering; agony; illness",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "unten",
-        "definition_german": "an einem tieferen Ort oder Bereich",
-        "definition_english": "below; downstairs",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "betrunken",
-        "definition_german": "unter dem Einfluss von Alkohol stehend",
-        "definition_english": "drunk; intoxicated",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "befohlen",
-        "definition_german": "Partizip II von befehlen (jemanden in jemandes Obhut geben)",
-        "definition_english": "commended (e.g., to God); ordered",
-        "context_snippet": "Nun, Gott befohlen!",
-        "chapter": 7
-    },
-    {
-        "word": "nie",
-        "definition_german": "zu keiner Zeit; niemals",
-        "definition_english": "never",
-        "context_snippet": "\u00bbIch will keine Taube!\u00ab rief Christian au\u00dfer sich. \u00bbIch will nie--mals wieder etwas essen!",
-        "chapter": 7
-    },
-    {
-        "word": "gar",
-        "definition_german": "wirklich, sehr (verst\u00e4rkend)",
-        "definition_english": "really; indeed; quite (intensifier)",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "ida",
-        "definition_german": "weiblicher Vorname",
-        "definition_english": "Ida (female name)",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "erreicht",
-        "definition_german": "etwas erfolgreich zustande bringen oder einen Zielpunkt ansteuern",
-        "definition_english": "reached; achieved",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "folgm\u00e4dchen",
-        "definition_german": "ein M\u00e4dchen, das beim Servieren oder Abr\u00e4umen hilft; Dienstm\u00e4dchen",
-        "definition_english": "serving girl; maid (who followed/assisted)",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "franzbrot",
-        "definition_german": "eine Brotsorte, oft gemeint ist Wei\u00dfbrot oder Baguette",
-        "definition_english": "French bread (white bread or baguette)",
-        "context_snippet": "Ein wenig Taube, -- ein wenig Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "vorrechnen",
-        "definition_german": "jemandem etwas exakt auflisten oder erkl\u00e4ren (oft im Zusammenhang mit Zahlen oder Ereignissen)",
-        "definition_english": "to list; to calculate and demonstrate; to count up for someone",
-        "context_snippet": "ja, ja, und er, Friedrich Grabow, h\u00e4tte sie ihnen vorrechnen k\u00f6nnen, alle die vielen Male, wo es \u00bbnichts auf sich gehabt hatte\u00ab, wo er vielleicht nicht einmal gerufen war, wo nur vielleicht nach Tische, wenn man ins Kontor zur\u00fcckgekehrt war, ein kleiner, merkw\u00fcrdiger Schwindel sich gemeldet hatte ...",
-        "chapter": 7
-    },
-    {
-        "word": "wunderlich",
-        "definition_german": "Nachname",
-        "definition_english": "Wunderlich (surname)",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "kinderpulver",
-        "definition_german": "Medikament in Pulverform, speziell f\u00fcr Kinder",
-        "definition_english": "children's powder (medication)",
-        "context_snippet": "Es d\u00fcrfte das beste sein, ihn zu Bette zu bringen ... ein bi\u00dfchen Kinderpulver, vielleicht ein T\u00e4\u00dfchen Kamillentee zum Transpirieren ...",
-        "chapter": 7
-    },
-    {
-        "word": "pastor",
-        "definition_german": "Geistlicher in einer evangelischen Gemeinde",
-        "definition_english": "pastor; clergyman",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "himbeeren",
-        "definition_german": "kleine, rote, s\u00fc\u00dfe Beeren",
-        "definition_english": "raspberries",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "frau",
-        "definition_german": "eine erwachsene weibliche Person; Anredeform f\u00fcr verheiratete Damen",
-        "definition_english": "Mrs.; woman; wife",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "anstand",
-        "definition_german": "gutes Benehmen; Etikette",
-        "definition_english": "propriety; decorum; manners",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "ausgesucht",
-        "definition_german": "sehr gut ausgew\u00e4hlt; von besonderer G\u00fcte",
-        "definition_english": "exquisite; selected; specially chosen",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "friedrich",
-        "definition_german": "m\u00e4nnlicher Vorname",
-        "definition_english": "Friedrich (male name)",
-        "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umst\u00fcrzen w\u00fcrde.",
-        "chapter": 7
-    },
-    {
-        "word": "ach",
-        "definition_german": "Ausruf des Bedauerns, Schmerzes oder der \u00dcberraschung",
-        "definition_english": "oh; ah; alas",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "weste",
-        "definition_german": "ein \u00e4rmelloses Kleidungsst\u00fcck f\u00fcr den Oberk\u00f6rper",
-        "definition_english": "vest; waistcoat",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "ganz",
-        "definition_german": "vollst\u00e4ndig; v\u00f6llig",
-        "definition_english": "completely; entirely",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "derjenige",
-        "definition_german": "demonstratives Pronomen, das eine bestimmte Person bezeichnet",
-        "definition_english": "the one; that person",
-        "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umst\u00fcrzen w\u00fcrde.",
-        "chapter": 7
-    },
-    {
-        "word": "her",
-        "definition_german": "in Richtung des Sprechers oder eines Bezugspunktes (hier in 'hin und her')",
-        "definition_english": "hither; here (used in context of back and forth)",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "kommen",
-        "definition_german": "sich n\u00e4hern oder erreichen",
-        "definition_english": "to come; to arrive",
-        "context_snippet": "Er w\u00fcrde kommen, wenn er gerufen w\u00fcrde, und f\u00fcr einen oder zwei Tage strenge Di\u00e4t empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "klang",
-        "definition_german": "Vergangenheitsform von klingen (Ger\u00e4usch abgeben)",
-        "definition_english": "sounded (past tense of klingen)",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "jammern",
-        "definition_german": "wehklagen; klagen; leise Schmerzlaute von sich geben",
-        "definition_english": "wailing; moaning; whimpering",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "hand",
-        "definition_german": "das Greiforgan am Ende des Arms",
-        "definition_english": "hand",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "l\u00e4cheln",
-        "definition_german": "Ausdruck der Freude oder Nachsicht im Gesicht",
-        "definition_english": "smile",
-        "context_snippet": "Doktor Grabow l\u00e4chelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwerm\u00fctigem L\u00e4cheln.",
-        "chapter": 7
-    },
-    {
-        "word": "konsulin",
-        "definition_german": "die Ehefrau eines Konsuls; ein Titel",
-        "definition_english": "Consul's wife; Consul's lady",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "schon",
-        "definition_german": "bereits; zu diesem Zeitpunkt",
-        "definition_english": "already; indeed",
-        "context_snippet": "Oh, er w\u00fcrde schon wieder essen, der junge Mann!",
-        "chapter": 7
-    },
-    {
-        "word": "tr\u00f6stete",
-        "definition_german": "Vergangenheitsform von tr\u00f6sten (jemanden in seinem Leid aufmuntern)",
-        "definition_english": "consoled; comforted",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "taube",
-        "definition_german": "ein Vogel, der oft als Gericht serviert wird",
-        "definition_english": "pigeon; dove (often referring to squab for eating)",
-        "context_snippet": "Ein wenig Taube, -- ein wenig Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "schwindel",
-        "definition_german": "ein Gef\u00fchl der Benommenheit oder des Drehens",
-        "definition_english": "dizziness; vertigo",
-        "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zur\u00fcckgekehrt war, ein kleiner, merkw\u00fcrdiger Schwindel sich gemeldet hatte ...",
-        "chapter": 7
-    },
-    {
-        "word": "amtstone",
-        "definition_german": "die feierliche, formelle Sprechweise eines Beamten oder W\u00fcrdentr\u00e4gers",
-        "definition_english": "official tone; authoritative manner of speech",
-        "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: \u00bbEs d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "scheibchen",
-        "definition_german": "Verniedlichung von Scheibe; eine d\u00fcnne, runde oder flache Portion",
-        "definition_english": "a small slice; thin piece (diminutive)",
-        "context_snippet": "Er w\u00fcrde kommen, wenn er gerufen w\u00fcrde, und f\u00fcr einen oder zwei Tage strenge Di\u00e4t empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "wenig",
-        "definition_german": "gering an Menge oder Grad",
-        "definition_english": "little; a small amount",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "kleiner",
-        "definition_german": "Komparativ von klein; geringer an Gr\u00f6\u00dfe",
-        "definition_english": "smaller",
-        "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zur\u00fcckgekehrt war, ein kleiner, merkw\u00fcrdiger Schwindel sich gemeldet hatte ...",
-        "chapter": 7
-    },
-    {
-        "word": "polsterbank",
-        "definition_german": "eine lange Sitzgelegenheit mit weicher Polsterung",
-        "definition_english": "upholstered bench; cushioned seat",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "allzugro\u00dfen",
-        "definition_german": "zu gro\u00df; \u00fcberm\u00e4\u00dfig gro\u00df",
-        "definition_english": "oversized; much too big",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "grabow",
-        "definition_german": "Nachname (Doktor Grabow)",
-        "definition_english": "Grabow (surname)",
-        "context_snippet": "Doktor Grabow f\u00fchlte den Puls; sein gutes Gesicht schien noch l\u00e4nger und milder geworden zu sein.",
-        "chapter": 7
-    },
-    {
-        "word": "di\u00e4t",
-        "definition_german": "eine spezielle Ern\u00e4hrungsweise, oft aus medizinischen Gr\u00fcnden",
-        "definition_english": "diet",
-        "context_snippet": "Und strenge Di\u00e4t, -- Frau Konsulin?",
-        "chapter": 7
-    },
-    {
-        "word": "schlag",
-        "definition_german": "ein pl\u00f6tzliches medizinisches Ereignis (z.B. Schlaganfall)",
-        "definition_english": "stroke; blow",
-        "context_snippet": "Ein Schlag, hie\u00df es dann, eine L\u00e4hmung, ein pl\u00f6tzlicher und unvorhergesehener Tod ...",
-        "chapter": 7
-    },
-    {
-        "word": "schlecht",
-        "definition_german": "\u00fcbel; nicht gut; in schlechtem Zustand",
-        "definition_english": "bad; unwell; sick",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "gutem",
-        "definition_german": "Adjektiv, das G\u00fcte oder Qualit\u00e4t beschreibt (Dativ Singular)",
-        "definition_english": "good (dative form)",
-        "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, da\u00df es f\u00fcr diesmal nichts zu bedeuten habe.",
-        "chapter": 7
-    },
-    {
-        "word": "delikat",
-        "definition_german": "k\u00f6stlich; fein im Geschmack",
-        "definition_english": "delicate; delicious",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "herzbrechend",
-        "definition_german": "gro\u00dfen Schmerz verursachend; r\u00fchrend und traurig",
-        "definition_english": "heartbreaking",
-        "context_snippet": "sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "\u00f6ffnen",
-        "definition_german": "etwas aufmachen; den Verschluss l\u00f6sen",
-        "definition_english": "to open",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "sei",
-        "definition_german": "Konjunktiv I von sein (dr\u00fcckt M\u00f6glichkeit oder Annahme aus)",
-        "definition_english": "be (subjunctive mood, expressing possibility or concession)",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "freigeworden",
-        "definition_german": "Partizip II von freigeworden (nicht mehr besetzt)",
-        "definition_english": "vacated; become free",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "bereiten",
-        "definition_german": "verursachen; herbeif\u00fchren",
-        "definition_english": "to prepare; to cause; to procure",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "hervorgesto\u00dfen",
-        "definition_german": "mit Vehemenz oder pl\u00f6tzlich ausgesto\u00dfen (Partizip II)",
-        "definition_english": "blurted out; expelled forcibly",
-        "context_snippet": "Er hatte das \u00bbverdammt\u00ab nur aus \u00fcbergro\u00dfer Verzweiflung hervorgesto\u00dfen, die Konsulin aber sagte:",
-        "chapter": 7
-    },
-    {
-        "word": "tische",
-        "definition_german": "Plural oder dativische Form von Tisch (M\u00f6belst\u00fcck zum Essen)",
-        "definition_english": "table (dative usage, 'nach Tische' = after eating)",
-        "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zur\u00fcckgekehrt war, ein kleiner, merkw\u00fcrdiger Schwindel sich gemeldet hatte ...",
-        "chapter": 7
-    },
-    {
-        "word": "unauff\u00e4llig",
-        "definition_german": "ohne Aufsehen zu erregen; diskret",
-        "definition_english": "inconspicuous; unobtrusively",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "hervor",
-        "definition_german": "nach drau\u00dfen; zum Vorschein",
-        "definition_english": "forth; forward (often used with verbs like sto\u00dfen)",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "bi\u00dfchen",
-        "definition_german": "eine kleine Menge; ein wenig",
-        "definition_english": "a bit; a little",
-        "context_snippet": "der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "jung",
-        "definition_german": "nicht alt; von geringem Alter",
-        "definition_english": "young",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "kontorsessel",
-        "definition_german": "ein Stuhl oder Sessel, der in einem Kontor (B\u00fcro) benutzt wird",
-        "definition_english": "office chair; desk chair",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "leise",
-        "definition_german": "kaum h\u00f6rbar; mit geringer Lautst\u00e4rke",
-        "definition_english": "quietly; softly",
-        "context_snippet": "sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "verwandten",
-        "definition_german": "Personen, die durch Abstammung oder Heirat verbunden sind",
-        "definition_english": "relatives; relations",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "junge",
-        "definition_german": "ein m\u00e4nnliches Kind oder Jugendlicher",
-        "definition_english": "young man; boy",
-        "context_snippet": "Oh, er w\u00fcrde schon wieder essen, der junge Mann!",
-        "chapter": 7
-    },
-    {
-        "word": "gipfel",
-        "definition_german": "der h\u00f6chste Punkt; H\u00f6hepunkt",
-        "definition_english": "peak; climax; summit",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "fort",
-        "definition_german": "weiter; ununterbrochen",
-        "definition_english": "on; continuing; away",
-        "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: \u00bbEs d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "v\u00e4ter",
-        "definition_german": "m\u00e4nnliche Elternteile oder Vorfahren",
-        "definition_english": "fathers; forefathers",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "s\u00e4ule",
-        "definition_german": "ein senkrechtes, oft rundes St\u00fctzelement in der Architektur",
-        "definition_english": "column; pillar",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "sitzend",
-        "definition_german": "in sitzender Position",
-        "definition_english": "sitting",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "saal",
-        "definition_german": "ein gro\u00dfer Raum f\u00fcr Veranstaltungen oder Empf\u00e4nge",
-        "definition_english": "hall; ballroom",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "verzehrt",
-        "definition_german": "gegessen oder konsumiert (Partizip II)",
-        "definition_english": "consumed; eaten",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "leider",
-        "definition_german": "dr\u00fcckt Bedauern aus; ungl\u00fccklicherweise",
-        "definition_english": "unfortunately; regrettably",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "runden",
-        "definition_german": "kreisf\u00f6rmig; nicht eckig",
-        "definition_english": "round; circular",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "soliden",
-        "definition_german": "stabil; verl\u00e4sslich; von guter, dauerhafter Qualit\u00e4t",
-        "definition_english": "solid; sturdy; reliable",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "alte",
-        "definition_german": "von hohem Alter oder langj\u00e4hrig bekannt",
-        "definition_english": "old",
-        "context_snippet": "der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "jungmann",
-        "definition_german": "Nachname (Mamsell Jungmann)",
-        "definition_english": "Jungmann (surname, often used with 'Mamsell' for an unmarried lady/governess)",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "transpirieren",
-        "definition_german": "schwitzen; Schwei\u00df absondern",
-        "definition_english": "to perspire; to sweat",
-        "context_snippet": "Es d\u00fcrfte das beste sein, ihn zu Bette zu bringen ... ein bi\u00dfchen Kinderpulver, vielleicht ein T\u00e4\u00dfchen Kamillentee zum Transpirieren ...",
-        "chapter": 7
-    },
-    {
-        "word": "kontor",
-        "definition_german": "B\u00fcro eines Kaufmanns oder Handelsunternehmens",
-        "definition_english": "office (especially a commercial one or counting house)",
-        "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zur\u00fcckgekehrt war, ein kleiner, merkw\u00fcrdiger Schwindel sich gemeldet hatte ...",
-        "chapter": 7
-    },
-    {
-        "word": "zwei",
-        "definition_german": "die Zahl zwischen eins und drei",
-        "definition_english": "two",
-        "context_snippet": "Er w\u00fcrde kommen, wenn er gerufen w\u00fcrde, und f\u00fcr einen oder zwei Tage strenge Di\u00e4t empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "paar",
-        "definition_german": "zwei zusammengeh\u00f6rige Dinge; eine kleine, unbestimmte Menge",
-        "definition_english": "a pair; a couple of",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "doktor",
-        "definition_german": "akademischer Titel, oft verwendet f\u00fcr \u00c4rzte",
-        "definition_english": "Doctor (academic title or physician)",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "geradezu",
-        "definition_german": "schlechterdings; direkt; f\u00f6rmlich",
-        "definition_english": "positively; literally; downright",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "k\u00e4se",
-        "definition_german": "ein aus Milch hergestelltes Nahrungsmittel",
-        "definition_english": "cheese",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "leben",
-        "definition_german": "existieren; das Leben f\u00fchren",
-        "definition_english": "to live",
-        "context_snippet": "Er w\u00fcrde leben wie alle Welt.",
-        "chapter": 7
-    },
-    {
-        "word": "plettenpudding",
-        "definition_german": "ein Schichtpudding, wahrscheinlich mit Makronen und Eierschaum",
-        "definition_english": "a type of layered pudding or trifle (made with biscuits/macaroons)",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "empfehlen",
-        "definition_german": "raten; vorschlagen",
-        "definition_english": "to recommend",
-        "context_snippet": "Er w\u00fcrde kommen, wenn er gerufen w\u00fcrde, und f\u00fcr einen oder zwei Tage strenge Di\u00e4t empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
-        "chapter": 7
-    },
-    {
-        "word": "befahl",
-        "definition_german": "Pr\u00e4teritum von befehlen (sich jemandem anvertrauen)",
-        "definition_english": "commended (past tense of befehlen, specifically to God)",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "genau",
-        "definition_german": "pr\u00e4zise; exakt in der Art",
-        "definition_english": "exactly; precisely",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "bett",
-        "definition_german": "M\u00f6belst\u00fcck zum Schlafen",
-        "definition_english": "bed",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "wort",
-        "definition_german": "eine sprachliche Einheit; \u00c4u\u00dferung",
-        "definition_english": "word",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "platze",
-        "definition_german": "Ort oder Stelle (Dativ)",
-        "definition_english": "place; spot (dative form)",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "stand",
-        "definition_german": "Pr\u00e4teritum von stehen (aufrecht sein oder sich an einem Ort befinden)",
-        "definition_english": "stood (past tense of stehen)",
-        "context_snippet": "\u00bbAch Gott, Madamchen!\u00ab sagte Ida, die mit dem Doktor bei ihm stand, \u00bbChristian, dem Jungchen, ist gar so schlecht ...\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "wackeren",
-        "definition_german": "t\u00fcchtig; tapfer; redlich",
-        "definition_english": "worthy; brave; honest (inflected)",
-        "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren B\u00fcrgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "au\u00dfer",
-        "definition_german": "neben; mit Ausnahme von; oder im Sinne von 'au\u00dfer sich'",
-        "definition_english": "outside; beside oneself (furious/distraught)",
-        "context_snippet": "\u00bbIch will keine Taube!\u00ab rief Christian au\u00dfer sich.",
-        "chapter": 7
-    },
-    {
-        "word": "verbringen",
-        "definition_german": "Zeit oder Tage auf eine bestimmte Weise nutzen",
-        "definition_english": "to spend (time)",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "geworden",
-        "definition_german": "Partizip II von werden (sich entwickeln zu etwas)",
-        "definition_english": "become (past participle of werden)",
-        "context_snippet": "Doktor Grabow f\u00fchlte den Puls; sein gutes Gesicht schien noch l\u00e4nger und milder geworden zu sein.",
-        "chapter": 7
-    },
-    {
-        "word": "schwer",
-        "definition_german": "von gro\u00dfem Gewicht; m\u00fchsam; reichhaltig (Essen)",
-        "definition_english": "heavy; rich (food); difficult",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "unruhig",
-        "definition_german": "ohne Ruhe; fahrig",
-        "definition_english": "restlessly; nervously",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "aufrecht",
-        "definition_german": "gerade; in vertikaler Haltung",
-        "definition_english": "upright; erect",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "letzte",
-        "definition_german": "zuletzt; endg\u00fcltig",
-        "definition_english": "last; final",
-        "context_snippet": "der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "umst\u00fcrzen",
-        "definition_german": "etwas von Grund auf \u00e4ndern; revolutionieren",
-        "definition_english": "to overturn; to revolutionize; to topple",
-        "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umst\u00fcrzen w\u00fcrde.",
-        "chapter": 7
-    },
-    {
-        "word": "braven",
-        "definition_german": "artig; ehrlich; tapfer",
-        "definition_english": "good; honest; brave (inflected)",
-        "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umst\u00fcrzen w\u00fcrde.",
-        "chapter": 7
-    },
-    {
-        "word": "tage",
-        "definition_german": "Zeitabschnitte von 24 Stunden",
-        "definition_english": "days",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "gott",
-        "definition_german": "h\u00f6chstes Wesen; Sch\u00f6pfer",
-        "definition_english": "God",
-        "context_snippet": "\u00bbWenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch gr\u00f6\u00dferer \u00dcbelkeit!\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "justus",
-        "definition_german": "m\u00e4nnlicher Vorname",
-        "definition_english": "Justus (male name)",
-        "context_snippet": "und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "lag",
-        "definition_german": "Pr\u00e4teritum von liegen (sich in horizontaler Position befinden)",
-        "definition_english": "lay (past tense of liegen)",
-        "context_snippet": "sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "herr",
-        "definition_german": "Anredeform f\u00fcr M\u00e4nner; Meister",
-        "definition_english": "Mr.; gentleman; lord",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "kamillentee",
-        "definition_german": "ein aus Kamillenbl\u00fcten aufgegossenes Getr\u00e4nk",
-        "definition_english": "camomile tea",
-        "context_snippet": "ein bi\u00dfchen Kinderpulver, vielleicht ein T\u00e4\u00dfchen Kamillentee zum Transpirieren ...",
-        "chapter": 7
-    },
-    {
-        "word": "lebrecht",
-        "definition_german": "m\u00e4nnlicher Vorname",
-        "definition_english": "Lebrecht (male name)",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "puter",
-        "definition_german": "ein gro\u00dfes, gez\u00fcchtetes Gefl\u00fcgel (Truthahn)",
-        "definition_english": "turkey (gobbler)",
-        "context_snippet": "seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "davon",
-        "definition_german": "weg von hier; von dem",
-        "definition_english": "away; from there",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "wohl",
-        "definition_german": "wahrscheinlich; vermutlich; gut",
-        "definition_english": "probably; indeed; well",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "mama",
-        "definition_german": "Mutter",
-        "definition_english": "Mama; mother",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "stie\u00df",
-        "definition_german": "Pr\u00e4teritum von sto\u00dfen (mit einer Kraft etwas aussprechen oder wegdr\u00fccken)",
-        "definition_english": "pushed; thrust; blurted out (past tense of sto\u00dfen)",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "verdammt",
-        "definition_german": "verflucht; Ausdruck starker Emotion oder Wut",
-        "definition_english": "damned; accursed (used as an intensifier/expletive)",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "mamsell",
-        "definition_german": "Anrede f\u00fcr eine unverheiratete Frau; Fr\u00e4ulein (historisch)",
-        "definition_english": "Miss (archaic title, similar to Fr\u00e4ulein)",
-        "context_snippet": "Die Konsulin erhob sich ganz unauff\u00e4llig und ging davon, denn dort unten waren die Pl\u00e4tze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "bedeutung",
-        "definition_german": "Wichtigkeit; Relevanz; Sinngehalt",
-        "definition_english": "importance; significance",
-        "context_snippet": "\u00bbEine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!\u00ab tr\u00f6stete er.",
-        "chapter": 7
-    },
-    {
-        "word": "eierschaum",
-        "definition_german": "aus Eiern, Zucker und eventuell Milch zubereiteter Schaum",
-        "definition_english": "egg foam; custard foam; meringue",
-        "context_snippet": "Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "schwer",
-        "definition_german": "l\u00e4stig; kompliziert; schwierig zu verdauen",
-        "definition_english": "heavy; rich (food); severe",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "inbrunst",
-        "definition_german": "gro\u00dfe Leidenschaft oder tiefe Empfindung",
-        "definition_english": "ardor; fervency; passion",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "mahlzeit",
-        "definition_german": "ein Zeitpunkt, zu dem gegessen wird; Essen",
-        "definition_english": "meal",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "bette",
-        "definition_german": "Dativ von Bett (im Bett)",
-        "definition_english": "bed (dative form)",
-        "context_snippet": "Es d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "heute",
-        "definition_german": "an diesem Tag",
-        "definition_english": "today",
-        "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
-        "chapter": 7
-    },
-    {
-        "word": "fuhr",
-        "definition_german": "Pr\u00e4teritum von fahren (hier: fortfahren zu reden)",
-        "definition_english": "continued (to speak); drove (past tense of fahren)",
-        "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: \u00bbEs d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "gesicht",
-        "definition_german": "das Antlitz; Vorderseite des Kopfes",
-        "definition_english": "face",
-        "context_snippet": "Doktor Grabow f\u00fchlte den Puls; sein gutes Gesicht schien noch l\u00e4nger und milder geworden zu sein.",
-        "chapter": 7
-    },
-    {
-        "word": "wahrhaftig",
-        "definition_german": "wirklich; in Wahrheit",
-        "definition_english": "truly; verily; indeed",
-        "context_snippet": "Sie verlie\u00df schnell hinter dem Folgm\u00e4dchen, das Butter, K\u00e4se und Fr\u00fcchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    },
-    {
-        "word": "christian",
-        "definition_german": "m\u00e4nnlicher Vorname",
-        "definition_english": "Christian (male name)",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "nase",
-        "definition_german": "das Organ zum Riechen und Atmen",
-        "definition_english": "nose",
-        "context_snippet": "\u00bbMir ist \u00fcbel, Mama, mir ist =verdammt= \u00fcbel!\u00ab wimmerte Christian, w\u00e4hrend seine runden tiefliegenden Augen \u00fcber der allzugro\u00dfen Nase unruhig hin und her gingen.",
-        "chapter": 7
-    },
-    {
-        "word": "keule",
-        "definition_german": "ein gro\u00dfes St\u00fcck Fleisch vom Bein eines Tieres",
-        "definition_english": "haunch; leg (of meat)",
-        "context_snippet": "der seine letzte Keule Rauchfleisch, seinen letzten gef\u00fcllten Puter verzehrt hatte und, sei es pl\u00f6tzlich und \u00fcberrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
-        "chapter": 7
-    },
-    {
-        "word": "dergleichen",
-        "definition_german": "solche Dinge; etwas \u00c4hnliches",
-        "definition_english": "such a thing; the like",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "diesmal",
-        "definition_german": "nur dieses eine Mal",
-        "definition_english": "this time",
-        "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, da\u00df es f\u00fcr diesmal nichts zu bedeuten habe.",
-        "chapter": 7
-    },
-    {
-        "word": "gute",
-        "definition_german": "von hoher Qualit\u00e4t; positiv",
-        "definition_english": "good",
-        "context_snippet": "Er w\u00fcrde, wie seine V\u00e4ter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
-        "chapter": 7
-    },
-    {
-        "word": "\u00fcbelkeit",
-        "definition_german": "das Gef\u00fchl der k\u00f6rperlichen Unp\u00e4sslichkeit, oft mit Brechreiz",
-        "definition_english": "nausea; sickness",
-        "context_snippet": "\u00bbWenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch gr\u00f6\u00dferer \u00dcbelkeit!\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "essen",
-        "definition_german": "Nahrung zu sich nehmen",
-        "definition_english": "to eat",
-        "context_snippet": "Oh, er w\u00fcrde schon wieder essen, der junge Mann!",
-        "chapter": 7
-    },
-    {
-        "word": "gebrauchen",
-        "definition_german": "verwenden; benutzen",
-        "definition_english": "to use; to employ",
-        "context_snippet": "\u00bbWenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch gr\u00f6\u00dferer \u00dcbelkeit!\u00ab",
-        "chapter": 7
-    },
-    {
-        "word": "s\u00e4ulenhalle",
-        "definition_german": "eine Halle oder ein Raum, der durch S\u00e4ulen gest\u00fctzt wird",
-        "definition_english": "pillared hall; colonnade",
-        "context_snippet": "und aus der S\u00e4ulenhalle klang es beinahe wie unterdr\u00fccktes Jammern.",
-        "chapter": 7
-    },
-    {
-        "word": "wei\u00df",
-        "definition_german": "die Farbe von Schnee oder Milch",
-        "definition_english": "white",
-        "context_snippet": "Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "\u00fcbergro\u00dfer",
-        "definition_german": "extrem gro\u00df; \u00fcber das normale Ma\u00df hinaus",
-        "definition_english": "excessive; enormous",
-        "context_snippet": "Er hatte das \u00bbverdammt\u00ab nur aus \u00fcbergro\u00dfer Verzweiflung hervorgesto\u00dfen, die Konsulin aber sagte:",
-        "chapter": 7
-    },
-    {
-        "word": "welt",
-        "definition_german": "die Erde; die Gesamtheit der Menschen",
-        "definition_english": "world",
-        "context_snippet": "Er w\u00fcrde leben wie alle Welt.",
-        "chapter": 7
-    },
-    {
-        "word": "mals",
-        "definition_german": "Suffix, das eine Wiederholung oder einen Zeitpunkt markiert (Teil von 'niemals')",
-        "definition_english": "times (part of the adverb 'niemals' - never)",
-        "context_snippet": "\u00bbIch will keine Taube!\u00ab rief Christian au\u00dfer sich. \u00bbIch will nie--mals wieder etwas essen!",
-        "chapter": 7
-    },
-    {
-        "word": "formgewandt",
-        "definition_german": "gewandt in der Form; elegant in der Haltung oder Kleidung",
-        "definition_english": "well-mannered; elegant in appearance/form",
-        "context_snippet": "Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "k\u00f6ppen",
-        "definition_german": "Nachname (Herr K\u00f6ppen)",
-        "definition_english": "K\u00f6ppen (surname)",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "l\u00e4nger",
-        "definition_german": "Komparativ von lang; von gr\u00f6\u00dferer Dauer oder Ausdehnung",
-        "definition_english": "longer",
-        "context_snippet": "Doktor Grabow f\u00fchlte den Puls; sein gutes Gesicht schien noch l\u00e4nger und milder geworden zu sein.",
-        "chapter": 7
-    },
-    {
-        "word": "munterkeit",
-        "definition_german": "Heiterkeit; lebhafte Stimmung",
-        "definition_english": "cheerfulness; liveliness",
-        "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr K\u00f6ppen versp\u00fcrte das deutliche Bed\u00fcrfnis, ein paar Kn\u00f6pfe seiner Weste zu \u00f6ffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
-        "chapter": 7
-    },
-    {
-        "word": "kr\u00f6ger",
-        "definition_german": "Nachname (Lebrecht Kr\u00f6ger, Justus Kr\u00f6ger)",
-        "definition_english": "Kr\u00f6ger (surname)",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "nachsichtigen",
-        "definition_german": "tolerant; verst\u00e4ndnisvoll; milde (Adjektiv)",
-        "definition_english": "indulgent; lenient; forbearing (inflected)",
-        "context_snippet": "Doktor Grabow l\u00e4chelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwerm\u00fctigem L\u00e4cheln.",
-        "chapter": 7
-    },
-    {
-        "word": "mann",
-        "definition_german": "erwachsene m\u00e4nnliche Person",
-        "definition_english": "man",
-        "context_snippet": "Oh, er w\u00fcrde schon wieder essen, der junge Mann!",
-        "chapter": 7
-    },
-    {
-        "word": "beginn",
-        "definition_german": "der Startpunkt; der Anfang",
-        "definition_english": "beginning; start",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "vielleicht",
-        "definition_german": "m\u00f6glicherweise; eventuell",
-        "definition_english": "perhaps; maybe",
-        "context_snippet": "ein bi\u00dfchen Kinderpulver, vielleicht ein T\u00e4\u00dfchen Kamillentee zum Transpirieren ...",
-        "chapter": 7
-    },
-    {
-        "word": "tod",
-        "definition_german": "das Ende des Lebens; Ableben",
-        "definition_english": "death",
-        "context_snippet": "Ein Schlag, hie\u00df es dann, eine L\u00e4hmung, ein pl\u00f6tzlicher und unvorhergesehener Tod ...",
-        "chapter": 7
-    },
-    {
-        "word": "verzweiflung",
-        "definition_german": "hoffnungslose Niedergeschlagenheit; gro\u00dfe Not",
-        "definition_english": "despair; desperation",
-        "context_snippet": "Er hatte das \u00bbverdammt\u00ab nur aus \u00fcbergro\u00dfer Verzweiflung hervorgesto\u00dfen, die Konsulin aber sagte:",
-        "chapter": 7
-    },
-    {
-        "word": "beinahe",
-        "definition_german": "fast; nahezu",
-        "definition_english": "almost; nearly",
-        "context_snippet": "Doktor Grabow l\u00e4chelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwerm\u00fctigem L\u00e4cheln.",
-        "chapter": 7
-    },
-    {
-        "word": "buddenbrook",
-        "definition_german": "Nachname (zentral in Manns Roman)",
-        "definition_english": "Buddenbrook (surname)",
-        "context_snippet": "der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "bringen",
-        "definition_german": "jemanden oder etwas an einen Ort transportieren",
-        "definition_english": "to bring; to take",
-        "context_snippet": "Es d\u00fcrfte das beste sein, ihn zu Bette zu bringen ...",
-        "chapter": 7
-    },
-    {
-        "word": "sa\u00df",
-        "definition_german": "Pr\u00e4teritum von sitzen (in sitzender Haltung verweilen)",
-        "definition_english": "sat (past tense of sitzen)",
-        "context_snippet": "Lebrecht Kr\u00f6ger sa\u00df noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb wei\u00df und formgewandt, der alte Buddenbrook hatte sich zwar ein bi\u00dfchen zur\u00fcckgelegt, wahrte aber den feinsten Anstand, und nur Justus Kr\u00f6ger war ersichtlich ein wenig betrunken.",
-        "chapter": 7
-    },
-    {
-        "word": "schien",
-        "definition_german": "Pr\u00e4teritum von scheinen (erscheinen; den Anschein haben)",
-        "definition_english": "seemed; shone (past tense of scheinen)",
-        "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stie\u00df er es hervor.",
-        "chapter": 7
-    },
-    {
-        "word": "halbdunkel",
-        "definition_german": "schwach beleuchteter Zustand; D\u00e4mmerung",
-        "definition_english": "semi-darkness; dim light",
-        "context_snippet": "dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere S\u00e4ule zog, sa\u00df, lag oder kauerte der kleine Christian und \u00e4chzte leise und herzbrechend.",
-        "chapter": 7
-    }
+  {
+    "word": "verzehren",
+    "definition_german": "etwas essen oder trinken; konsumieren",
+    "definition_english": "to consume; to eat or drink",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "schnell",
+    "definition_german": "mit hoher Geschwindigkeit; rasch",
+    "definition_english": "quickly; rapidly",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "früchte",
+    "definition_german": "essbare, meist süße Teile von Pflanzen (Beeren, Äpfel, etc.)",
+    "definition_english": "fruit",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "jungchen",
+    "definition_german": "Verniedlichungsform für Junge oder junger Mann",
+    "definition_english": "little boy; youngster (diminutive)",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "bedürfnis",
+    "definition_german": "ein starkes Verlangen oder eine Notwendigkeit",
+    "definition_english": "need; requirement; urge",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "knöpfe",
+    "definition_german": "kleine, runde Gegenstände zum Verschließen von Kleidungstücken",
+    "definition_english": "buttons",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "ersichtlich",
+    "definition_german": "offensichtlich; klar erkennbar",
+    "definition_english": "evident; obvious; discernible",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "kleine",
+    "definition_german": "gering an Größe oder Umfang",
+    "definition_english": "small; little",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "zog",
+    "definition_german": "Vergangenheitsform von ziehen (sich erstrecken)",
+    "definition_english": "pulled; stretched (past tense of ziehen)",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "zurückgelegt",
+    "definition_german": "nach hinten geneigt oder gelegt",
+    "definition_english": "leaned back; put back",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "lähmung",
+    "definition_german": "der Verlust der Bewegungsfähigkeit",
+    "definition_english": "paralysis",
+    "context_snippet": "Ein Schlag, hieß es dann, eine Lähmung, ein plötzlicher und unvorhergesehener Tod ...",
+    "chapter": 7
+  },
+  {
+    "word": "übel",
+    "definition_german": "krank, schlecht, leidend",
+    "definition_english": "sick; unwell; nauseous",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "oh",
+    "definition_german": "Ausruf des Erstaunens oder der Erkenntnis",
+    "definition_english": "oh",
+    "context_snippet": "Oh, er würde schon wieder essen, der junge Mann!",
+    "chapter": 7
+  },
+  {
+    "word": "chalottensauce",
+    "definition_german": "eine Soße, die mit Schalotten zubereitet ist",
+    "definition_english": "shallot sauce",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "inzwischen",
+    "definition_german": "während dieser Zeit; im Verlauf",
+    "definition_english": "in the meantime; meanwhile",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "liebe",
+    "definition_german": "zärtlich, gutherzig, wertgeschätzt (oft in Anrede oder Bezug auf Gott verwendet)",
+    "definition_english": "dear; kind; beloved",
+    "context_snippet": "»Wenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch größerer Übelkeit!«",
+    "chapter": 7
+  },
+  {
+    "word": "plötzlich",
+    "definition_german": "unerwartet und schnell",
+    "definition_english": "sudden; suddenly",
+    "context_snippet": "Ein Schlag, hieß es dann, eine Lähmung, ein plötzlicher und unvorhergesehener Tod ...",
+    "chapter": 7
+  },
+  {
+    "word": "bedeuten",
+    "definition_german": "wichtig sein; Relevanz haben",
+    "definition_english": "to matter; to signify",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "puls",
+    "definition_german": "das regelmäßige Schlagen der Arterien, verursacht durch das Herz",
+    "definition_english": "pulse",
+    "context_snippet": "Doktor Grabow fühlte den Puls; sein gutes Gesicht schien noch länger und milder geworden zu sein.",
+    "chapter": 7
+  },
+  {
+    "word": "butter",
+    "definition_german": "ein aus Rahm hergestelltes Streichfett",
+    "definition_english": "butter",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "strenge",
+    "definition_german": "sehr streng; rigide; ohne Ausnahmen",
+    "definition_english": "strict; severe",
+    "context_snippet": "Und strenge Diät, -- Frau Konsulin?",
+    "chapter": 7
+  },
+  {
+    "word": "rauchfleisch",
+    "definition_german": "durch Räuchern haltbar gemachtes Fleisch",
+    "definition_english": "smoked meat",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "langsamen",
+    "definition_german": "nicht schnell; gemächlich",
+    "definition_english": "slow; deliberate",
+    "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: »Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "versichern",
+    "definition_german": "mit Gewissheit zusagen; garantieren",
+    "definition_english": "to assure; to guarantee",
+    "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, daß es für diesmal nichts zu bedeuten habe.",
+    "chapter": 7
+  },
+  {
+    "word": "teufel",
+    "definition_german": "Ausruf des Erstaunens oder der Bekräftigung (hier: 'zum Teufel' als Bekräftigung)",
+    "definition_english": "devil (here: 'to the devil' or 'damn it', used as an exclamation of emphasis)",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "gewissen",
+    "definition_german": "das innere Wissen um Richtig und Falsch",
+    "definition_english": "conscience",
+    "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, daß es für diesmal nichts zu bedeuten habe.",
+    "chapter": 7
+  },
+  {
+    "word": "beste",
+    "definition_german": "am geeignetsten; optimal",
+    "definition_english": "best",
+    "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: »Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "viermal",
+    "definition_german": "vier Male; eine Häufigkeitsangabe",
+    "definition_english": "four times",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "linderung",
+    "definition_german": "Erleichterung von Schmerz oder Leid",
+    "definition_english": "relief; alleviation",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "indigestion",
+    "definition_german": "Verdauungsstörung; Magenverstimmung",
+    "definition_english": "indigestion",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "gehalten",
+    "definition_german": "Partizip II von halten (in der Hand halten)",
+    "definition_english": "held (past participle of hold)",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "schinken",
+    "definition_german": "ein Fleischerzeugnis, meist aus der Keule des Schweins",
+    "definition_english": "ham",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "ja",
+    "definition_german": "Ausdruck der Zustimmung oder Bejahung",
+    "definition_english": "yes; indeed",
+    "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, daß es für diesmal nichts zu bedeuten habe.",
+    "chapter": 7
+  },
+  {
+    "word": "leiden",
+    "definition_german": "physische oder psychische Schmerzen oder Unannehmlichkeiten erfahren",
+    "definition_english": "suffering; agony; illness",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "unten",
+    "definition_german": "an einem tieferen Ort oder Bereich",
+    "definition_english": "below; downstairs",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "betrunken",
+    "definition_german": "unter dem Einfluss von Alkohol stehend",
+    "definition_english": "drunk; intoxicated",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "befohlen",
+    "definition_german": "Partizip II von befehlen (jemanden in jemandes Obhut geben)",
+    "definition_english": "commended (e.g., to God); ordered",
+    "context_snippet": "Nun, Gott befohlen!",
+    "chapter": 7
+  },
+  {
+    "word": "nie",
+    "definition_german": "zu keiner Zeit; niemals",
+    "definition_english": "never",
+    "context_snippet": "»Ich will keine Taube!« rief Christian außer sich. »Ich will nie--mals wieder etwas essen!",
+    "chapter": 7
+  },
+  {
+    "word": "gar",
+    "definition_german": "wirklich, sehr (verstärkend)",
+    "definition_english": "really; indeed; quite (intensifier)",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "ida",
+    "definition_german": "weiblicher Vorname",
+    "definition_english": "Ida (female name)",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "erreicht",
+    "definition_german": "etwas erfolgreich zustande bringen oder einen Zielpunkt ansteuern",
+    "definition_english": "reached; achieved",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "folgmädchen",
+    "definition_german": "ein Mädchen, das beim Servieren oder Abräumen hilft; Dienstmädchen",
+    "definition_english": "serving girl; maid (who followed/assisted)",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "franzbrot",
+    "definition_german": "eine Brotsorte, oft gemeint ist Weißbrot oder Baguette",
+    "definition_english": "French bread (white bread or baguette)",
+    "context_snippet": "Ein wenig Taube, -- ein wenig Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "vorrechnen",
+    "definition_german": "jemandem etwas exakt auflisten oder erklären (oft im Zusammenhang mit Zahlen oder Ereignissen)",
+    "definition_english": "to list; to calculate and demonstrate; to count up for someone",
+    "context_snippet": "ja, ja, und er, Friedrich Grabow, hätte sie ihnen vorrechnen können, alle die vielen Male, wo es »nichts auf sich gehabt hatte«, wo er vielleicht nicht einmal gerufen war, wo nur vielleicht nach Tische, wenn man ins Kontor zurückgekehrt war, ein kleiner, merkwürdiger Schwindel sich gemeldet hatte ...",
+    "chapter": 7
+  },
+  {
+    "word": "wunderlich",
+    "definition_german": "Nachname",
+    "definition_english": "Wunderlich (surname)",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "kinderpulver",
+    "definition_german": "Medikament in Pulverform, speziell für Kinder",
+    "definition_english": "children's powder (medication)",
+    "context_snippet": "Es dürfte das beste sein, ihn zu Bette zu bringen ... ein bißchen Kinderpulver, vielleicht ein Täßchen Kamillentee zum Transpirieren ...",
+    "chapter": 7
+  },
+  {
+    "word": "pastor",
+    "definition_german": "Geistlicher in einer evangelischen Gemeinde",
+    "definition_english": "pastor; clergyman",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "himbeeren",
+    "definition_german": "kleine, rote, süße Beeren",
+    "definition_english": "raspberries",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "frau",
+    "definition_german": "eine erwachsene weibliche Person; Anredeform für verheiratete Damen",
+    "definition_english": "Mrs.; woman; wife",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "anstand",
+    "definition_german": "gutes Benehmen; Etikette",
+    "definition_english": "propriety; decorum; manners",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "ausgesucht",
+    "definition_german": "sehr gut ausgewählt; von besonderer Güte",
+    "definition_english": "exquisite; selected; specially chosen",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "friedrich",
+    "definition_german": "männlicher Vorname",
+    "definition_english": "Friedrich (male name)",
+    "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umstürzen würde.",
+    "chapter": 7
+  },
+  {
+    "word": "ach",
+    "definition_german": "Ausruf des Bedauerns, Schmerzes oder der Überraschung",
+    "definition_english": "oh; ah; alas",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "weste",
+    "definition_german": "ein ärmelloses Kleidungsstück für den Oberkörper",
+    "definition_english": "vest; waistcoat",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "ganz",
+    "definition_german": "vollständig; völlig",
+    "definition_english": "completely; entirely",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "derjenige",
+    "definition_german": "demonstratives Pronomen, das eine bestimmte Person bezeichnet",
+    "definition_english": "the one; that person",
+    "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umstürzen würde.",
+    "chapter": 7
+  },
+  {
+    "word": "her",
+    "definition_german": "in Richtung des Sprechers oder eines Bezugspunktes (hier in 'hin und her')",
+    "definition_english": "hither; here (used in context of back and forth)",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "kommen",
+    "definition_german": "sich nähern oder erreichen",
+    "definition_english": "to come; to arrive",
+    "context_snippet": "Er würde kommen, wenn er gerufen würde, und für einen oder zwei Tage strenge Diät empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "klang",
+    "definition_german": "Vergangenheitsform von klingen (Geräusch abgeben)",
+    "definition_english": "sounded (past tense of klingen)",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "jammern",
+    "definition_german": "wehklagen; klagen; leise Schmerzlaute von sich geben",
+    "definition_english": "wailing; moaning; whimpering",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "hand",
+    "definition_german": "das Greiforgan am Ende des Arms",
+    "definition_english": "hand",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "lächeln",
+    "definition_german": "Ausdruck der Freude oder Nachsicht im Gesicht",
+    "definition_english": "smile",
+    "context_snippet": "Doktor Grabow lächelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwermütigem Lächeln.",
+    "chapter": 7
+  },
+  {
+    "word": "konsulin",
+    "definition_german": "die Ehefrau eines Konsuls; ein Titel",
+    "definition_english": "Consul's wife; Consul's lady",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "schon",
+    "definition_german": "bereits; zu diesem Zeitpunkt",
+    "definition_english": "already; indeed",
+    "context_snippet": "Oh, er würde schon wieder essen, der junge Mann!",
+    "chapter": 7
+  },
+  {
+    "word": "tröstete",
+    "definition_german": "Vergangenheitsform von trösten (jemanden in seinem Leid aufmuntern)",
+    "definition_english": "consoled; comforted",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "taube",
+    "definition_german": "ein Vogel, der oft als Gericht serviert wird",
+    "definition_english": "pigeon; dove (often referring to squab for eating)",
+    "context_snippet": "Ein wenig Taube, -- ein wenig Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "schwindel",
+    "definition_german": "ein Gefühl der Benommenheit oder des Drehens",
+    "definition_english": "dizziness; vertigo",
+    "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zurückgekehrt war, ein kleiner, merkwürdiger Schwindel sich gemeldet hatte ...",
+    "chapter": 7
+  },
+  {
+    "word": "amtstone",
+    "definition_german": "die feierliche, formelle Sprechweise eines Beamten oder Würdenträgers",
+    "definition_english": "official tone; authoritative manner of speech",
+    "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: »Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "scheibchen",
+    "definition_german": "Verniedlichung von Scheibe; eine dünne, runde oder flache Portion",
+    "definition_english": "a small slice; thin piece (diminutive)",
+    "context_snippet": "Er würde kommen, wenn er gerufen würde, und für einen oder zwei Tage strenge Diät empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "wenig",
+    "definition_german": "gering an Menge oder Grad",
+    "definition_english": "little; a small amount",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "kleiner",
+    "definition_german": "Komparativ von klein; geringer an Größe",
+    "definition_english": "smaller",
+    "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zurückgekehrt war, ein kleiner, merkwürdiger Schwindel sich gemeldet hatte ...",
+    "chapter": 7
+  },
+  {
+    "word": "polsterbank",
+    "definition_german": "eine lange Sitzgelegenheit mit weicher Polsterung",
+    "definition_english": "upholstered bench; cushioned seat",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "allzugroßen",
+    "definition_german": "zu groß; übermäßig groß",
+    "definition_english": "oversized; much too big",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "grabow",
+    "definition_german": "Nachname (Doktor Grabow)",
+    "definition_english": "Grabow (surname)",
+    "context_snippet": "Doktor Grabow fühlte den Puls; sein gutes Gesicht schien noch länger und milder geworden zu sein.",
+    "chapter": 7
+  },
+  {
+    "word": "diät",
+    "definition_german": "eine spezielle Ernährungsweise, oft aus medizinischen Gründen",
+    "definition_english": "diet",
+    "context_snippet": "Und strenge Diät, -- Frau Konsulin?",
+    "chapter": 7
+  },
+  {
+    "word": "schlag",
+    "definition_german": "ein plötzliches medizinisches Ereignis (z.B. Schlaganfall)",
+    "definition_english": "stroke; blow",
+    "context_snippet": "Ein Schlag, hieß es dann, eine Lähmung, ein plötzlicher und unvorhergesehener Tod ...",
+    "chapter": 7
+  },
+  {
+    "word": "schlecht",
+    "definition_german": "übel; nicht gut; in schlechtem Zustand",
+    "definition_english": "bad; unwell; sick",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "gutem",
+    "definition_german": "Adjektiv, das Güte oder Qualität beschreibt (Dativ Singular)",
+    "definition_english": "good (dative form)",
+    "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, daß es für diesmal nichts zu bedeuten habe.",
+    "chapter": 7
+  },
+  {
+    "word": "delikat",
+    "definition_german": "köstlich; fein im Geschmack",
+    "definition_english": "delicate; delicious",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "herzbrechend",
+    "definition_german": "großen Schmerz verursachend; rührend und traurig",
+    "definition_english": "heartbreaking",
+    "context_snippet": "saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "öffnen",
+    "definition_german": "etwas aufmachen; den Verschluss lösen",
+    "definition_english": "to open",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "sei",
+    "definition_german": "Konjunktiv I von sein (drückt Möglichkeit oder Annahme aus)",
+    "definition_english": "be (subjunctive mood, expressing possibility or concession)",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "freigeworden",
+    "definition_german": "Partizip II von freigeworden (nicht mehr besetzt)",
+    "definition_english": "vacated; become free",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "bereiten",
+    "definition_german": "verursachen; herbeiführen",
+    "definition_english": "to prepare; to cause; to procure",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "hervorgestoßen",
+    "definition_german": "mit Vehemenz oder plötzlich ausgestoßen (Partizip II)",
+    "definition_english": "blurted out; expelled forcibly",
+    "context_snippet": "Er hatte das »verdammt« nur aus übergroßer Verzweiflung hervorgestoßen, die Konsulin aber sagte:",
+    "chapter": 7
+  },
+  {
+    "word": "tische",
+    "definition_german": "Plural oder dativische Form von Tisch (Möbelstück zum Essen)",
+    "definition_english": "table (dative usage, 'nach Tische' = after eating)",
+    "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zurückgekehrt war, ein kleiner, merkwürdiger Schwindel sich gemeldet hatte ...",
+    "chapter": 7
+  },
+  {
+    "word": "unauffällig",
+    "definition_german": "ohne Aufsehen zu erregen; diskret",
+    "definition_english": "inconspicuous; unobtrusively",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "hervor",
+    "definition_german": "nach draußen; zum Vorschein",
+    "definition_english": "forth; forward (often used with verbs like stoßen)",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "bißchen",
+    "definition_german": "eine kleine Menge; ein wenig",
+    "definition_english": "a bit; a little",
+    "context_snippet": "der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "jung",
+    "definition_german": "nicht alt; von geringem Alter",
+    "definition_english": "young",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "kontorsessel",
+    "definition_german": "ein Stuhl oder Sessel, der in einem Kontor (Büro) benutzt wird",
+    "definition_english": "office chair; desk chair",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "leise",
+    "definition_german": "kaum hörbar; mit geringer Lautstärke",
+    "definition_english": "quietly; softly",
+    "context_snippet": "saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "verwandten",
+    "definition_german": "Personen, die durch Abstammung oder Heirat verbunden sind",
+    "definition_english": "relatives; relations",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "junge",
+    "definition_german": "ein männliches Kind oder Jugendlicher",
+    "definition_english": "young man; boy",
+    "context_snippet": "Oh, er würde schon wieder essen, der junge Mann!",
+    "chapter": 7
+  },
+  {
+    "word": "gipfel",
+    "definition_german": "der höchste Punkt; Höhepunkt",
+    "definition_english": "peak; climax; summit",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "fort",
+    "definition_german": "weiter; ununterbrochen",
+    "definition_english": "on; continuing; away",
+    "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: »Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "väter",
+    "definition_german": "männliche Elternteile oder Vorfahren",
+    "definition_english": "fathers; forefathers",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "säule",
+    "definition_german": "ein senkrechtes, oft rundes Stützelement in der Architektur",
+    "definition_english": "column; pillar",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "sitzend",
+    "definition_german": "in sitzender Position",
+    "definition_english": "sitting",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "saal",
+    "definition_german": "ein großer Raum für Veranstaltungen oder Empfänge",
+    "definition_english": "hall; ballroom",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "verzehrt",
+    "definition_german": "gegessen oder konsumiert (Partizip II)",
+    "definition_english": "consumed; eaten",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "leider",
+    "definition_german": "drückt Bedauern aus; unglücklicherweise",
+    "definition_english": "unfortunately; regrettably",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "runden",
+    "definition_german": "kreisförmig; nicht eckig",
+    "definition_english": "round; circular",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "soliden",
+    "definition_german": "stabil; verlässlich; von guter, dauerhafter Qualität",
+    "definition_english": "solid; sturdy; reliable",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "alte",
+    "definition_german": "von hohem Alter oder langjährig bekannt",
+    "definition_english": "old",
+    "context_snippet": "der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "jungmann",
+    "definition_german": "Nachname (Mamsell Jungmann)",
+    "definition_english": "Jungmann (surname, often used with 'Mamsell' for an unmarried lady/governess)",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "transpirieren",
+    "definition_german": "schwitzen; Schweiß absondern",
+    "definition_english": "to perspire; to sweat",
+    "context_snippet": "Es dürfte das beste sein, ihn zu Bette zu bringen ... ein bißchen Kinderpulver, vielleicht ein Täßchen Kamillentee zum Transpirieren ...",
+    "chapter": 7
+  },
+  {
+    "word": "kontor",
+    "definition_german": "Büro eines Kaufmanns oder Handelsunternehmens",
+    "definition_english": "office (especially a commercial one or counting house)",
+    "context_snippet": "wo nur vielleicht nach Tische, wenn man ins Kontor zurückgekehrt war, ein kleiner, merkwürdiger Schwindel sich gemeldet hatte ...",
+    "chapter": 7
+  },
+  {
+    "word": "zwei",
+    "definition_german": "die Zahl zwischen eins und drei",
+    "definition_english": "two",
+    "context_snippet": "Er würde kommen, wenn er gerufen würde, und für einen oder zwei Tage strenge Diät empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "paar",
+    "definition_german": "zwei zusammengehörige Dinge; eine kleine, unbestimmte Menge",
+    "definition_english": "a pair; a couple of",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "doktor",
+    "definition_german": "akademischer Titel, oft verwendet für Ärzte",
+    "definition_english": "Doctor (academic title or physician)",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "geradezu",
+    "definition_german": "schlechterdings; direkt; förmlich",
+    "definition_english": "positively; literally; downright",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "käse",
+    "definition_german": "ein aus Milch hergestelltes Nahrungsmittel",
+    "definition_english": "cheese",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "leben",
+    "definition_german": "existieren; das Leben führen",
+    "definition_english": "to live",
+    "context_snippet": "Er würde leben wie alle Welt.",
+    "chapter": 7
+  },
+  {
+    "word": "plettenpudding",
+    "definition_german": "ein Schichtpudding, wahrscheinlich mit Makronen und Eierschaum",
+    "definition_english": "a type of layered pudding or trifle (made with biscuits/macaroons)",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "empfehlen",
+    "definition_german": "raten; vorschlagen",
+    "definition_english": "to recommend",
+    "context_snippet": "Er würde kommen, wenn er gerufen würde, und für einen oder zwei Tage strenge Diät empfehlen, -- ein wenig Taube, ein Scheibchen Franzbrot ...",
+    "chapter": 7
+  },
+  {
+    "word": "befahl",
+    "definition_german": "Präteritum von befehlen (sich jemandem anvertrauen)",
+    "definition_english": "commended (past tense of befehlen, specifically to God)",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "genau",
+    "definition_german": "präzise; exakt in der Art",
+    "definition_english": "exactly; precisely",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "bett",
+    "definition_german": "Möbelstück zum Schlafen",
+    "definition_english": "bed",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "wort",
+    "definition_german": "eine sprachliche Einheit; Äußerung",
+    "definition_english": "word",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "platze",
+    "definition_german": "Ort oder Stelle (Dativ)",
+    "definition_english": "place; spot (dative form)",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "stand",
+    "definition_german": "Präteritum von stehen (aufrecht sein oder sich an einem Ort befinden)",
+    "definition_english": "stood (past tense of stehen)",
+    "context_snippet": "»Ach Gott, Madamchen!« sagte Ida, die mit dem Doktor bei ihm stand, »Christian, dem Jungchen, ist gar so schlecht ...«",
+    "chapter": 7
+  },
+  {
+    "word": "wackeren",
+    "definition_german": "tüchtig; tapfer; redlich",
+    "definition_english": "worthy; brave; honest (inflected)",
+    "context_snippet": "Er hatte, so jung er war, die Hand manches wackeren Bürgers in der seinen gehalten, der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "außer",
+    "definition_german": "neben; mit Ausnahme von; oder im Sinne von 'außer sich'",
+    "definition_english": "outside; beside oneself (furious/distraught)",
+    "context_snippet": "»Ich will keine Taube!« rief Christian außer sich.",
+    "chapter": 7
+  },
+  {
+    "word": "verbringen",
+    "definition_german": "Zeit oder Tage auf eine bestimmte Weise nutzen",
+    "definition_english": "to spend (time)",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "geworden",
+    "definition_german": "Partizip II von werden (sich entwickeln zu etwas)",
+    "definition_english": "become (past participle of werden)",
+    "context_snippet": "Doktor Grabow fühlte den Puls; sein gutes Gesicht schien noch länger und milder geworden zu sein.",
+    "chapter": 7
+  },
+  {
+    "word": "schwer",
+    "definition_german": "lästig; kompliziert; schwierig zu verdauen",
+    "definition_english": "heavy; rich (food); severe",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "unruhig",
+    "definition_german": "ohne Ruhe; fahrig",
+    "definition_english": "restlessly; nervously",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "aufrecht",
+    "definition_german": "gerade; in vertikaler Haltung",
+    "definition_english": "upright; erect",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "letzte",
+    "definition_german": "zuletzt; endgültig",
+    "definition_english": "last; final",
+    "context_snippet": "der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "umstürzen",
+    "definition_german": "etwas von Grund auf ändern; revolutionieren",
+    "definition_english": "to overturn; to revolutionize; to topple",
+    "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umstürzen würde.",
+    "chapter": 7
+  },
+  {
+    "word": "braven",
+    "definition_german": "artig; ehrlich; tapfer",
+    "definition_english": "good; honest; brave (inflected)",
+    "context_snippet": "Er, Friedrich Grabow, war nicht derjenige, welcher die Lebensgewohnheiten aller dieser braven, wohlhabenden und behaglichen Kaufmannsfamilien umstürzen würde.",
+    "chapter": 7
+  },
+  {
+    "word": "tage",
+    "definition_german": "Zeitabschnitte von 24 Stunden",
+    "definition_english": "days",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "gott",
+    "definition_german": "höchstes Wesen; Schöpfer",
+    "definition_english": "God",
+    "context_snippet": "»Wenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch größerer Übelkeit!«",
+    "chapter": 7
+  },
+  {
+    "word": "justus",
+    "definition_german": "männlicher Vorname",
+    "definition_english": "Justus (male name)",
+    "context_snippet": "und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "lag",
+    "definition_german": "Präteritum von liegen (sich in horizontaler Position befinden)",
+    "definition_english": "lay (past tense of liegen)",
+    "context_snippet": "saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "herr",
+    "definition_german": "Anredeform für Männer; Meister",
+    "definition_english": "Mr.; gentleman; lord",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "kamillentee",
+    "definition_german": "ein aus Kamillenblüten aufgegossenes Getränk",
+    "definition_english": "camomile tea",
+    "context_snippet": "ein bißchen Kinderpulver, vielleicht ein Täßchen Kamillentee zum Transpirieren ...",
+    "chapter": 7
+  },
+  {
+    "word": "lebrecht",
+    "definition_german": "männlicher Vorname",
+    "definition_english": "Lebrecht (male name)",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "puter",
+    "definition_german": "ein großes, gezüchtetes Geflügel (Truthahn)",
+    "definition_english": "turkey (gobbler)",
+    "context_snippet": "seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "davon",
+    "definition_german": "weg von hier; von dem",
+    "definition_english": "away; from there",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "wohl",
+    "definition_german": "wahrscheinlich; vermutlich; gut",
+    "definition_english": "probably; indeed; well",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "mama",
+    "definition_german": "Mutter",
+    "definition_english": "Mama; mother",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "stieß",
+    "definition_german": "Präteritum von stoßen (mit einer Kraft etwas aussprechen oder wegdrücken)",
+    "definition_english": "pushed; thrust; blurted out (past tense of stoßen)",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "verdammt",
+    "definition_german": "verflucht; Ausdruck starker Emotion oder Wut",
+    "definition_english": "damned; accursed (used as an intensifier/expletive)",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "mamsell",
+    "definition_german": "Anrede für eine unverheiratete Frau; Fräulein (historisch)",
+    "definition_english": "Miss (archaic title, similar to Fräulein)",
+    "context_snippet": "Die Konsulin erhob sich ganz unauffällig und ging davon, denn dort unten waren die Plätze von Mamsell Jungmann, Doktor Grabow und Christian freigeworden, und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "bedeutung",
+    "definition_german": "Wichtigkeit; Relevanz; Sinngehalt",
+    "definition_english": "importance; significance",
+    "context_snippet": "»Eine kleine Indigestion ... nichts von Bedeutung, -- Frau Konsulin!« tröstete er.",
+    "chapter": 7
+  },
+  {
+    "word": "eierschaum",
+    "definition_german": "aus Eiern, Zucker und eventuell Milch zubereiteter Schaum",
+    "definition_english": "egg foam; custard foam; meringue",
+    "context_snippet": "Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "inbrunst",
+    "definition_german": "große Leidenschaft oder tiefe Empfindung",
+    "definition_english": "ardor; fervency; passion",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "mahlzeit",
+    "definition_german": "ein Zeitpunkt, zu dem gegessen wird; Essen",
+    "definition_english": "meal",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "bette",
+    "definition_german": "Dativ von Bett (im Bett)",
+    "definition_english": "bed (dative form)",
+    "context_snippet": "Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "heute",
+    "definition_german": "an diesem Tag",
+    "definition_english": "today",
+    "context_snippet": "Dieser panierte Schinken mit Chalottensauce heute war delikat gewesen, zum Teufel, und dann, als man schon schwer atmete, der Plettenpudding -- Makronen, Himbeeren und Eierschaum, ja, ja ...",
+    "chapter": 7
+  },
+  {
+    "word": "fuhr",
+    "definition_german": "Präteritum von fahren (hier: fortfahren zu reden)",
+    "definition_english": "continued (to speak); drove (past tense of fahren)",
+    "context_snippet": "Und dann fuhr er in seinem langsamen, pedantischen Amtstone fort: »Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "gesicht",
+    "definition_german": "das Antlitz; Vorderseite des Kopfes",
+    "definition_english": "face",
+    "context_snippet": "Doktor Grabow fühlte den Puls; sein gutes Gesicht schien noch länger und milder geworden zu sein.",
+    "chapter": 7
+  },
+  {
+    "word": "wahrhaftig",
+    "definition_german": "wirklich; in Wahrheit",
+    "definition_english": "truly; verily; indeed",
+    "context_snippet": "Sie verließ schnell hinter dem Folgmädchen, das Butter, Käse und Früchte serviert hatte, den Saal -- und wahrhaftig, dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  },
+  {
+    "word": "christian",
+    "definition_german": "männlicher Vorname",
+    "definition_english": "Christian (male name)",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "nase",
+    "definition_german": "das Organ zum Riechen und Atmen",
+    "definition_english": "nose",
+    "context_snippet": "»Mir ist übel, Mama, mir ist =verdammt= übel!« wimmerte Christian, während seine runden tiefliegenden Augen über der allzugroßen Nase unruhig hin und her gingen.",
+    "chapter": 7
+  },
+  {
+    "word": "keule",
+    "definition_german": "ein großes Stück Fleisch vom Bein eines Tieres",
+    "definition_english": "haunch; leg (of meat)",
+    "context_snippet": "der seine letzte Keule Rauchfleisch, seinen letzten gefüllten Puter verzehrt hatte und, sei es plötzlich und überrascht in seinem Kontorsessel oder nach einigem Leiden in seinem soliden alten Bett, sich Gott befahl.",
+    "chapter": 7
+  },
+  {
+    "word": "dergleichen",
+    "definition_german": "solche Dinge; etwas Ähnliches",
+    "definition_english": "such a thing; the like",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "diesmal",
+    "definition_german": "nur dieses eine Mal",
+    "definition_english": "this time",
+    "context_snippet": "ja, ja -- und mit gutem Gewissen versichern, daß es für diesmal nichts zu bedeuten habe.",
+    "chapter": 7
+  },
+  {
+    "word": "gute",
+    "definition_german": "von hoher Qualität; positiv",
+    "definition_english": "good",
+    "context_snippet": "Er würde, wie seine Väter, Verwandten und Bekannten, seine Tage sitzend verbringen und viermal inzwischen so ausgesucht schwere und gute Dinge verzehren ...",
+    "chapter": 7
+  },
+  {
+    "word": "übelkeit",
+    "definition_german": "das Gefühl der körperlichen Unpässlichkeit, oft mit Brechreiz",
+    "definition_english": "nausea; sickness",
+    "context_snippet": "»Wenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch größerer Übelkeit!«",
+    "chapter": 7
+  },
+  {
+    "word": "essen",
+    "definition_german": "Nahrung zu sich nehmen",
+    "definition_english": "to eat",
+    "context_snippet": "Oh, er würde schon wieder essen, der junge Mann!",
+    "chapter": 7
+  },
+  {
+    "word": "gebrauchen",
+    "definition_german": "verwenden; benutzen",
+    "definition_english": "to use; to employ",
+    "context_snippet": "»Wenn wir solche Worte gebrauchen, straft uns der liebe Gott mit noch größerer Übelkeit!«",
+    "chapter": 7
+  },
+  {
+    "word": "säulenhalle",
+    "definition_german": "eine Halle oder ein Raum, der durch Säulen gestützt wird",
+    "definition_english": "pillared hall; colonnade",
+    "context_snippet": "und aus der Säulenhalle klang es beinahe wie unterdrücktes Jammern.",
+    "chapter": 7
+  },
+  {
+    "word": "weiß",
+    "definition_german": "die Farbe von Schnee oder Milch",
+    "definition_english": "white",
+    "context_snippet": "Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "übergroßer",
+    "definition_german": "extrem groß; über das normale Maß hinaus",
+    "definition_english": "excessive; enormous",
+    "context_snippet": "Er hatte das »verdammt« nur aus übergroßer Verzweiflung hervorgestoßen, die Konsulin aber sagte:",
+    "chapter": 7
+  },
+  {
+    "word": "welt",
+    "definition_german": "die Erde; die Gesamtheit der Menschen",
+    "definition_english": "world",
+    "context_snippet": "Er würde leben wie alle Welt.",
+    "chapter": 7
+  },
+  {
+    "word": "mals",
+    "definition_german": "Suffix, das eine Wiederholung oder einen Zeitpunkt markiert (Teil von 'niemals')",
+    "definition_english": "times (part of the adverb 'niemals' - never)",
+    "context_snippet": "»Ich will keine Taube!« rief Christian außer sich. »Ich will nie--mals wieder etwas essen!",
+    "chapter": 7
+  },
+  {
+    "word": "formgewandt",
+    "definition_german": "gewandt in der Form; elegant in der Haltung oder Kleidung",
+    "definition_english": "well-mannered; elegant in appearance/form",
+    "context_snippet": "Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "köppen",
+    "definition_german": "Nachname (Herr Köppen)",
+    "definition_english": "Köppen (surname)",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "länger",
+    "definition_german": "Komparativ von lang; von größerer Dauer oder Ausdehnung",
+    "definition_english": "longer",
+    "context_snippet": "Doktor Grabow fühlte den Puls; sein gutes Gesicht schien noch länger und milder geworden zu sein.",
+    "chapter": 7
+  },
+  {
+    "word": "munterkeit",
+    "definition_german": "Heiterkeit; lebhafte Stimmung",
+    "definition_english": "cheerfulness; liveliness",
+    "context_snippet": "Die allgemeine Munterkeit hatte nun ihren Gipfel erreicht, und Herr Köppen verspürte das deutliche Bedürfnis, ein paar Knöpfe seiner Weste zu öffnen; aber das ging wohl leider nicht an, denn nicht einmal die alten Herren erlaubten sich dergleichen.",
+    "chapter": 7
+  },
+  {
+    "word": "kröger",
+    "definition_german": "Nachname (Lebrecht Kröger, Justus Kröger)",
+    "definition_english": "Kröger (surname)",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "nachsichtigen",
+    "definition_german": "tolerant; verständnisvoll; milde (Adjektiv)",
+    "definition_english": "indulgent; lenient; forbearing (inflected)",
+    "context_snippet": "Doktor Grabow lächelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwermütigem Lächeln.",
+    "chapter": 7
+  },
+  {
+    "word": "mann",
+    "definition_german": "erwachsene männliche Person",
+    "definition_english": "man",
+    "context_snippet": "Oh, er würde schon wieder essen, der junge Mann!",
+    "chapter": 7
+  },
+  {
+    "word": "beginn",
+    "definition_german": "der Startpunkt; der Anfang",
+    "definition_english": "beginning; start",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "vielleicht",
+    "definition_german": "möglicherweise; eventuell",
+    "definition_english": "perhaps; maybe",
+    "context_snippet": "ein bißchen Kinderpulver, vielleicht ein Täßchen Kamillentee zum Transpirieren ...",
+    "chapter": 7
+  },
+  {
+    "word": "tod",
+    "definition_german": "das Ende des Lebens; Ableben",
+    "definition_english": "death",
+    "context_snippet": "Ein Schlag, hieß es dann, eine Lähmung, ein plötzlicher und unvorhergesehener Tod ...",
+    "chapter": 7
+  },
+  {
+    "word": "verzweiflung",
+    "definition_german": "hoffnungslose Niedergeschlagenheit; große Not",
+    "definition_english": "despair; desperation",
+    "context_snippet": "Er hatte das »verdammt« nur aus übergroßer Verzweiflung hervorgestoßen, die Konsulin aber sagte:",
+    "chapter": 7
+  },
+  {
+    "word": "beinahe",
+    "definition_german": "fast; nahezu",
+    "definition_english": "almost; nearly",
+    "context_snippet": "Doktor Grabow lächelte vor sich hin, mit einem nachsichtigen und beinahe etwas schwermütigem Lächeln.",
+    "chapter": 7
+  },
+  {
+    "word": "buddenbrook",
+    "definition_german": "Nachname (zentral in Manns Roman)",
+    "definition_english": "Buddenbrook (surname)",
+    "context_snippet": "der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "bringen",
+    "definition_german": "jemanden oder etwas an einen Ort transportieren",
+    "definition_english": "to bring; to take",
+    "context_snippet": "Es dürfte das beste sein, ihn zu Bette zu bringen ...",
+    "chapter": 7
+  },
+  {
+    "word": "saß",
+    "definition_german": "Präteritum von sitzen (in sitzender Haltung verweilen)",
+    "definition_english": "sat (past tense of sitzen)",
+    "context_snippet": "Lebrecht Kröger saß noch genau so aufrecht an seinem Platze, wie zu Beginn der Mahlzeit, Pastor Wunderlich blieb weiß und formgewandt, der alte Buddenbrook hatte sich zwar ein bißchen zurückgelegt, wahrte aber den feinsten Anstand, und nur Justus Kröger war ersichtlich ein wenig betrunken.",
+    "chapter": 7
+  },
+  {
+    "word": "schien",
+    "definition_german": "Präteritum von scheinen (erscheinen; den Anschein haben)",
+    "definition_english": "seemed; shone (past tense of scheinen)",
+    "context_snippet": "Das starke Wort schien ihm geradezu Linderung zu bereiten, mit solcher Inbrunst stieß er es hervor.",
+    "chapter": 7
+  },
+  {
+    "word": "halbdunkel",
+    "definition_german": "schwach beleuchteter Zustand; Dämmerung",
+    "definition_english": "semi-darkness; dim light",
+    "context_snippet": "dort im Halbdunkel, auf der runden Polsterbank, die sich um die mittlere Säule zog, saß, lag oder kauerte der kleine Christian und ächzte leise und herzbrechend.",
+    "chapter": 7
+  }
 ]
