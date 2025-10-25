@@ -1,5 +1,29 @@
 // sync-vocab.js
 
+/**
+ * Reads the existing local JSON file for a chapter.
+ * @param {number} chapterNum
+ * @returns {Array<Object>} The existing vocabulary array, or an empty array if the file doesn't exist.
+ */
+function readExistingVocab(chapterNum) {
+    const filename = path.join(OUTPUT_DIR, `vocab_ch${chapterNum}.json`);
+    
+    try {
+        // Read the file synchronously
+        const fileContent = fs.readFileSync(filename, 'utf8');
+        // Parse and return the existing array
+        return JSON.parse(fileContent); 
+    } catch (error) {
+        // If the file doesn't exist (E.g., new chapter), return an empty array
+        if (error.code === 'ENOENT') {
+            return [];
+        }
+        // Log other errors, but don't crash the entire job
+        console.error(`Error reading existing vocab file ${filename}:`, error.message);
+        return []; 
+    }
+}
+
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
@@ -62,32 +86,60 @@ async function fetchAndOrganizeVocab() {
   return chapterData;
 }
 
-/**
- * Writes the organized chapter data to individual JSON files.
- * @param {Array<Array<Object>>} organizedData
+
+ * Writes the organized chapter data, merging with existing local files.
+ * @param {Array<Array<Object>>} organizedData - New vocab fetched from Firebase
  */
 function writeChapterFiles(organizedData) {
-  // Ensure the output directory exists
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR);
-  }
-
-  for (let i = 1; i <= MAX_CHAPTER; i++) {
-    const chapterVocab = organizedData[i];
-    if (chapterVocab.length === 0) {
-      console.log(`Skipping Chapter ${i}: No approved vocabulary found.`);
-      continue;
+    // Ensure the output directory exists
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR);
     }
-    
-    // NOTE: If your files are NOT zero-padded (vocab_ch1.json), change the next line
-    const paddedChapter = i; // CHANGE TO: const paddedChapter = zeroPad(i); 
 
-    const filename = path.join(OUTPUT_DIR, `vocab_ch${paddedChapter}.json`);
-    
-    // Write the JSON file with pretty printing (2-space indent)
-    fs.writeFileSync(filename, JSON.stringify(chapterVocab, null, 2));
-    console.log(`Successfully wrote ${chapterVocab.length} words to ${filename}`);
-  }
+    for (let i = 1; i <= MAX_CHAPTER; i++) {
+        const newVocab = organizedData[i];
+        
+        // 1. READ EXISTING VOCAB
+        const existingVocab = readExistingVocab(i);
+
+        // 2. MERGE LOGIC (CRITICAL STEP)
+        // Combine existing and new. We'll use a Map to keep track of unique words 
+        // and ensure the new Firebase entry overrides the existing one (if needed).
+        
+        const mergedMap = new Map();
+        
+        // Add existing vocabulary first
+        existingVocab.forEach(item => {
+            mergedMap.set(item.word.toLowerCase(), item);
+        });
+        
+        // Add new vocabulary, which will overwrite any duplicates from the existing list
+        if (newVocab.length > 0) {
+            newVocab.forEach(item => {
+                mergedMap.set(item.word.toLowerCase(), item);
+            });
+        }
+        
+        // Convert the map back to an array
+        const finalVocab = Array.from(mergedMap.values());
+        
+        // Check if anything has actually changed to prevent unnecessary commits (optimization)
+        if (finalVocab.length === existingVocab.length && newVocab.length === 0) {
+            console.log(`Skipping Chapter ${i}: No new approved vocabulary found.`);
+            continue;
+        }
+
+        if (finalVocab.length === 0) {
+            continue; // Skip writing an empty file
+        }
+        
+        // 3. WRITE THE MERGED FILE
+        const filename = path.join(OUTPUT_DIR, `vocab_ch${i}.json`);
+        
+        // Write the JSON file with pretty printing (2-space indent)
+        fs.writeFileSync(filename, JSON.stringify(finalVocab, null, 2));
+        console.log(`Successfully MERGED ${finalVocab.length} words (added ${newVocab.length} new) to ${filename}`);
+    }
 }
 
 /**
