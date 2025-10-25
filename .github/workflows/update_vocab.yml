@@ -17,6 +17,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write # This grants the necessary permission to commit and push files    
+      
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
