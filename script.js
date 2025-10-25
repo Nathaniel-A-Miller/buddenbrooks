@@ -231,52 +231,6 @@ function dismissInstructions() {
     // Set the flag so instructions don't show on future visits
     localStorage.setItem('instructionsDismissed', 'true');
 }
-// /**
-//  * Replaces words in the text with clickable <span> elements and preserves paragraphs.
-//  */
-// function renderInteractiveText() {
-//     // CRITICAL CHECK: Ensure germanText is loaded and not empty
-//     if (!germanText || vocabularyData.length === 0) {
-//         console.error("Text or vocabulary data is missing before rendering.");
-//         return;
-//     }
-
-//     let textWithParagraphs = germanText;
-    
-//     // 1. Preserve paragraph breaks:
-//     // Replace double line breaks (\n\s*\n - which handles blank lines) with </p><p>
-//     textWithParagraphs = textWithParagraphs.trim()
-//         .replace(/\n\s*\n/g, '</p><p>'); 
-
-//     // 2. Wrap the entire body in initial/final paragraph tags
-//     // This creates <p>Paragraph 1</p><p>Paragraph 2</p>...
-//     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
-
-
-//     // 3. Now, proceed with word wrapping
-//     vocabularyData.forEach(item => {
-//         // Create a regular expression to find the whole word, ignoring case.
-//         const regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-
-//         // Replace the word with the clickable span
-//         textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
-//             // Prevent double-wrapping 
-//             if (match.startsWith('<span')) {
-//                 return match; 
-//             }
-//             return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
-//         });
-//     });
-
-//     // 4. Display the fully wrapped and paragraphed text in the HTML
-//     textArea.innerHTML = textWithParagraphs;
-
-//     // 5. Attach event listeners
-//     document.querySelectorAll('.vocab-word').forEach(span => {
-//         span.addEventListener('mouseover', handleWordHover);
-//         span.addEventListener('click', handleWordClick); 
-//     });
-// }
 
 /**
  * Replaces words in the text with clickable <span> elements and preserves paragraphs.
@@ -296,38 +250,72 @@ function renderInteractiveText() {
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
     // 2. Proceed with word wrapping
-    vocabularyData.forEach(item => {
-        
-        let regex;
-        // Check if the word contains a German diacritic or compound part like 'ß' 
-        // which can confuse the default \b word boundary.
-        if (item.word.match(/[äöüÄÖÜß]/i) || item.word.includes('vater') || item.word.includes('mutter')) {
-            // Use the explicit look-around regex for any word with an umlaut or ß
-            regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
-        } else {
-            // Use the standard regex
-            regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-}
-        // if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter')) {
-        //     // Use a look-around assertion for more reliable boundary checking
-        //     // This pattern looks for the word followed by a non-letter/digit/space/HTML character.
-        //     // This is safer than removing \b entirely.
-        //     regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
-        // } else {
-        //     // Use the standard, safer word boundary for most words
-        //     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-        // }
+    // --- 2. SAFER WORD WRAPPING LOGIC (REPLACE YOUR OLD CODE HERE) ---
+    let processedHTML = textWithParagraphs;
 
-        // Replace the word with the clickable span
-        textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
-            // CRITICAL: Prevent double-wrapping (which corrupts the HTML)
-            if (match.startsWith('<span') || match.includes('<span')) {
-                return `<span class="vocab-word" data-word="${item.word}">${match}</span>`; 
-            }
-            // Use a custom data attribute to store the word for easy lookup
-            return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
-        });
-    });
+    // Regex to split the content: captures HTML tags OR runs of non-HTML content
+    // This splits the string, keeping the tags and the text runs separate.
+    const parts = processedHTML.split(/(<[^>]+>)/g);
+    
+    // Process only the text parts
+    const chapterVocab = vocabularyData; // Use all vocab for current chapter
+
+    for (let i = 0; i < parts.length; i++) {
+        // If the part does NOT start with '<', it is plain text content.
+        if (!parts[i].startsWith('<')) {
+            let text = parts[i];
+            
+            // Loop through vocabulary and replace ONLY within the plain text part
+            chapterVocab.forEach(item => {
+                let regex;
+                // Keep your existing robust regex logic for German words:
+                if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
+                     // Includes 'ü' here for safety, based on your previous issue.
+                     regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
+                } else {
+                    regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+                }
+
+                // Perform the replacement
+                text = text.replace(regex, (match) => {
+                    // Critical: Prevent double-wrapping (which this new logic should rarely hit, but keep it)
+                    if (match.startsWith('<span') || match.includes('<span')) {
+                        return match; 
+                    }
+                    return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+                });
+            });
+
+            // Update the parts array with the new, wrapped text
+            parts[i] = text;
+        }
+    }
+
+    // Recombine all parts (tags and processed text) back into the full HTML string
+    textWithParagraphs = parts.join(''); 
+    // --- END SAFER WORD WRAPPING LOGIC ---
+//     vocabularyData.forEach(item => {
+        
+//         let regex;
+//         // Check if the word contains a German diacritic or compound part like 'ß' 
+//         // which can confuse the default \b word boundary.
+//         if (item.word.match(/[äöüÄÖÜß]/i) || item.word.includes('vater') || item.word.includes('mutter')) {
+//             // Use the explicit look-around regex for any word with an umlaut or ß
+//             regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
+//         } else {
+//             // Use the standard regex
+//             regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+// }
+//         // Replace the word with the clickable span
+//         textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
+//             // CRITICAL: Prevent double-wrapping (which corrupts the HTML)
+//             if (match.startsWith('<span') || match.includes('<span')) {
+//                 return `<span class="vocab-word" data-word="${item.word}">${match}</span>`; 
+//             }
+//             // Use a custom data attribute to store the word for easy lookup
+//             return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+//         });
+//     });
 
     // 3. Display the text
     textArea.innerHTML = textWithParagraphs;
