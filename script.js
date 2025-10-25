@@ -248,6 +248,11 @@ function renderInteractiveText() {
             .replace(/'/g, '&#039;');
     }
 
+    // --- Escape regex special chars ---
+    function escapeRegExp(string) {
+        return String(string).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
     // --- Preserve paragraph breaks ---
     let textWithParagraphs = germanText.trim()
         .replace(/\n\s*\n/g, '</p><p>');
@@ -256,40 +261,33 @@ function renderInteractiveText() {
     // --- Split into HTML + text parts ---
     const parts = textWithParagraphs.split(/(<[^>]+>)/g);
 
-    // Make a clone of the vocab and sort by length descending to avoid partial matches
-    const chapterVocab = (Array.isArray(vocabularyData) ? vocabularyData.slice() : [])
-        .sort((a, b) => b.word.length - a.word.length);
+    // --- Precompile all regexes once (sorted longest-first) ---
+    const compiledVocab = (Array.isArray(vocabularyData) ? vocabularyData.slice() : [])
+        .filter(v => v && v.word)
+        .sort((a, b) => b.word.length - a.word.length)
+        .map(item => ({
+            ...item,
+            regex: new RegExp(`(?<![\\p{L}])(${escapeRegExp(item.word)})(?![\\p{L}])`, 'giu')
+        }));
 
     for (let i = 0; i < parts.length; i++) {
-        // Only process parts that are *not* HTML tags
         if (!parts[i].startsWith('<')) {
             let text = parts[i];
 
-            chapterVocab.forEach(item => {
-                if (!item || !item.word) return;
-
-                // Unicode-safe boundary; case-insensitive and Unicode enabled
-                const regex = new RegExp(`(?<![\\p{L}])(${escapeRegExp(item.word)})(?![\\p{L}])`, 'giu');
-
-                // Use replace callback and detect if the match is inside a tag
+            compiledVocab.forEach(({ word, regex }) => {
                 text = text.replace(regex, function () {
-                    // Get callback args to find offset and original string
                     const args = Array.from(arguments);
                     const fullString = args[args.length - 1];
                     const offset = args[args.length - 2];
 
-                    // If there is a '<' after the last '>' before the match, we're inside a tag → skip
+                    // Detect if the match is inside a tag; skip if so
                     const before = fullString.slice(0, offset);
                     const lastLt = before.lastIndexOf('<');
                     const lastGt = before.lastIndexOf('>');
-                    if (lastLt > lastGt) {
-                        // The match is inside a tag — return it unchanged
-                        return arguments[0];
-                    }
+                    if (lastLt > lastGt) return arguments[0];
 
-                    // Otherwise safe to replace
                     const match = arguments[0];
-                    const safeWord = escapeHTML(item.word);
+                    const safeWord = escapeHTML(word);
                     const safeMatch = escapeHTML(match);
                     return `<span class="vocab-word" data-word="${safeWord}">${safeMatch}</span>`;
                 });
@@ -309,152 +307,89 @@ function renderInteractiveText() {
     });
 }
 
-/**
- * Small helper: escape characters for literal use inside RegExp constructor
- */
-function escapeRegExp(string) {
-    return String(string).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
 
 // function renderInteractiveText() {
 //     if (!germanText || vocabularyData.length === 0) {
 //         console.error("Text or vocabulary data is missing before rendering.");
 //         return;
 //     }
-    
-//     let textWithParagraphs = germanText;
-    
-//     // 1. Preserve paragraph breaks: (Keep this logic)
-//     textWithParagraphs = textWithParagraphs.trim()
-//         .replace(/\n\s*\n/g, '</p><p>'); 
+
+//     // --- HTML Escape Helper (define once) ---
+//     function escapeHTML(str) {
+//         return String(str)
+//             .replace(/&/g, '&amp;')
+//             .replace(/</g, '&lt;')
+//             .replace(/>/g, '&gt;')
+//             .replace(/"/g, '&quot;')
+//             .replace(/'/g, '&#039;');
+//     }
+
+//     // --- Preserve paragraph breaks ---
+//     let textWithParagraphs = germanText.trim()
+//         .replace(/\n\s*\n/g, '</p><p>');
 //     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
-//     // 2. SAFER WORD WRAPPING LOGIC: Split the text into tags and plain content.
-//     let processedHTML = textWithParagraphs;
+//     // --- Split into HTML + text parts ---
+//     const parts = textWithParagraphs.split(/(<[^>]+>)/g);
 
-//     // Regex to split the content: captures HTML tags OR runs of non-HTML content.
-//     // This isolates and keeps all HTML tags (<...>) separate from the text.
-//     const parts = processedHTML.split(/(<[^>]+>)/g);
-    
-//     const chapterVocab = vocabularyData;
+//     // Make a clone of the vocab and sort by length descending to avoid partial matches
+//     const chapterVocab = (Array.isArray(vocabularyData) ? vocabularyData.slice() : [])
+//         .sort((a, b) => b.word.length - a.word.length);
 
 //     for (let i = 0; i < parts.length; i++) {
-//         // If the part does NOT start with '<', it is plain text content to be processed.
+//         // Only process parts that are *not* HTML tags
 //         if (!parts[i].startsWith('<')) {
 //             let text = parts[i];
-            
-//             // Loop through vocabulary and replace ONLY within this plain text part
-//             chapterVocab.forEach(item => {
-//                 let regex;
-//                 // Keep your existing robust regex logic for German words:
-//                 // Include 'ü' in the check for safety, based on the 'überzogen' issue.
-//                 if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
-//                      regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
-//                 } else {
-//                     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-//                 }
 
-//                 // Perform the replacement
-//                 text = text.replace(regex, (match) => {
-//                     // Final safety check against double-wrapping (should be rare now)
-//                     if (match.startsWith('<span')) {
-//                         return match;
+//             chapterVocab.forEach(item => {
+//                 if (!item || !item.word) return;
+
+//                 // Unicode-safe boundary; case-insensitive and Unicode enabled
+//                 const regex = new RegExp(`(?<![\\p{L}])(${escapeRegExp(item.word)})(?![\\p{L}])`, 'giu');
+
+//                 // Use replace callback and detect if the match is inside a tag
+//                 text = text.replace(regex, function () {
+//                     // Get callback args to find offset and original string
+//                     const args = Array.from(arguments);
+//                     const fullString = args[args.length - 1];
+//                     const offset = args[args.length - 2];
+
+//                     // If there is a '<' after the last '>' before the match, we're inside a tag → skip
+//                     const before = fullString.slice(0, offset);
+//                     const lastLt = before.lastIndexOf('<');
+//                     const lastGt = before.lastIndexOf('>');
+//                     if (lastLt > lastGt) {
+//                         // The match is inside a tag — return it unchanged
+//                         return arguments[0];
 //                     }
-                    
-//                     return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
+
+//                     // Otherwise safe to replace
+//                     const match = arguments[0];
+//                     const safeWord = escapeHTML(item.word);
+//                     const safeMatch = escapeHTML(match);
+//                     return `<span class="vocab-word" data-word="${safeWord}">${safeMatch}</span>`;
 //                 });
 //             });
 
-//             // Update the parts array with the new, wrapped text
 //             parts[i] = text;
 //         }
 //     }
 
-//     // Recombine all parts (tags and processed text) back into the full HTML string
-//     textWithParagraphs = parts.join(''); 
-//     // --- END SAFER WORD WRAPPING LOGIC ---
-    
-//     // 3. Display the text
-//     textArea.innerHTML = textWithParagraphs;
+//     // --- Render updated HTML ---
+//     textArea.innerHTML = parts.join('');
 
-//     // 4. Attach event listeners
+//     // --- Attach hover + click handlers ---
 //     document.querySelectorAll('.vocab-word').forEach(span => {
 //         span.addEventListener('mouseover', handleWordHover);
-//         span.addEventListener('click', handleWordClick); 
+//         span.addEventListener('click', handleWordClick);
 //     });
 // }
 
-
-/**
- * Replaces words in the text with clickable <span> elements and preserves paragraphs.
- * Includes a fix for German compound words/diacritics.
- */
-// function renderInteractiveText() {
-//     if (!germanText || vocabularyData.length === 0) {
-//         console.error("Text or vocabulary data is missing before rendering.");
-//         return;
-//     }
-    
-//     let textWithParagraphs = germanText;
-    
-//     // 1. Preserve paragraph breaks:
-//     textWithParagraphs = textWithParagraphs.trim()
-//         .replace(/\n\s*\n/g, '</p><p>'); 
-//     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
-
-//     // 2. Proceed with word wrapping
-//     // --- 2. SAFER WORD WRAPPING LOGIC (REPLACE YOUR OLD CODE HERE) ---
-//     let processedHTML = textWithParagraphs;
-
-//     // Regex to split the content: captures HTML tags OR runs of non-HTML content
-//     // This splits the string, keeping the tags and the text runs separate.
-//     const parts = processedHTML.split(/(<[^>]+>)/g);
-    
-//     // Process only the text parts
-//     const chapterVocab = vocabularyData; // Use all vocab for current chapter
-
-//     for (let i = 0; i < parts.length; i++) {
-//         // If the part does NOT start with '<', it is plain text content.
-//         if (!parts[i].startsWith('<')) {
-//             let text = parts[i];
-            
-//             // Loop through vocabulary and replace ONLY within the plain text part
-//             chapterVocab.forEach(item => {
-//                 let regex;
-//                 // Keep your existing robust regex logic for German words:
-//                 if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
-//                      // Includes 'ü' here for safety, based on your previous issue.
-//                      regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
-//                 } else {
-//                     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-//                 }
-
-//                 // Perform the replacement
-//                 text = text.replace(regex, (match) => {
-//                     // Critical: Prevent double-wrapping (which this new logic should rarely hit, but keep it)
-//                     if (match.startsWith('<span') || match.includes('<span')) {
-//                         return match; 
-//                     }
-//                     return `<span class="vocab-word" data-word="${item.word}">${match}</span>`;
-//                 });
-//             });
-
-//             // Update the parts array with the new, wrapped text
-//             parts[i] = text;
-//         }
-//     }
-
-//     // Recombine all parts (tags and processed text) back into the full HTML string
-//     textWithParagraphs = parts.join(''); 
-//     // --- END SAFER WORD WRAPPING LOGIC ---
-//     // 3. Display the text
-//     textArea.innerHTML = textWithParagraphs;
-
-//     // 4. Attach event listeners
-//     document.querySelectorAll('.vocab-word').forEach(span => {
-//         span.addEventListener('mouseover', handleWordHover);
-//         span.addEventListener('click', handleWordClick); 
-//     });
+// /**
+//  * Small helper: escape characters for literal use inside RegExp constructor
+//  */
+// function escapeRegExp(string) {
+//     return String(string).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // }
 
 /**
