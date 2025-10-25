@@ -44,21 +44,20 @@
                 The Buddenbrooks Reader is a personal project by Nathaniel Miller. My background is in higher education (I have a PhD in Arabic Language and Literature). I'm currently a linguist working in tech. Connect with me on <a href="https://www.linkedin.com/in/nashtonmiller/" target="_blank">LinkedIn</a> or contact me using the form.
             </p>
 
-            <form
-              action="https://formspree.io/f/xwpwklkn"
-              method="POST"
-            >
-              <label>
-                Your email:
-                <input type="email" name="email">
-              </label>
-              <label>
-                Your message:
-                <textarea name="message"></textarea>
-              </label>
-              <!-- your other form fields go here -->
+            <form action="https://formspree.io/f/xwpwklkn" method="POST">
+              <div style="margin-bottom: 1em;">
+                <label for="email">Your email:</label><br>
+                <input id="email" type="email" name="email" style="width: 100%;">
+              </div>
+            
+              <div style="margin-bottom: 1em;">
+                <label for="message">Your message:</label><br>
+                <textarea id="message" name="message" style="width: 100%; height: 120px;"></textarea>
+              </div>
+            
               <button type="submit">Send</button>
             </form>
+
             
             <p>
                 <a href="https://github.com/Nathaniel-A-Miller/buddenbrooks" target="_blank" style="color: #3498db; font-weight: bold;">View the source code on GitHub.</a>
