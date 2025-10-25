@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddenbrooks Vocab Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Buddenbrooks Reader</h1>
+        <div class="header-controls">
+            <div class="chapter-selector-container">
+                <label for="chapter-select">Wähle ein Kapitel (Select a Chapter):</label>
+                <select id="chapter-select"></select>
+            </div>
+            
+            <a href="about.html" id="about-link" class="header-link">About</a>
+        </div>
+        
+        <div id="instructions-panel" style="display: none;">
+            <div class="instructions-content">
+                <h4>Willkommen! So funktioniert's:</h4>
+                <ul>
+                    <li>Mauszeiger: Über ein Wort fahren um die Definition zu sehen (DE/EN).</li>
+                    <li>Klicken: Ein Wort anklicken um es zu deinem Vokabel-Set hinzuzufügen/zu entfernen.</li>
+                </ul>
+                <button id="dismiss-instructions">OK, verstanden! (Got it!)</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div id="german-text-area" class="text-column">
+            <h2>Lade Text...</h2>
+        </div>
+
+        <div class="sidebar-column">
+            
+            <div id="definition-display" class="definition-popup">
+            Klicke oder fahre mit der Maus über ein <span style="font-weight: bold;">fett gedrucktes</span> Wort, um die Definition hier zu sehen.
+            </div>
+            
+            <h2>Mein Vokabel-Set (<span id="vocab-count">0</span>)</h2>
+            <button id="download-vocab-button">Download CSV</button>
+            <button id="clear-vocab-button">Set leeren (Clear Set)</button>
+            <ul id="selected-vocab-list">
+            </ul>
+            
+            <h2 style="margin-top: 30px;">Neues Wort beitragen</h2>
+            <form id="submission-form">
+                <label for="submit-word">Wort (DE):</label>
+                <input type="text" id="submit-word" name="word" placeholder="Enter word as appears in text, e.g. kleinen or kleine for klein." required>
+                
+                <label for="submit-definition">Definition (DE):</label>
+                <textarea id="submit-definition" name="definition" required></textarea>
+                
+                <label for="submit-definition-en">Definition (EN):</label>
+                <textarea id="submit-definition-en" name="definition-en" required></textarea>
+                
+                <input type="hidden" id="submit-chapter" name="chapter" value="1" required>
+            
+                <label for="submit-context">Kontext (Kurzer Satz, wo das Wort gefunden wurde):</label>
+                <textarea id="submit-context" name="context" rows="2" required></textarea>
+                
+                <button type="submit" id="submit-button">Definition senden</button>
+                <p id="submission-message" style="margin-top: 10px;"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
