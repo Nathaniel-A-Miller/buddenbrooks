@@ -11,33 +11,29 @@ h1, h2, h4 {
     color: #34495e; /* Use header color for main headings */
 }
 
-/* --- HEADER STYLING (Updated for About Link and Chapter Selector) --- */
+/* --- HEADER STYLING (The Flexbox fix for the About link) --- */
 header {
-    /* Use Flexbox to align content horizontally */
     display: flex;
     justify-content: space-between; /* Pushes H1 to the left and controls/link to the right */
-    align-items: center; /* Vertically centers the elements */
-    background-color: #34495e; /* Your current header color */
+    align-items: center;
+    background-color: #34495e;
     color: white;
-    padding: 15px 25px; /* Slightly adjusted padding */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Stronger shadow */
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* Ensure the title text is styled correctly */
 header h1 {
     margin: 0;
     font-size: 1.5em;
-    color: white; /* Title remains white */
+    color: white;
 }
 
-/* New: Container for the chapter selector and the About link */
 .header-controls {
     display: flex;
     align-items: center;
     gap: 25px; /* Space between selector and About link */
 }
 
-/* Chapter Selector Styles (Added for better integration) */
 .chapter-selector-container {
     color: white;
     font-size: 1em;
@@ -55,7 +51,6 @@ header h1 {
     color: #34495e;
 }
 
-/* New: Style the 'About' link */
 #about-link {
     text-decoration: none;
     color: #f1c40f; /* Yellow/Gold for visibility */
@@ -78,11 +73,11 @@ header h1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
-    gap: 30px; /* Space between columns */
+    gap: 30px;
 }
 
 .text-column {
-    flex: 2; /* Takes up 2/3 of the space */
+    flex: 2;
     padding-right: 30px;
     line-height: 1.8;
     font-size: 1.1em;
@@ -102,7 +97,7 @@ header h1 {
 
 /* --- INSTRUCTIONS PANEL STYLING --- */
 #instructions-panel {
-    position: relative;
+    position: relative; /* Changed from fixed/absolute to fit your HTML structure */
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #007bff;
@@ -148,10 +143,9 @@ header h1 {
 }
 
 .vocab-word:hover {
-    background-color: #f1c40f; /* Yellow highlight on hover for preview */
+    background-color: #f1c40f;
 }
 
-/* New Styles for the Definition Popup */
 .definition-popup {
     background-color: #ffffff;
     border: 1px solid #bdc3c7;
@@ -173,7 +167,6 @@ header h1 {
     line-height: 1.4;
 }
 
-/* Style for selected words in the sidebar */
 #selected-vocab-list {
     list-style: none;
     padding: 0;
@@ -198,7 +191,7 @@ header h1 {
 /* --- BUTTONS & FORM STYLING --- */
 #clear-vocab-button,
 #download-vocab-button {
-    width: 49%; /* Split button width */
+    width: 49%;
     padding: 10px;
     background-color: #e74c3c;
     color: white;
@@ -210,8 +203,8 @@ header h1 {
 }
 
 #download-vocab-button {
-    background-color: #2ecc71; /* Green for download */
-    margin-right: 2%; /* Gap between buttons */
+    background-color: #2ecc71;
+    margin-right: 2%;
 }
 
 #clear-vocab-button:hover {
@@ -222,7 +215,6 @@ header h1 {
     background-color: #27ae60;
 }
 
-/* Submission Form Styles */
 #submission-form input,
 #submission-form textarea,
 #submission-form button {
@@ -244,11 +236,11 @@ header h1 {
 
 #submission-form textarea {
     resize: vertical;
-    min-height: 50px; /* Reduced min-height slightly */
+    min-height: 50px;
 }
 
 #submit-button {
-    background-color: #3498db; /* Blue */
+    background-color: #3498db;
     color: white;
     cursor: pointer;
     font-weight: bold;
