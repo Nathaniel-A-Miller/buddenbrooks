@@ -40,6 +40,6 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "🤖 chore(data): Auto-sync vocabulary data from Firebase"
-        # Only commit the JSON files that the script generates
-        files: |
+        # ✅ CORRECT INPUT: 'file_pattern'
+        file_pattern: | 
           vocab_data/*.json
