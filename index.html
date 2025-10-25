@@ -46,13 +46,18 @@
             <form id="submission-form">
                 <label for="submit-word">Wort (DE):</label>
                 <input type="text" id="submit-word" name="word" placeholder="z.B. Gemütlichkeit" required> 
-            
+                
                 <label for="submit-definition">Definition (DE):</label>
                 <textarea id="submit-definition" name="definition" required></textarea>
-            
+                
                 <label for="submit-definition-en">Definition (EN):</label>
                 <textarea id="submit-definition-en" name="definition-en" required></textarea>
+                
+                <input type="hidden" id="submit-chapter" name="chapter" value="1" required>
             
+                <label for="submit-context">Kontext (Kurzer Satz, wo das Wort gefunden wurde):</label>
+                <textarea id="submit-context" name="context" rows="2" required></textarea>
+                
                 <button type="submit" id="submit-button">Definition senden</button>
                 <p id="submission-message" style="margin-top: 10px;"></p>
             </form>
