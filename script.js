@@ -481,7 +481,7 @@ function saveAndRenderVocab() {
     vocabList.innerHTML = '';
     
     if (selectedVocab.length === 0) {
-        vocabList.innerHTML = '<li>Dein Set ist leer. Klicke Wörter im Text an, um sie hinzuzufügen.</li>';
+        vocabList.innerHTML = '<li>Klicken Sie auf Wörter im Text, um sie hinzuzufügen oder zu entfernen.</li>';
         // Reset the definition display when the list is cleared/empty
         definitionDisplay.innerHTML = `
             Klicke oder fahre mit der Maus über ein 
