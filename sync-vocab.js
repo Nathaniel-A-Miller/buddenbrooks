@@ -86,10 +86,8 @@ async function fetchAndOrganizeVocab() {
   return chapterData;
 }
 
-
- * Writes the organized chapter data, merging with existing local files.
- * @param {Array<Array<Object>>} organizedData - New vocab fetched from Firebase
- */
+//* Writes the organized chapter data, merging with existing local files.
+//* @param {Array<Array<Object>>} organizedData - New vocab fetched from Firebase
 function writeChapterFiles(organizedData) {
     // Ensure the output directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
