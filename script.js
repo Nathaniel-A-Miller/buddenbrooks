@@ -240,7 +240,7 @@ function renderInteractiveText() {
 
     // --- HTML Escape Helper (define once) ---
     function escapeHTML(str) {
-        return str
+        return String(str)
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
@@ -255,18 +255,40 @@ function renderInteractiveText() {
 
     // --- Split into HTML + text parts ---
     const parts = textWithParagraphs.split(/(<[^>]+>)/g);
-    const chapterVocab = vocabularyData;
+
+    // Make a clone of the vocab and sort by length descending to avoid partial matches
+    const chapterVocab = (Array.isArray(vocabularyData) ? vocabularyData.slice() : [])
+        .sort((a, b) => b.word.length - a.word.length);
 
     for (let i = 0; i < parts.length; i++) {
+        // Only process parts that are *not* HTML tags
         if (!parts[i].startsWith('<')) {
             let text = parts[i];
 
             chapterVocab.forEach(item => {
-                // ✅ Unicode-safe regex for all German words (handles ü, ß, etc.)
-                const regex = new RegExp(`(?<![\\p{L}])(${item.word})(?![\\p{L}])`, 'giu');
+                if (!item || !item.word) return;
 
-                text = text.replace(regex, (match) => {
-                    if (match.startsWith('<span')) return match;
+                // Unicode-safe boundary; case-insensitive and Unicode enabled
+                const regex = new RegExp(`(?<![\\p{L}])(${escapeRegExp(item.word)})(?![\\p{L}])`, 'giu');
+
+                // Use replace callback and detect if the match is inside a tag
+                text = text.replace(regex, function () {
+                    // Get callback args to find offset and original string
+                    const args = Array.from(arguments);
+                    const fullString = args[args.length - 1];
+                    const offset = args[args.length - 2];
+
+                    // If there is a '<' after the last '>' before the match, we're inside a tag → skip
+                    const before = fullString.slice(0, offset);
+                    const lastLt = before.lastIndexOf('<');
+                    const lastGt = before.lastIndexOf('>');
+                    if (lastLt > lastGt) {
+                        // The match is inside a tag — return it unchanged
+                        return arguments[0];
+                    }
+
+                    // Otherwise safe to replace
+                    const match = arguments[0];
                     const safeWord = escapeHTML(item.word);
                     const safeMatch = escapeHTML(match);
                     return `<span class="vocab-word" data-word="${safeWord}">${safeMatch}</span>`;
@@ -285,6 +307,13 @@ function renderInteractiveText() {
         span.addEventListener('mouseover', handleWordHover);
         span.addEventListener('click', handleWordClick);
     });
+}
+
+/**
+ * Small helper: escape characters for literal use inside RegExp constructor
+ */
+function escapeRegExp(string) {
+    return String(string).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 // function renderInteractiveText() {
