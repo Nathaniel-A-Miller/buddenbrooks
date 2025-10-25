@@ -301,15 +301,22 @@ function renderInteractiveText() {
         let regex;
         // Check if the word contains a German diacritic or compound part like 'ß' 
         // which can confuse the default \b word boundary.
-        if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter')) {
-            // Use a look-around assertion for more reliable boundary checking
-            // This pattern looks for the word followed by a non-letter/digit/space/HTML character.
-            // This is safer than removing \b entirely.
+        if (item.word.match(/[äöüÄÖÜß]/i) || item.word.includes('vater') || item.word.includes('mutter')) {
+            // Use the explicit look-around regex for any word with an umlaut or ß
             regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
         } else {
-            // Use the standard, safer word boundary for most words
+            // Use the standard regex
             regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-        }
+}
+        // if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter')) {
+        //     // Use a look-around assertion for more reliable boundary checking
+        //     // This pattern looks for the word followed by a non-letter/digit/space/HTML character.
+        //     // This is safer than removing \b entirely.
+        //     regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
+        // } else {
+        //     // Use the standard, safer word boundary for most words
+        //     regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
+        // }
 
         // Replace the word with the clickable span
         textWithParagraphs = textWithParagraphs.replace(regex, (match) => {
