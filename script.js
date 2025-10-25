@@ -46,6 +46,8 @@ const submissionForm = document.getElementById('submission-form');
 const submitWordInput = document.getElementById('submit-word');
 const submissionMessage = document.getElementById('submission-message');
 const submitDefinitionEnInput = document.getElementById('submit-definition-en');
+const submitChapterInput = document.getElementById('submit-chapter'); // Get the chapter input field
+const submitContextInput = document.getElementById('submit-context'); // Get the context textarea
 const instructionsPanel = document.getElementById('instructions-panel');
 const dismissButton = document.getElementById('dismiss-instructions');
 
@@ -70,9 +72,7 @@ let currentChapter = 1;     // Start with Chapter 1
 async function loadDataAndInitializeApp() {
     try {
         // ... (1. Fetch German Text)
-        // You'll need to fetch the text for the currentChapter, not just 'chapter 1'.
-        // For now, we'll assume a file path like `chapter_1.txt`, `chapter_2.txt`, etc.
-        const textResponse = await fetch(`chapters/chapter_${currentChapter}.txt`); // 👈 IMPORTANT CHANGE
+        const textResponse = await fetch(`chapters/chapter_${currentChapter}.txt`);
         if (!textResponse.ok) throw new Error(`HTTP error! status: ${textResponse.status}`);
         germanText = await textResponse.text();
 
@@ -81,10 +81,10 @@ async function loadDataAndInitializeApp() {
 
         // 3. Extract unique chapters and populate the dropdown (NEW LOGIC)
         availableChapters = Array.from({length: 97}, (_, i) => i + 1);
-        populateChapterDropdown(availableChapters); // Call new helper function
-        
-        // 4. Sort Vocabulary (Filter will happen in the rendering function)
-        // ...
+        populateChapterDropdown(availableChapters);
+
+        // 4. Update the hidden chapter field for the submission form
+        updateSubmissionChapterField();
 
         // 5. Initialize the UI
         renderInteractiveText();
@@ -135,6 +135,7 @@ async function handleChapterChange(event) {
     if (newChapter === currentChapter) return; // No change
 
     currentChapter = newChapter;
+    updateSubmissionChapterField();
     
     // 1. Fetch the new chapter text
     try {
@@ -452,6 +453,15 @@ function clearVocabSet() {
     }
 }
 
+/**
+ * Updates the hidden chapter field in the submission form.
+ */
+function updateSubmissionChapterField() {
+    if (submitChapterInput) {
+        // Set the value of the submission form's chapter field
+        submitChapterInput.value = currentChapter;
+    }
+}
 // ========================================================================
 // 4. INITIALIZATION
 // ========================================================================
@@ -477,11 +487,13 @@ submissionForm.addEventListener('submit', async (event) => {
     const word = submitWordInput.value.trim();
     const definitionDE = document.getElementById('submit-definition').value.trim();
     const definitionEN = document.getElementById('submit-definition-en').value.trim();
+    const chapter = parseInt(submitChapterInput.value); 
+    const context = submitContextInput.value.trim();
     
-    // Simple validation (now requires all three fields)
-    if (!word || !definitionDE || !definitionEN) {
+// Simple validation (now requires all fields)
+    if (!word || !definitionDE || !definitionEN || !context || isNaN(chapter)) {
         submissionMessage.style.color = 'red';
-        submissionMessage.textContent = "Bitte Wort, DE Definition, und EN Definition eingeben.";
+        submissionMessage.textContent = "Bitte alle Felder ausfüllen: Wort, DE Def., EN Def. und Kontext.";
         return;
     }
     
@@ -491,11 +503,13 @@ submissionForm.addEventListener('submit', async (event) => {
         return;
     }
 
-    try {
+try {
         await submissionsCollection.add({
             word: word,
-            definition_german: definitionDE, // Use the new variable name
-            definition_english: definitionEN, // NEW: Save the English definition
+            definition_german: definitionDE,
+            definition_english: definitionEN,
+            chapter: chapter, 
+            context_snippet: context,
             timestamp: firebase.firestore.FieldValue.serverTimestamp(),
             status: 'pending'
         });
@@ -505,8 +519,9 @@ submissionForm.addEventListener('submit', async (event) => {
         
         // Clear the form after successful submission
         document.getElementById('submit-definition').value = '';
-        document.getElementById('submit-definition-en').value = ''; // NEW: Clear English field
+        document.getElementById('submit-definition-en').value = ''; // Clear English field
         submitWordInput.value = '';
+        submitContextInput.value = ''; // Clear context field
 
     } catch (e) {
         // ... error handling remains the same ...
