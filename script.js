@@ -233,6 +233,7 @@ function dismissInstructions() {
 }
 
 function renderInteractiveText() {
+    console.log("✅ renderInteractiveText() called");
     if (!germanText || vocabularyData.length === 0) {
         console.error("Text or vocabulary data is missing before rendering.");
         return;
