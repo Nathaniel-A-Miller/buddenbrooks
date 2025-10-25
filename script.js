@@ -233,7 +233,6 @@ function dismissInstructions() {
 }
 
 function renderInteractiveText() {
-    console.log("✅ renderInteractiveText() called");
     if (!germanText || vocabularyData.length === 0) {
         console.error("Text or vocabulary data is missing before rendering.");
         return;
@@ -249,10 +248,12 @@ function renderInteractiveText() {
             .replace(/'/g, '&#039;');
     }
 
+    // --- Preserve paragraph breaks ---
     let textWithParagraphs = germanText.trim()
         .replace(/\n\s*\n/g, '</p><p>');
     textWithParagraphs = `<p>${textWithParagraphs}</p>`;
 
+    // --- Split into HTML + text parts ---
     const parts = textWithParagraphs.split(/(<[^>]+>)/g);
     const chapterVocab = vocabularyData;
 
@@ -261,12 +262,8 @@ function renderInteractiveText() {
             let text = parts[i];
 
             chapterVocab.forEach(item => {
-                let regex;
-                if (item.word.includes('ß') || item.word.includes('vater') || item.word.includes('mutter') || item.word.includes('ü')) {
-                    regex = new RegExp(`(?<![a-zA-ZäöüÄÖÜß])(${item.word})(?![a-zA-ZäöüÄÖÜß])`, 'gi');
-                } else {
-                    regex = new RegExp(`\\b(${item.word})\\b`, 'gi');
-                }
+                // ✅ Unicode-safe regex for all German words (handles ü, ß, etc.)
+                const regex = new RegExp(`(?<![\\p{L}])(${item.word})(?![\\p{L}])`, 'giu');
 
                 text = text.replace(regex, (match) => {
                     if (match.startsWith('<span')) return match;
@@ -280,8 +277,10 @@ function renderInteractiveText() {
         }
     }
 
+    // --- Render updated HTML ---
     textArea.innerHTML = parts.join('');
 
+    // --- Attach hover + click handlers ---
     document.querySelectorAll('.vocab-word').forEach(span => {
         span.addEventListener('mouseover', handleWordHover);
         span.addEventListener('click', handleWordClick);
